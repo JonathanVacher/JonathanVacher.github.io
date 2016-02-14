@@ -23,7 +23,7 @@ body {
 }
 
 #container {
-	width:1024px;
+	width:1600px;
 	margin:auto;
 	font-size:14px;
 	position: relative;
@@ -59,7 +59,7 @@ body {
 	
 	background-image: url(tree390.jpg);
 	height: 390px;
-	width: 1024px;
+	width: 1600px;
 	
 
 }
@@ -103,7 +103,7 @@ h1 {
 }
 #nav {
    overflow:hidden;
-   width:1024px;
+   width:1600px;
    
    background-color: #c8e8f7;
     -moz-border-radius-topleft:10px;
@@ -174,67 +174,72 @@ h1 {
 }
 #title{
 	min-width: 680px;
-	float: left;
+	max-width: 1200px;
+	float: center;
 	margin-bottom:10px;
 	border-bottom:5px solid #333;
 	padding: 10px 0px;
 }
 #news{
 	min-width: 680px;
-	float: left;
+	max-width: 1200px;
+	float: center;
 	margin-bottom:10px;
 	border-bottom:2px solid #333;
 	padding: 10px 0px;
 }
 #news p{
-	width: 680px;
-	font-size:16px;
+	width: 1080px;
+	font-size:20px;
 }
 #course{
 	min-width: 680px;
-	float: left;
+	max-width: 1200px;
+	float: center;
 	margin-bottom:1px;
 	border-bottom:2px solid #333;
 	padding: 1px 0px;
 }
 #course p{
-	width: 680px;
-	font-size:16px;
+	width: 1080px;
+	font-size:20px;
 }
 #course_f{
-	min-width: 680px;
-	float: left;
+	min-width: 1080px;
+	float: center;
 	margin-bottom:1px;
 	padding: 1px 0px;
 }
 #course_f p{
-	width: 680px;
-	font-size:16px;
+	width: 1080px;
+	font-size:20px;
 }
 #paper{
 	min-width: 680px;
-	float: left;
+	max-width: 1200px;
+	float: center;
 	margin-bottom:1px;
 	border-bottom:0px solid #333;
 	padding: 1px 0px;
 }
 #paper p{
-	width: 680px;
-	font-size:16px;
+	width: 1080px;
+	font-size:20px;
 }
 #paper t3{
-	font-size:16px;
+	font-size:20px;
 	font-weight: bold;
 }
 #paper_f{
 	min-width: 680px;
-	float: left;
+	max-width: 1200px;
+	float: center;
 	margin-bottom:1px;
 	padding: 1px 0px;
 }
 #paper_f p{
-	width: 680px;
-	font-size:16px;
+	width: 1080px;
+	font-size:20px;
 }
 .clearfix {
     overflow: auto;
@@ -258,24 +263,24 @@ h2 {
 	font-size:200%;
 }
 t1 {
-	width: 680px;
+	width: 1080px;
 	margin: 0;
 	padding: 0px;
-	font-size:36px;
+	font-size:44px;
 	font-weight: bold;
 }
 
 t2{
 	margin-bottom:200px;
 	padding: 10px 0px;
-	font-size:24px;
+	font-size:30px;
 	font-weight: bold;
 }
 t3
 {
 	margin-bottom:100px;
 	padding: 10px 0px;
-	font-size:16px;
+	font-size:22px;
 	font-weight: bold;
 }
 
