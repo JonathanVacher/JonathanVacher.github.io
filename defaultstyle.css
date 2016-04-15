@@ -174,7 +174,7 @@ h1 {
 }
 #title{
 	min-width: 680px;
-	max-width: 1200px;
+	max-width: 1000px;
 	float: center;
 	margin-bottom:10px;
 	border-bottom:5px solid #333;
@@ -182,7 +182,7 @@ h1 {
 }
 #news{
 	min-width: 680px;
-	max-width: 1200px;
+	max-width: 1000px;
 	float: center;
 	margin-bottom:10px;
 	border-bottom:2px solid #333;
@@ -194,7 +194,7 @@ h1 {
 }
 #course{
 	min-width: 680px;
-	max-width: 1200px;
+	max-width: 1000px;
 	float: center;
 	margin-bottom:1px;
 	border-bottom:2px solid #333;
@@ -216,7 +216,7 @@ h1 {
 }
 #paper{
 	min-width: 680px;
-	max-width: 1200px;
+	max-width: 1000px;
 	float: center;
 	margin-bottom:1px;
 	border-bottom:0px solid #333;
@@ -232,7 +232,7 @@ h1 {
 }
 #paper_f{
 	min-width: 680px;
-	max-width: 1200px;
+	max-width: 1000px;
 	float: center;
 	margin-bottom:1px;
 	padding: 1px 0px;
