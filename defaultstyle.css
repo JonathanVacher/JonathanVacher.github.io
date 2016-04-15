@@ -23,7 +23,7 @@ body {
 }
 
 #container {
-	width:1600px;
+	width:1200px;
 	margin:auto;
 	font-size:14px;
 	position: relative;
@@ -59,7 +59,7 @@ body {
 	
 	background-image: url(tree390.jpg);
 	height: 390px;
-	width: 1600px;
+	width: 1200px;
 	
 
 }
@@ -103,7 +103,7 @@ h1 {
 }
 #nav {
    overflow:hidden;
-   width:1600px;
+   width:1200px;
    
    background-color: #c8e8f7;
     -moz-border-radius-topleft:10px;
