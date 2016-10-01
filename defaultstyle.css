@@ -27,7 +27,7 @@ body {
 	margin:auto;
 	font-size:14px;
 	position: relative;
-	 -moz-border-radius-topleft:10px;
+	-moz-border-radius-topleft:10px;
 	-webkit-border-top-left-radius:10px;
 	-moz-border-radius-topright:10px;
 	-webkit-border-top-right-radius:10px;
@@ -40,9 +40,9 @@ body {
  -webkit-box-shadow: 0 0 5px #222;
  -moz-box-shadow: 0 0 5px #222;
 
-	margin:5px 0;
+	margin:0px 0;
 	overflow:hidden;
-	 -moz-border-radius-topleft:10px;
+	-moz-border-radius-topleft:10px;
 	-webkit-border-top-left-radius:10px;
 	-moz-border-radius-topright:10px;
 	-webkit-border-top-right-radius:10px;
@@ -59,11 +59,12 @@ body {
 	font-family: Georgia;
 	background-image: url(tree390.jpg) ;
 	background-repeat: no-repeat;
-  background-color:#FFF;
+    background-color:#FFF;
  	background-size: cover;
 	/*height: 390px;*/
 }
 #name {
+	z-index: 1;
 	position: absolute;
 	top:105px;
 	left:0px;
@@ -102,23 +103,21 @@ h1 {
 	
 }
 #nav {
-   overflow:hidden;
-   width:1200px;
-   
-   background-color: #c8e8f7;
-    -moz-border-radius-topleft:10px;
-	-webkit-border-top-left-radius:10px;
-	-moz-border-radius-topright:10px;
-	-webkit-border-top-right-radius:10px;
-
    
 }
 #nav ul {
+   width:1200px;
+   z-index: 10;
   
    list-style:none;
    margin:0;
    padding:0;
-   position:relative;
+   background-color: #c8e8f7;
+    -moz-border-radius-topleft:0px;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topright:0px;
+	-webkit-border-top-right-radius:0px;
+   position: fixed;
   }
 #nav ul li {
    display:block;
@@ -130,7 +129,7 @@ h1 {
 }
 #nav ul li a {
    display:block;
-   margin:0 0 0 1px;
+   margin:0 0 0 0px;
    padding:0px 15px;
    color:#333;
    text-decoration:none;
@@ -139,8 +138,12 @@ h1 {
    
 }
 #nav ul li a:hover {
-   color:#FFF;
+   color:#1E90FF;
 }
+#nav li a.active {
+    color: #1E90FF;
+}
+
 #page {
 	background-color:#EEE;
 	border-top:1px solid #e5e5e5;
@@ -309,6 +312,15 @@ hr.b{
 	float:left;
 	margin:0 15px 15px 0;
 }
+
+h3.feed-title{
+	margin-bottom:200px;
+	padding: 10px 0px;
+	font-size:130px;
+	font-weight: bold;
+}
+
+
 
 #contentbar {
 	width:210px;
