@@ -160,11 +160,23 @@ h1 {
 #sidebar {
 	min-width:210px;
 	max-width:280px;
-	margin:0 15px;
+	margin:0 75px;
 	float:right;
 	line-height:140%;
 	background-color:#EEE;
 	border: 1px solid #E5E5E5;
+}
+#sidebar-fixed {
+	min-width:210px;
+	max-width:280px;
+	/*margin:0 15px;
+	float:right;
+	right: 300px;*/
+	bottom: 0px;
+	line-height:140%;
+	background-color:#EEE;
+	border: 1px solid #E5E5E5;
+	position: fixed;
 }
 
 #sidebar h3, #sidebar p {
@@ -177,7 +189,7 @@ h1 {
 }
 #title{
 	min-width: 680px;
-	max-width: 1000px;
+	max-width: 870px;
 	float: center;
 	margin-bottom:10px;
 	border-bottom:5px solid #333;
@@ -185,48 +197,48 @@ h1 {
 }
 #news{
 	min-width: 680px;
-	max-width: 1000px;
+	max-width: 870px;
 	float: center;
 	margin-bottom:10px;
 	border-bottom:2px solid #333;
 	padding: 10px 0px;
 }
 #news p{
-	width: 1080px;
+	width: 850px;
 	font-size:20px;
 }
 #course{
 	min-width: 680px;
-	max-width: 1000px;
+	max-width: 870px;
 	float: center;
 	margin-bottom:1px;
 	border-bottom:2px solid #333;
 	padding: 1px 0px;
 }
 #course p{
-	width: 1080px;
+	width: 850px;
 	font-size:20px;
 }
 #course_f{
-	min-width: 1080px;
+	min-width: 850px;
 	float: center;
 	margin-bottom:1px;
 	padding: 1px 0px;
 }
 #course_f p{
-	width: 1080px;
+	width: 850px;
 	font-size:20px;
 }
 #paper{
 	min-width: 680px;
-	max-width: 1000px;
+	max-width: 850px;
 	float: center;
 	margin-bottom:1px;
-	border-bottom:0px solid #333;
+	border-bottom:2px solid #333;
 	padding: 1px 0px;
 }
 #paper p{
-	width: 1080px;
+	width: 850px;
 	font-size:20px;
 }
 #paper t3{
@@ -235,13 +247,13 @@ h1 {
 }
 #paper_f{
 	min-width: 680px;
-	max-width: 1000px;
+	max-width: 850px;
 	float: center;
 	margin-bottom:1px;
 	padding: 1px 0px;
 }
 #paper_f p{
-	width: 1080px;
+	width: 850px;
 	font-size:20px;
 }
 .clearfix {
@@ -252,7 +264,7 @@ h1 {
 	overflow:auto;
 	color:#FFF;
 	font-size:90%;
-	text-align:right;
+	text-align:left;
 }
 #footer img {
 	float:left; 
@@ -266,9 +278,10 @@ h2 {
 	font-size:200%;
 }
 t1 {
-	width: 1080px;
+	width: 850px;
 	margin: 0;
 	padding: 0px;
+	line-height:105%;
 	font-size:44px;
 	font-weight: bold;
 }
@@ -276,6 +289,7 @@ t1 {
 t2{
 	margin-bottom:200px;
 	padding: 10px 0px;
+	line-height:105%;
 	font-size:30px;
 	font-weight: bold;
 }
