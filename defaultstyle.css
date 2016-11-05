@@ -192,6 +192,14 @@ h1 {
 	max-width: 870px;
 	float: center;
 	margin-bottom:10px;
+	/*border-bottom:3px solid #333;*/
+	padding: 10px 0px;
+}
+#titleS{
+	min-width: 680px;
+	max-width: 870px;
+	float: center;
+	margin-bottom:10px;
 	border-bottom:5px solid #333;
 	padding: 10px 0px;
 }
@@ -255,6 +263,10 @@ h1 {
 #paper_f p{
 	width: 850px;
 	font-size:20px;
+}
+#paper_f t3{
+	font-size:20px;
+	font-weight: bold;
 }
 .clearfix {
     overflow: auto;
