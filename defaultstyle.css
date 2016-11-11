@@ -148,7 +148,7 @@ h1 {
 	background-color:#EEE;
 	border-top:1px solid #e5e5e5;
 	overflow:auto;
-	padding:15px 0;
+	padding:15px 0; 
 	clear: both;
 	/*
 	-moz-border-radius-bottomleft:10px;
@@ -215,6 +215,17 @@ h1 {
 	width: 850px;
 	font-size:20px;
 }
+#news_f{
+	min-width: 680px;
+	max-width: 870px;
+	float: center;
+	margin-bottom:10px;
+	padding: 10px 0px;
+}
+#news_f p{
+	width: 850px;
+	font-size:20px;
+}
 #course{
 	min-width: 680px;
 	max-width: 870px;
@@ -272,15 +283,25 @@ h1 {
     overflow: auto;
 }
 #footer {
+	background-color:#EEE;
 	padding:15px;	
 	overflow:auto;
-	color:#FFF;
 	font-size:90%;
 	text-align:left;
 }
 #footer img {
 	float:left; 
 	margin-right:15px;
+}
+#copyright {
+	min-width: 680px;
+	max-width: 850px;
+	float: center;
+	margin-top:10px;
+	border-top:2px solid #333;
+	padding: 5px 0px;
+
+}
 }
 
 h2 {
