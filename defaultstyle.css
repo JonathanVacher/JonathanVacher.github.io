@@ -144,6 +144,21 @@ h1 {
     color: #1E90FF;
 }
 
+#nav li {
+   margin:0 0 0 0px;
+   padding:0px 0px;
+   padding-left:10px;
+   color:#333;
+   text-decoration:none;
+   line-height:30px;
+   font-size: 28px;
+}
+
+#nav li a {
+    margin-left:-30px;
+    color:#000; /* black text */
+}
+
 #page {
 	background-color:#EEE;
 	border-top:1px solid #e5e5e5;
