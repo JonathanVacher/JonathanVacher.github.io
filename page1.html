@@ -118,7 +118,21 @@
 
 				<div id="course"> 
 					<p> <t3> Motion Clouds: Dynamic Stimulation for Neurosciences and Psychophysics  </t3> <br />
-					A python example code is available  <a href="http://nbviewer.jupyter.org/github/JonathanVacher/projects/tree/master/motion_clouds/" target="_blank"> here </a>. Many dynamic texture examples are shown <a href="mc_examples.html"> here </a>. </p>
+					A python example code is available  <a href="http://nbviewer.jupyter.org/github/JonathanVacher/projects/tree/master/motion_clouds/" target="_blank"> here </a>. Many dynamic texture examples are shown <a href="mc_examples.html"> here </a>. 
+					<br/>
+					<br/>
+					<t3> Future work  </t3> <br/>
+					The sPDE formulation of Motion Clouds allows for real-time 
+					stimulation. However the spatial stationary covariance does
+					not depend on time. Such an extension appears naturally and one can imagine
+					designing stimuli parametrized by trajectories instead of constant values. Yet,
+					this extension has some drawbacks. In particular the parameters of the solution
+					are not equal to the input parameters but follow them with some delay.
+					Some theoretical work must conducted to properly handle this delay. Then,
+					it will possible to control the parameters with respect to neural responses
+					using Bayesian prediction models (for instance, by seeking to maximize the
+					responses).
+					</p>
 				</div>
 				
 				<div id="course_f"> 
