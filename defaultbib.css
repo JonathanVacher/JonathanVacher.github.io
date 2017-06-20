@@ -97,6 +97,6 @@ img.bibbase_icon:hover {
 }
 
 .bibbase_paper_title {
-	font-style: italic;
-    font-size: 40px;
+    font-weight: bold;
+	font-size: 20px;
 }
