@@ -60,7 +60,7 @@ img.bibbase_icon:hover {
 }
 
 .comment {
-    font-size: smaller;
+    font-size: 20px;
     font-style: italic;
     color: gray;
 }
@@ -93,5 +93,5 @@ img.bibbase_icon:hover {
 }
 
 .bibbase_paper_content {
-    font-size: smaller;
+    font-size: 20px;
 }
