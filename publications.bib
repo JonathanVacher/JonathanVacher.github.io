@@ -1,23 +1,43 @@
-@article{briand2014heeger,
-  title={The Heeger \& Bergen Pyramid Based Texture Synthesis Algorithm},
-  author={Briand, Thibaud and Vacher, Jonathan and Galerne, Bruno and Rabin, Julien},
-  journal={Image Processing On Line},
-  volume={4},
-  pages={276--299},
-  year={2014}
+@article{Vacher,
+abstract = {A common practice to account for psychophysical biases in vision is to frame them as consequences of a dynamic process relying on optimal inference with respect to a generative model. The present study details the complete formulation of such a gen-erative model intended to probe visual motion perception. It is first derived in a set of axiomatic steps constrained by biological plausibility. We then extend previous con-tributions by detailing three equivalent formulations of the Gaussian dynamic texture model. First, the composite dynamic textures are constructed by the random aggrega-tion of warped patterns, which can be viewed as 3D Gaussian fields. Second, these textures are cast as solutions to a stochastic partial differential equation (sPDE). This essential step enables real time, on-the-fly, texture synthesis using time-discretized auto-regressive processes. It also allows for the derivation of a local motion-energy model, which corresponds to the log-likelihood of the probability density. The log-likelihoods are finally essential for the construction of a Bayesian inference framework. We use the model to probe speed perception in humans psychophysically using zoom-like changes in stimulus spatial frequency content. The likelihood is contained within the genera-tive model and we chose a slow speed prior consistent with previous literature. We then validated the fitting process of the model using synthesized data. The human data replicates previous findings that relative perceived speed is positively biased by spatial frequency increments. The effect cannot be fully accounted for by previous models, but the current prior acting on the spatio-temporal likelihoods has proved necessary in accounting for the perceptual bias.},
+author = {Vacher, Jonathan and Meso, Andrew Isaac and Perrinet, Laurent U. and Peyr{\'{e}}, Gabriel},
+file = {:C$\backslash$:/Users/Jonathan/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Vacher et al. - Unknown - Bayesian Modeling of Motion Perception using Dynamical Stochastic Textures.pdf:pdf},
+journal = {ArXiv},
+keywords = {Bayesian Modelling,Dynamic textures,Motion perception,Psychophysics,Stochastic Par-tial Differential Equations},
+title = {{Bayesian Modeling of Motion Perception using Dynamical Stochastic Textures}}
 }
-@inproceedings{vacher2015biologically,
-  title={Biologically inspired dynamic textures for probing motion perception},
-  author={Vacher, Jonathan and Meso, Andrew Isaac and Perrinet, Laurent U and Peyr{\'e}, Gabriel},
-  booktitle={Advances in Neural Information Processing Systems},
-  pages={1918--1926},
-  year={2015}
+@article{Briand2016,
+abstract = {We propose algorithms for filtering real-valued images, when the filter is provided as a contin-uous function defined in the Nyquist frequency domain. This problem is ambiguous because images are discrete entities and there is no unique way to define the filtering. We provide a theoretical framework designed to analyse the classical and computationally efficient filtering implementations based on discrete Fourier transforms (DFT). In this framework, the filtering is interpreted as the convolution of a distribution, standing for the filter, with a trigonometric polynomial interpolator of the image. The various plausible interpolations and choices of the distribution lead to three equally licit algorithms which can be seen as method variants of the same standard filtering algorithm. In general none should be preferred to the others and the choice depends on the application. In practice, the method differences, which come from the boundary DFT coefficients, are not visible to the naked eye. We demonstrate that claim on several experimental configurations by varying the input image and the considered filter. In some cases however, we discuss how the choice of the variant may affect fundamental properties of the filtering. Source Code The source code and the online demo are accessible at the IPOL web part of this article 1 . The C99 implementation of the code that we provide is the one which has been peer reviewed and accepted by IPOL. It contains two modules : one performs the standard filtering algorithm (Al-gorithm 1) presented in Section 3 and the other performs the comparison detailed in Section 4. The comparison module computes for nine filters the filtered images obtained by applying the three variant methods. For each filter a pairwise comparison of the results is done by computing the (absolute) difference image, the maximum difference and the mean difference. It creates fifty-five images: twenty-seven filtered images, twenty-seven difference images and the modulus of the DFT input in logarithmic scale. See Section 4 and the code documentation for additional information.},
+author = {Briand, Thibaud and Vacher, Jonathan},
+doi = {10.5201/ipol.2016.116},
+file = {:C$\backslash$:/Users/Jonathan/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Briand, Vacher - 2016 - How to Apply a Filter Defined in the Frequency Domain by a Continuous Function.pdf:pdf},
+journal = {Image Processing On Line},
+keywords = {DFT,Fourier transform,convolution,filtering,interpolation,trigonometric polynomial},
+pages = {2016--11},
+title = {{How to Apply a Filter Defined in the Frequency Domain by a Continuous Function}},
+url = {http://www.ipol.im/pub/art/2016/116/revisions/2016-11-07/article.pdf. https://doi.org/10.5201/ipol.2016.116},
+volume = {6},
+year = {2016}
 }
-@article{briand2016apply,
-  title={How to Apply a Filter Defined in the Frequency Domain by a Continuous Function ?},
-  author={Briand, Thibaud and Vacher, Jonathan},
-  journal={Image Processing  On Line},
-  volume={6},
-  pages={183--211},
-  year={2016}
+@article{Briand2014,
+abstract = {This contribution deals with the Heeger-Bergen pyramid-based texture analysis/synthesis algo-rithm. It brings a detailed explanation of the original algorithm tested on many characteristic examples. Our analysis reproduces the original results, but also brings a minor improvement concerning non-periodic textures. Inspired by visual perception theories, Heeger and Bergen proposed to characterize a texture by its first-order statistics of both its color and its responses to multiscale and multi-orientation filters, namely the steerable pyramid. The Heeger-Bergen algorithm consists in the following procedure: starting from a white noise image, histogram matchings are performed to the image alternately in the image domain and the steerable pyra-mid domain, so that the corresponding output histograms match the ones of the input texture. Source Code An on-line demo 1 of the Heeger-Bergen pyramid-based texture synthesis algorithm is available. The demo permits to upload a color image to extract a subimage and to run the texture synthesis algorithm on this subimage. The algorithm available in the demo is a slightly improved version treating non-periodic textures by a " periodic+smooth " decomposition [13]. The algorithm works with color textures and is able to synthesize textures with larger size than the input image. The original version of the Heeger-Bergen algorithm (where the boundaries are handled by mirror symmetrization) is optional in the source code. An ANSI C implementation is available for download here 2 . It is provided with: • An illustrated html documentation; • Source code; This code requires libpng, libfftw3, openmp, and getopt. Compilation and usage instruc-tions are included in the README.txt file of the zip archive. The illustrated HTML documentation can be reproduced from the source code by using doxygen (see the README.txt file of the zip archive for details).},
+author = {Briand, Thibaud and Vacher, Jonathan and Galerne, Bruno and Rabin, Julien},
+doi = {10.5201/ipol.2014.79},
+file = {:C$\backslash$:/Users/Jonathan/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Briand et al. - 2014 - The Heeger-Bergen Pyramid-Based Texture Synthesis Algorithm.pdf:pdf},
+journal = {Image Processing On Line},
+keywords = {bergen,heeger,synthesis,texture},
+pages = {2014--11},
+title = {{The Heeger-Bergen Pyramid-Based Texture Synthesis Algorithm}},
+url = {http://dx.doi.org/10.5201/ipol.2014.79},
+volume = {4},
+year = {2014}
+}
+@inproceedings{Vacher2015,
+abstract = {Perception is often described as a predictive process based on an optimal inference with respect to a generative model. We study here the principled construction of a generative model specifically crafted to probe motion perception. In that context, we first provide an axiomatic, biologically-driven derivation of the model. This model synthesizes random dynamic textures which are defined by stationary Gaussian distributions obtained by the random aggregation of warped patterns. Importantly, we show that this model can equivalently be described as a stochastic partial differential equation. Using this characterization of motion in images, it allows us to recast motion-energy models into a principled Bayesian inference framework. Finally, we apply these textures in order to psychophysically probe speed perception in humans.In this framework, while the likelihood is derived from the generative model, the prior is estimated from the observed results and accounts for the perceptual bias in a principled fashion.},
+author = {Vacher, Jonathan and Meso, Andrew Isaac and Perrinet, Laurent U. and Peyr{\'{e}}, Gabriel},
+booktitle = {Advances in Neural Information Processing Systems},
+issn = {10495258},
+title = {{Biologically inspired dynamic textures for probing motion perception}},
+volume = {2015-Janua},
+year = {2015}
 }
