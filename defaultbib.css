@@ -85,7 +85,7 @@ img.bibbase_icon:hover {
 
 .bibbase.well {
     margin: 20px;
-    overflow-wrap: break-word;
+	overflow-wrap: break-word;
 }
 
 .bibbase.link {
@@ -98,5 +98,5 @@ img.bibbase_icon:hover {
 
 .bibbase_paper_title {
     font-weight: bold;
-	font-size: 20px;
+	font-size: 4px;
 }
