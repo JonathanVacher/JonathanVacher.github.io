@@ -5,7 +5,7 @@
 }
 
 #bibbase_header a[onclick="groupby('downloads')"] { display: none; }
-#bibbase_header a[onclick="groupby('author')"] { display: none; }
+#bibbase_header a[onclick="groupby('authors')"] { display: none; }
 #bibbase_header a[onclick="groupby('keyword')"] { display: none; }
 
 
