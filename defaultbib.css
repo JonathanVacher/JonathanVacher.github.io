@@ -1,6 +1,7 @@
 
 #bibbase_header a {
     text-decoration: none;
+	display: none;
 }
 
 #bibbase_header i {
@@ -102,6 +103,3 @@ img.bibbase_icon:hover {
 	font-size: 20px;
 }
 
-.groupby_dropdown {
-  display: none;
-}
