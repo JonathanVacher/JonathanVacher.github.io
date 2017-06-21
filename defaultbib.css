@@ -4,9 +4,10 @@
 	/*display: none;*/
 }
 
-.groupby_dropdown {
-  display: none;
-}
+#bibbase_header a[onclick="groupby('downloads')"] { display: none; }
+#bibbase_header a[onclick="groupby('author')"] { display: none; }
+#bibbase_header a[onclick="groupby('keyword')"] { display: none; }
+
 
 #bibbase_header i {
     width: 16px;
