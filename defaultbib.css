@@ -5,7 +5,7 @@
 }
 
 #bibbase_header a[onclick="groupby('downloads')"] { display: none; }
-#bibbase_header a[onclick="groupby('Author')"] { display: none; }
+#bibbase_header a[onclick="groupby('author')"] { display: none; }
 #bibbase_header a[onclick="groupby('keyword')"] { display: none; }
 
 
@@ -122,3 +122,14 @@ img.bibbase_icon:hover {
 	font-size: 20px;
 }
 
+.bibbase_group span {
+   display: none;
+}
+
+#group_article div i:after {
+  content: " Journal Articles"
+}
+
+#group_inproceedings div i:after {
+  content: " Conference Publications"
+}
