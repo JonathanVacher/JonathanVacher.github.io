@@ -1,14 +1,18 @@
 
 #bibbase_header a {
     text-decoration: none;
-	display: none;
+	/*display: none;*/
+}
+
+.groupby_dropdown {
+  display: none;
 }
 
 #bibbase_header i {
     width: 16px;
     text-align: center;
     margin-right: 5px;
-	display: none;
+	/*display: none;*/
 }
 
 .bibbase_group {
@@ -24,6 +28,7 @@
     margin-top: 10px;
     margin-bottom: 5px;
     cursor: pointer;*/
+	font-family:Georgia;
 	float: center;
 	margin-bottom:10px;
 	border-bottom:5px solid #333;
