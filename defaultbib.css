@@ -24,10 +24,14 @@
     margin-top: 10px;
     margin-bottom: 5px;
     cursor: pointer;*/
-	background-color: #FFFFFF;
-	width: 850px;
-	margin: 0;
-	padding: 0px;
+	float: center;
+	margin-bottom:10px;
+	border-bottom:5px solid #333;
+	padding: 10px 0px;
+	
+	background-color: #EEE;
+	min-width: 680px;
+	max-width: 870px;
 	line-height:105%;
 	font-size:44px;
 	font-style: normal;
