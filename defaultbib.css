@@ -24,10 +24,13 @@
     margin-top: 10px;
     margin-bottom: 5px;
     cursor: pointer;*/
-	margin-bottom:200px;
-	padding: 10px 0px;
+	background-color: #FFFFFF;
+	width: 850px;
+	margin: 0;
+	padding: 0px;
 	line-height:105%;
-	font-size:30px;
+	font-size:44px;
+	font-style: normal;
 	font-weight: bold;
 }
 
