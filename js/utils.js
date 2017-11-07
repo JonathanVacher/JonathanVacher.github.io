@@ -14,20 +14,4 @@ document.write('<div id="news"> <p> <t2>' + title + '</t2> <br /><br />' + text 
 }
 
 		
-$.get('news.txt',function(data){
-    var perLine=data.split('\n');
-    var myVars=[];
-    for(i=0;i<perLine.length;i++)
-    {
-    var line=perLine[i].split(' ');
-    myVars[i]={
-        'time':line[0],
-        'event':line[1],
-        'color':line[2]
-        }
-    }
-    console.log(myVars);
-    console.log(myVars[0].time);
-    console.log(myVars[0].event);
-    console.log(myVars[0].color);
-});			
+
