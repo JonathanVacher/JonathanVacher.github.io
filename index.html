@@ -10,19 +10,20 @@
 
 </script>
 
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script language="JavaScript" type="text/javascript" src="jquery-3.2.1.js"></script>
+
+<meta http-equiv="Content-Type" content="text/shtml; charset=UTF-8" />
 <title>Welcome - Homepage of Jonathan Vacher</title>
 <link href="defaultstyle.css" rel="stylesheet" media="screen" />
-<script type="text/javascript" src="institutionRef.js"></script>
+<script type="text/javascript" src="utils.js"></script>
 <script type="text/JavaScript" src="curvycorners/curvycorners.js"></script>
+
 
 </head>
 
 <body>
 <div id="container">
-
-	<div id="institution"><script type="text/javascript">institutionheader();</script></div>
-    <div id="wrapper">
+	<div id="wrapper">
 	
 		<div id="nav">
 			<ul>     <li><a class="active" href="index.html">Home</a></li>
@@ -33,48 +34,26 @@
 					 <li><a href="page5.html">Collaborators/Friends</a></li>
 
 			</ul>
-        </div>
-		<div id="banner">
-			<div id="name">
-				<h1>Jonathan Vacher</h1>
-				<p>PhD</p>
-				<p>Department of Systems and Computational Biology, </p>
-				<p>Albert Einstein College of Medicine, New York</p>
-			</div>
-			<div id="welc">
-				<h1>Welcome</h1>
-			</div>
-		</div>
+        	</div>
+		
+		<script type="text/javascript">banner();</script>
    
 		<div id="page">
 			<div id="content">		        
-				<div id="sidebar">
-					<div id="sidebar-fixed">
-						<img src="myphoto.jpg" title="my photo" id="my_photo" />
-						<h3>Contact</h3>
-						<p> Albert Einstein College of Medicine, <br />
-						Block Research Pavilion, <br /> 
-						Department of Systems and Computational Biology, <br />
-						1301 Morris Park Avenue, <br />
-						10461 Bronx, NY <br />
-						USA <br />
-						firstname.lastname@einstein.yu.edu<br />
-						<a href="#">https://jonathanvacher.github.io/</a></p>
-						<h3>Acknowledgements</h3>
-						<p> Thanks to Manon Esnouf for the amazing photo ! </p> 
-					</div>
-				</div>
 				
+				<script type="text/javascript">sidebar();</script>
 				
+				<script type="text/javascript">rss();</script>
+								
+
 				<div id="titleS"> 
 					<t1> Latest News </t1>
 				</div>
 				
-				<div id="news"> 
-					<p> <t2> New position </t2> <br /><br />
-					I've found a Postdoc !! I will join  <a href="https://sites.google.com/site/rubencoencagli/home" target="_blank">Ruben's team</a> at Albert Einstein College of Medicine in NYC on September the 20th !</p>
-				</div>
-				
+				<script type="text/javascript">
+					news('New position',
+					     'I\'ve found a Postdoc !! I will join  <a href="https://sites.google.com/site/rubencoencagli/home" 					     target="_blank">Ruben\'s team</a> at Albert Einstein College of Medicine in NYC on September the 20th !');
+				</script>
 				
 				<div id="news"> 
 					<p> <t2> Looking for a Postdoc </t2> <br /><br />
@@ -84,7 +63,7 @@
 				
 				<div id="news"> 
 					<p> <t2> PhD Defense: Dynamic Textures Synthesis for Probing Vision in Psychophysics and Electrophysiology </t2> <br /><br />
-					I am defending my PhD Wednesday the 18th of January in Paris Dauphine University! You can find the manuscript <a href="manuscript_PhD.pdf" target="_blank">here</a> and the slides <a href="slides_PhD_Defense.pdf" target="_blank">here</a>.</p>
+					I am defending my PhD Wednesday the 18th of January in Paris Dauphine University! You can find the manuscript <a href="pdf/manuscript_PhD.pdf" target="_blank">here</a> and the slides <a href="pdf/slides_PhD_Defense.pdf" target="_blank">here</a>.</p>
 				</div>
 				
 				<div id="news"> 
