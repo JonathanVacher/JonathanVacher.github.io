@@ -13,33 +13,21 @@ document.write('<div id="news"> <p> <t2>' + title + '</t2> <br /><br />' + text 
 
 }
 
-function rss(){
-
-var x=10; // your X iteration limit
-
-// load the xml data. it is parsed by jquery
-$.get("news.xml", function(data) {
-    var $xml = $(data);
-
-    $xml.find("item").each(function(i, val) { // find the items in the rss and loop
-
-        // create an item object with all the necessary information out of the xml
-        var $this = $(this),
-            item = {
-                title: $this.find("title").text(),
-                link: $this.find("link").text(),
-                description: $this.find("description").text()
-        };
-        // replace the CDATA in the item title
-        item.title = item.title.replace("<![CDATA[", "").replace("]]>", "");
-
-        // #feed selects the ul element with the id feed
-        // and append() appends a newly created li element
-        // to the ul
-        $('#feed').append($('<li><a href="' +item.guid +'">' +item.title +'</a></li>'));
-
-        return i<(x-1); // (stop after x iterations)
-    });
-})
-}		
-					
+		
+$.get('news.txt',function(data){
+    var perLine=data.split('\n');
+    var myVars=[];
+    for(i=0;i<perLine.length;i++)
+    {
+    var line=perLine[i].split(' ');
+    myVars[i]={
+        'time':line[0],
+        'event':line[1],
+        'color':line[2]
+        }
+    }
+    console.log(myVars);
+    console.log(myVars[0].time);
+    console.log(myVars[0].event);
+    console.log(myVars[0].color);
+});			
