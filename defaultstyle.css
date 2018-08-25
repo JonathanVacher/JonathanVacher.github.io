@@ -36,9 +36,9 @@ body {
 }
 
 #wrapper {
- box-shadow: 0 0 5px #222;
- -webkit-box-shadow: 0 0 5px #222;
- -moz-box-shadow: 0 0 5px #222;
+	box-shadow: 0 0 5px #222;
+	-webkit-box-shadow: 0 0 5px #222;
+	-moz-box-shadow: 0 0 5px #222;
 
 	margin:0px 0;
 	overflow:hidden;
@@ -59,9 +59,10 @@ body {
 	font-family: Georgia;
 	background-image: url(tree390.jpg) ;
 	background-repeat: no-repeat;
-    background-color:#FFF;
+    	background-color:#FFF;
  	background-size: cover;
 	/*height: 390px;*/
+	z-index: 0;
 }
 #name {
 	z-index: 1;
@@ -106,18 +107,21 @@ h1 {
    
 }
 #nav ul {
-   width:1200px;
-   z-index: 10;
+   	width:1200px;
+   	z-index: 20;
   
-   list-style:none;
-   margin:0;
-   padding:0;
-   background-color: #c8e8f7;
-    -moz-border-radius-topleft:0px;
+   	list-style:none;
+   	margin:0;
+   	padding:0;
+   	background-color: #c8e8f7;
+    	-moz-border-radius-topleft:0px;
 	-webkit-border-top-left-radius:0px;
 	-moz-border-radius-topright:0px;
-	-webkit-border-top-right-radius:0px;
-   position: fixed;
+	-webkit-border-top-right-radius:0px;	
+	position: fixed;
+	top: 0px;   
+
+  
   }
 #nav ul li {
    display:block;
@@ -173,13 +177,19 @@ h1 {
 	*/
 }
 #sidebar {
-	min-width:210px;
+	min-width:280px;
 	max-width:280px;
-	margin:0 75px;
+	margin:400px 900px;
 	float:right;
 	line-height:140%;
 	background-color:#EEE;
 	border: 1px solid #E5E5E5;
+	/*sticky position*/
+	position: fixed;
+	top: 0px;
+
+	/* Above the navbar */
+	z-index: 15;
 }
 #sidebar-fixed {
 	min-width:210px;
@@ -386,7 +396,7 @@ h3.feed-title{
 
 #contentbar {
 	width:210px;
-	margin-top: 0;
+	margin-top: 0px;
 	margin-right: 15px;
 	margin-bottom: 0;
 	margin-left: 0px;
