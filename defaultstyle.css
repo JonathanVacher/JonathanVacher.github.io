@@ -31,24 +31,10 @@ body {
 	-webkit-border-top-left-radius:10px;
 	-moz-border-radius-topright:10px;
 	-webkit-border-top-right-radius:10px;
-	overflow: hidden;
+	/*overflow: hidden;*/
 
 }
-
-#wrapper {
-	box-shadow: 0 0 5px #222;
-	-webkit-box-shadow: 0 0 5px #222;
-	-moz-box-shadow: 0 0 5px #222;
-
-	margin:0px 0;
-	overflow:hidden;
-	-moz-border-radius-topleft:10px;
-	-webkit-border-top-left-radius:10px;
-	-moz-border-radius-topright:10px;
-	-webkit-border-top-right-radius:10px;
-
-
-}	
+	
 #banner {
 	color:#FFF;
 	
@@ -166,7 +152,7 @@ h1 {
 #page {
 	background-color:#EEE;
 	border-top:1px solid #e5e5e5;
-	overflow:auto;
+	/*overflow:auto;*/
 	padding:15px 0; 
 	clear: both;
 	/*
@@ -179,30 +165,24 @@ h1 {
 #sidebar {
 	min-width:280px;
 	max-width:280px;
-	margin:400px 900px;
-	float:right;
+	
 	line-height:140%;
 	background-color:#EEE;
-	border: 1px solid #E5E5E5;
+	border: 3px solid #E5E5E5;
+
+	float:right;
+	margin:0 10px;
+	padding-top:10px;
+
 	/*sticky position*/
-	position: fixed;
-	top: 0px;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 40px;
 
 	/* Above the navbar */
 	z-index: 15;
 }
-#sidebar-fixed {
-	min-width:210px;
-	max-width:280px;
-	/*margin:0 15px;
-	float:right;
-	right: 300px;*/
-	bottom: 0px;
-	line-height:140%;
-	background-color:#EEE;
-	border: 1px solid #E5E5E5;
-	position: fixed;
-}
+
 
 #sidebar h3, #sidebar p {
 	padding:0 10px;
