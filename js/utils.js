@@ -11,7 +11,8 @@ function sidebar(){
 			'firstname.lastname@einstein.yu.edu<br />' +
 			'<a href="#">https://jonathanvacher.github.io/</a></p>' +
 			'<h3>Acknowledgements</h3>' +
-			'<p> Thanks to Manon Esnouf for the amazing photo ! </p> </div></div>');	
+			'<p> Thanks to Manon Esnouf for the amazing photo ! </p>' +
+			'</div>');	
 		}
 
 
@@ -22,7 +23,9 @@ function banner(){
 			'<p>PhD</p>' + 
 			'<p>Department of Systems and Computational Biology </p>' +
  			'<p>Albert Einstein College of Medicine, New York</p>' + 
-			'</div> <div id="welc"> <h1>Welcome</h1> </div> </div>');	
+			'</div> <div id="welc"> <h1>Welcome</h1>' +
+			'</div>' + 
+			'</div>');	
 		}
 
 function news(title,text){
