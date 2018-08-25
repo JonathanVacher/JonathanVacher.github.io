@@ -34,5 +34,10 @@ document.write('<div id="news"> <p> <t2>' + title + '</t2> <br /><br />' + text 
 
 }
 
+function newsf(title,text){
+
+document.write('<div id="news_f"> <p> <t2>' + title + '</t2> <br /><br />' + text + '</p> </div>');
+
+}
 		
 
