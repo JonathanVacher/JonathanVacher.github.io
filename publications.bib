@@ -1,3 +1,4 @@
+% journals
 @article{Vacher2018,
 abstract = {A common practice to account for psychophysical biases in vision is to frame them as consequences of a dynamic process relying on optimal inference with respect to a generative model. The present study details the complete formulation of such a gen-erative model intended to probe visual motion perception. It is first derived in a set of axiomatic steps constrained by biological plausibility. We then extend previous con-tributions by detailing three equivalent formulations of the Gaussian dynamic texture model. First, the composite dynamic textures are constructed by the random aggrega-tion of warped patterns, which can be viewed as 3D Gaussian fields. Second, these textures are cast as solutions to a stochastic partial differential equation (sPDE). This essential step enables real time, on-the-fly, texture synthesis using time-discretized auto-regressive processes. It also allows for the derivation of a local motion-energy model, which corresponds to the log-likelihood of the probability density. The log-likelihoods are finally essential for the construction of a Bayesian inference framework. We use the model to probe speed perception in humans psychophysically using zoom-like changes in stimulus spatial frequency content. The likelihood is contained within the genera-tive model and we chose a slow speed prior consistent with previous literature. We then validated the fitting process of the model using synthesized data. The human data replicates previous findings that relative perceived speed is positively biased by spatial frequency increments. The effect cannot be fully accounted for by previous models, but the current prior acting on the spatio-temporal likelihoods has proved necessary in accounting for the perceptual bias.},
 author = {Vacher, Jonathan and Meso, Andrew Isaac and Perrinet, Laurent U. and Peyr{\'{e}}, Gabriel},
@@ -36,6 +37,9 @@ volume = {4},
 type = {Journal},
 year = {2014}
 }
+
+
+% conferences
 @inproceedings{Vacher2015,
 abstract = {Perception is often described as a predictive process based on an optimal inference with respect to a generative model. We study here the principled construction of a generative model specifically crafted to probe motion perception. In that context, we first provide an axiomatic, biologically-driven derivation of the model. This model synthesizes random dynamic textures which are defined by stationary Gaussian distributions obtained by the random aggregation of warped patterns. Importantly, we show that this model can equivalently be described as a stochastic partial differential equation. Using this characterization of motion in images, it allows us to recast motion-energy models into a principled Bayesian inference framework. Finally, we apply these textures in order to psychophysically probe speed perception in humans.In this framework, while the likelihood is derived from the generative model, the prior is estimated from the observed results and accounts for the perceptual bias in a principled fashion.},
 author = {Vacher, Jonathan and Meso, Andrew Isaac and Perrinet, Laurent U. and Peyr{\'{e}}, Gabriel},
@@ -47,6 +51,26 @@ url = {https://papers.nips.cc/paper/5769-biologically-inspired-dynamic-textures-
 volume = {2015-January},
 year = {2015}
 }
+@inproceedings{lecoent2018,
+title = {Control Synthesis for Stochastic Switched Systems using the Tamed Euler Method},
+journal = {IFAC-PapersOnLine},
+volume = {51},
+number = {16},
+pages = {259 - 264},
+year = {2018},
+booktitle = {6th IFAC Conference on Analysis and Design of Hybrid Systems ADHS 2018},
+type = {Conference},
+issn = {2405-8963},
+doi = {https://doi.org/10.1016/j.ifacol.2018.08.044},
+url = {http://www.sciencedirect.com/science/article/pii/S2405896318311601},
+author = {Le Co\"ent, Adrien and Fribourg, Laurent  and Vacher, Jonathan },
+keywords = {Stochastic systems, numerical simulation, control system synthesis, switched control systems, nonlinear control systems},
+abstract = {In this paper, we explain how, under the one-sided Lipschitz (OSL) hypothesis, one can find an error bound for a variant of the Euler-Maruyama approximation method for stochastic switched systems. We then explain how this bound can be used to control stochastic switched switched system in order to stabilize them in a given region. The method is illustrated on several examples of the literature.}
+}
+
+
+
+% these
 @phdthesis{Vacher2017,
 abstract = {The goal of this thesis is to propose a mathematical model of visual stimulations in order to nely analyze experimental data in psychophysics and electrophysiology. More precisely, it is necessary to develop a set of dynamic, stochastic and parametric stimulations in order to exploit data analysis techniques from Bayesian statistics and machine learning. This problem is important to understand the visual system capacity to integrate and discriminate between stimuli. In particular, the measures performed at different scales (neurons, neural population, cognition) allow to study the particular sensitivities of neurons, their functional organization and their impact on decision making. To this purpose, we propose a set of theoretical, numerical and experimental contributions organized around three principal axes: (1) a Gaussian dynamic texture synthesis model specially crafted to probe vision; (2) a Bayesian observer model that accounts for the positive effect of spatial frequency over speed perception; (3) the use of machine learning techniques to analyze voltage sensitive dye optical imaging and extracellular data. This work, at the crossroads of neurosciences, psychophysics and mathematics is the fruit of several interdisciplinary collaborations.},
 author = {Vacher, Jonathan},
@@ -55,20 +79,4 @@ title = {Dynamic Textures Synthesis for Probing Vision in Psychophysics and Elec
 type = {Thesis},
 url = {https://jonathanvacher.github.io/manuscript{\_}PhD.pdf},
 year = {2017}
-}
-@inproceedings{lecoent2018,
-title = {Control Synthesis for Stochastic Switched Systems using the Tamed Euler Method},
-journal = {IFAC-PapersOnLine},
-volume = {51},
-number = {16},
-pages = {259 - 264},
-year = {2018},
-note = {6th IFAC Conference on Analysis and Design of Hybrid Systems ADHS 2018},
-type = {Conference},
-issn = {2405-8963},
-doi = {https://doi.org/10.1016/j.ifacol.2018.08.044},
-url = {http://www.sciencedirect.com/science/article/pii/S2405896318311601},
-author = {Adrien Le Coent and Laurent Fribourg and Jonathan Vacher},
-keywords = {Stochastic systems, numerical simulation, control system synthesis, switched control systems, nonlinear control systems},
-abstract = {In this paper, we explain how, under the one-sided Lipschitz (OSL) hypothesis, one can find an error bound for a variant of the Euler-Maruyama approximation method for stochastic switched systems. We then explain how this bound can be used to control stochastic switched switched system in order to stabilize them in a given region. The method is illustrated on several examples of the literature.}
 }
