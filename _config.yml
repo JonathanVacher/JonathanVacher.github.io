@@ -10,7 +10,7 @@ url: "https://jonathanvacher.github.io"
 baseurl: "/"
 header-img: img/home-bg.jpg
 headercolor: "#FFFFFF"
-logo: /img/myphoto.jpg
+logo: /img/myphoto.png
 
 # Tertiary Parameters
 github_username:  JonathanVacher
