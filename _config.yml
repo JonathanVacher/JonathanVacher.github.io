@@ -8,6 +8,10 @@ description: > # this means to ignore newlines until "show_exerpts:"
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
+# secondary param
+header-img: img/home-bg.jpg
+
+
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
