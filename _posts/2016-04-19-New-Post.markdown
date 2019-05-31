@@ -1,11 +1,19 @@
 ---
-layout:     post
-title:      New Post
-author:     Ahmet Cecen
-tags: 		post template
-subtitle:  	Some Short Description of Post
-category:  project1
+slideinit: "<section markdown=\"1\" data-background=\"http://jonathanvacher.github.io/img/slidebackground.png\"><section markdown=\"1\">"
+vertical: "</section><section markdown=\"1\">"
+horizontal: "</section></section><section markdown=\"1\" data-background=\"http://jonathanvacher.github.io/img/slidebackground.png\"><section markdown=\"1\">"
+layout: post
+title: New Post
+author: Ahmet Cecen
+tags: post template
+subtitle: Some Short Description of Post
+category: project1
+published: true
+theme: beige
+trans: cube
+visualworkflow: true
 ---
+
 <!-- Start Writing Below in Markdown -->
 
 # Table of Contents
@@ -114,5 +122,3 @@ Head over to the [documentation page](http://projectpages.github.io/ppguide/) fo
 ## STL
 
 <div align="center"><script src="https://embed.github.com/view/3d/projectpages/project-pages/gh-pages/stl/test.stl"></script></div>
-
-
