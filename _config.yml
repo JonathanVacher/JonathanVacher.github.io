@@ -15,6 +15,7 @@ baseurl: ''
 nav:
   home: '/'
   tags: '/tags.html'
+  projects: 'projects.html'
 
 # Footer
 footer:
