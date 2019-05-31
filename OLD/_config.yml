@@ -12,6 +12,8 @@ show_excerpts: false # set to true to show excerpts on the homepage
 # secondary param
 baseurl: ''
 header-img: img/home-bg.jpg
+headercolor: "#FFFFFF"
+
 
 
 # Minima date format
