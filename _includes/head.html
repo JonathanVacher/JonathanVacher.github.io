@@ -4,13 +4,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ site.description }}">
-	{% include ogmeta.html %}
+	<!--{% include ogmeta.html %}
 	
 	{% if site.altmetric == true %}
 
 	{% include altmetric.html %}
 
-	{% endif %}
+	{% endif %}-->
 
 	<link rel='shortcut icon' type='image/png' href='{{ site.baseurl }}/favicon.png' />
 
@@ -65,6 +65,6 @@
 	<!-- Custom Theme JavaScript -->
 	<script src="{{ "/js/clean-blog.min.js " | prepend: site.baseurl | prepend: site.url }}"></script>
 	
-	{% include analytics.html %}
+	{% include google-analytics.html %}
 	
 </head>
