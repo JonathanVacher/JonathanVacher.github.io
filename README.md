@@ -1,455 +1,269 @@
-## jekyll-theme-H2O
+# minima
 
-基于Jekyll的博客主题模板，简洁轻量。
+*Minima is a one-size-fits-all Jekyll theme for writers*. It's Jekyll's default (and first) theme. It's what you get when you run `jekyll new`.
 
-另外，还有此主题的[Ghost版本](https://github.com/eastpiger/ghost-theme-H2O) by [eastpiger](https://github.com/eastpiger)
-
-### Preview
-
-#### [在线预览 Live Demo →](http://liaokeyu.com/)
-
-![](screenshot/jekyll-theme-h2o-realhome.jpg)
-
-![](screenshot/jekyll-theme-h2o-realm.png)
-
-如果你喜欢这个博客模板，请在右上角star一下，非常感谢～
-
-If you like this theme or using it, please give a ⭐️ for motivation ;)
-
-如果想体验手机浏览效果，可以扫一下二维码：
-
-![](screenshot/1494404591.png)
-
-Using your smartphone to scan the QR Code
-
-### Features 特性
-
-#### CN
-
-- 代码高亮
-- 夜间模式
-- Disqus评论系统
-- 粉蓝两种主题色
-- 头图个性化底纹
-- 响应式设计
-- 社交图标
-- SEO标题优化
-- 文章标签索引
-- 博客文章搜索
-- 复制文章内容自动添加版权
-
-#### EN
-
-- Code highlight
-- Night mode
-- Disqus Comment System
-- Theme color: Blue & Pink
-- Hero Patterns
-- Responsive design
-- SNS Icon
-- Title SEO
-- Tags system
-- Search
-- Copyright text on copy event
-
-### Usage 快速开始
-
-首先你需要安装Jekyll，请查看文档: [快速指南](http://jekyll.com.cn/docs/quickstart/)
-
-如果你已经安装了Jekyll，请检查版本是否为3.0.x，你可以使用 ```gem update jekyll``` 命令进行升级。
-
-使用 ```gem install jekyll-paginate``` 或 ```sudo gem install jekyll-paginate``` 安装Jekyll的分页插件。
-
-> H2O主题基于Jekyll 3.2.1版本，不同版本之间可能存在部分差异，具体请参考[官方更新文档](https://jekyllrb.com/news/)
-
-点击右上角Fork按钮在你的Github上创建分支，或者```clone```到本地。
-
-``` git clone https://github.com/kaeyleo/jekyll-theme-H2O.git ```
-
-最后，在命令行输入 ```jekyll server``` 开启服务，就能在本地预览主题了。
-
-如果需要部署到线上环境，请参照配置文档的 **开始** 章节进行操作。
-
-### Document 配置文档
-
-#### CN
-
-- 开始
-	- [站点信息](#站点信息)
-	- [写一篇文章](#写一篇文章)
-- 组件
-	- [导航](#导航)
-	- [侧边栏](#侧边栏)
-	- [社交图标](#社交图标)
-	- [个人简介](#个人简介)
-	- [标签](#标签)
-	- [文章搜索](#文章搜索)
-	- [代码高亮](#代码高亮)
-	- [夜间模式](#夜间模式)
-- 个性化
-	- [博客封面、主题皮肤](#主题皮肤)
-	- [头图底纹](#头图底纹)
-- 高级部分
-	- [自定义](#自定义)
-- 集成服务
-	- [Disqus](#disqus)
-	- [Share.js](#sharejs)
-
-#### EN
-
-- Get Started
-	- [Site Settings](#站点信息)
-	- [Write Posts](#写一篇文章)
-- Components
-	- [Navigation Menu](#导航)
-	- [Sidebar](#侧边栏)
-	- [SNS Icons](#社交图标)
-	- [Personal Information](#个人简介)
-	- [Tags](#标签)
-	- [Search](#文章搜索)
-	- [Syntax Highlight](#代码高亮)
-	- [Night Mode](#夜间模式)
-- Style
-	- [Theme Color](#主题皮肤)
-	- [Hero Background Patterns](#头图底纹)
-- Advanced
-	- [Customization](#自定义)
-- Plugins
-	- [Disqus](#Disqus)
-	- [Share.js](#Share.js)
+***Disclaimer:** The information here may vary depending on the version you're using. Please refer to the `README.md` bundled
+within the theme-gem for information specific to your version or by pointing your browser to the Git tag corresponding to your
+version. e.g. https://github.com/jekyll/minima/blob/v2.5.0/README.md*  
+*Running `bundle show minima` will provide you with the local path to your current theme version.*
 
 
-You can easily get started by modifying _config.yml
+[Theme preview](https://jekyll.github.io/minima/)
 
-#### 站点信息
+![minima theme preview](/screenshot.png)
 
-你可以通用修改 `_config.yml` 文件来轻松的开始搭建自己的博客
+## Installation
 
-```
-# Site settings
-title: '廖柯宇的独立博客' # 你的博客网站标题
-description: '很高兴能在这里与你分享我对技术和生活的思考。' # 站点描述
-keyword: '廖柯宇, 廖柯宇的独立博客, 前端, 设计' # 网站关键词
-url: 'http://liaokeyu.com' # 站点url
-baseurl: ''
+Add this line to your Jekyll site's Gemfile:
 
-# Build settings
-paginate: 6 # 一页放几篇文章
-paginate_path: 'page:num'
+```ruby
+gem "minima"
 ```
 
-其实大部分参数已经默认配置好了，你只需要通过文档了解它们，然后根据自己的需求去`_config.yml`文件里修改即可。
+And add this line to your Jekyll site:
 
-#### 写一篇文章
-
-文章一般都放在`_posts`文件夹里，每篇文章的开头都需要设置一些头信息：
-
-```
----
-layout: post
-title: 'H2O theme for Jekyll'
-subtitle: '或许是最漂亮的Jekyll主题'
-date: 2017-04-18
-categories: 技术
-cover: 'http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg'
-tags: jekyll 前端开发 设计
----
+```yaml
+theme: minima
 ```
 
-#### 导航
+And then execute:
 
-博客顶部的导航栏信息需要以下面的格式进行配置：
+    $ bundle
+
+
+## Contents At-A-Glance
+
+Minima has been scaffolded by the `jekyll new-theme` command and therefore has all the necessary files and directories to have a new Jekyll site up and running with zero-configuration.
+
+### Layouts
+
+Refers to files within the `_layouts` directory, that define the markup for your theme.
+
+  - `default.html` &mdash; The base layout that lays the foundation for subsequent layouts. The derived layouts inject their contents into this file at the line that says ` {{ content }} ` and are linked to this file via [FrontMatter](https://jekyllrb.com/docs/frontmatter/) declaration `layout: default`.
+  - `home.html` &mdash; The layout for your landing-page / home-page / index-page. [[More Info.](#home-layout)]
+  - `page.html` &mdash; The layout for your documents that contain FrontMatter, but are not posts.
+  - `post.html` &mdash; The layout for your posts.
+
+### Includes
+
+Refers to snippets of code within the `_includes` directory that can be inserted in multiple layouts (and another include-file as well) within the same theme-gem.
+
+  - `disqus_comments.html` &mdash; Code to markup disqus comment box.
+  - `footer.html` &mdash; Defines the site's footer section.
+  - `google-analytics.html` &mdash; Inserts Google Analytics module (active only in production environment).
+  - `head.html` &mdash; Code-block that defines the `<head></head>` in *default* layout.
+  - `header.html` &mdash; Defines the site's main header section. By default, pages with a defined `title` attribute will have links displayed here.
+
+### Sass
+
+Refers to `.scss` files within the `_sass` directory that define the theme's styles.
+
+  - `minima.scss` &mdash; The core file imported by preprocessed `css/style.scss`, it defines the variable defaults for the theme and also further imports sass partials to supplement itself.
+  - `minima/_base.scss` &mdash; Resets and defines base styles for various HTML elements.
+  - `minima/_layout.scss` &mdash; Defines the visual style for various layouts.
+  - `minima/_syntax-highlighting.scss` &mdash; Defines the styles for syntax-highlighting.
+
+### Assets
+
+Refers to various asset files within the `assets` directory.
+Contains the `css/style.scss` that imports sass files from within the `_sass` directory. This `css/style.scss` is what gets processed into the theme's main stylesheet `main.css` called by `_layouts/default.html` via `_includes/head.html`.
+
+This directory can include sub-directories to manage assets of similar type (`img`, `fonts`, `svg`), and will be copied over as is, to the final transformed site directory.
+
+### Plugins
+
+Minima comes with [`jekyll-seo-tag`](https://github.com/jekyll/jekyll-seo-tag) plugin preinstalled to make sure your website gets the most useful meta tags. See [usage](https://github.com/jekyll/jekyll-seo-tag#usage) to know how to set it up.
+
+## Usage
+
+### Home Layout
+
+`home.html` is a flexible HTML layout for the site's landing-page / home-page / index-page. <br/>
+
+#### Main Heading and Content-injection
+
+From Minima v2.2 onwards, the *home* layout will inject all content from your `index.md` / `index.html` **before** the **`Posts`** heading. This will allow you to include non-posts related content to be published on the landing page under a dedicated heading. *We recommended that you title this section with a Heading2 (`##`)*.
+
+Usually the `site.title` itself would suffice as the implicit 'main-title' for a landing-page. But, if your landing-page would like a heading to be explicitly displayed, then simply define a `title` variable in the document's front matter and it will be rendered with an `<h1>` tag.
+
+#### Post Listing
+
+This section is optional from Minima v2.2 onwards.<br/>
+It will be automatically included only when your site contains one or more valid posts or drafts (if the site is configured to `show_drafts`).
+
+The title for this section is `Posts` by default and rendered with an `<h2>` tag. You can customize this heading by defining a `list_title` variable in the document's front matter.
+
+--
+
+### Customization
+
+To override the default structure and style of minima, simply create the concerned directory at the root of your site, copy the file you wish to customize to that directory, and then edit the file.
+e.g., to override the [`_includes/head.html `](_includes/head.html) file to specify a custom style path, create an `_includes` directory, copy `_includes/head.html` from minima gem folder to `<yoursite>/_includes` and start editing that file.
+
+The site's default CSS has now moved to a new place within the gem itself, [`assets/css/style.scss`](assets/css/style.scss). To **override the default CSS**, the file has to exist at your site source. Do either of the following:
+- Create a new instance at site source.
+  - Create a new file at `<your-site>/assets/css/style.scss`
+  - Add the frontmatter dashes, and
+  - Add `@import "minima";`
+  - Add your custom CSS.
+- Download the file from this repo
+  - Create  a new file at `<your-site>/assets/css/style.scss`
+  - Copy the contents at [assets/css/style.scss](assets/css/style.scss) onto the `css/style.scss` you just created, and edit away!
+- Copy directly from minima gem
+  - Go to your local minima gem installation directory ( run `bundle show minima` to get the path to it ).
+  - Copy the `assets/` folder from there into the root of `<your-site>`
+  - Change whatever values you want, inside `<your-site>/assets/css/style.scss`
+
+
+When you override only a minima-sass-partial, it is not automatically imported because we're still importing the `minima.scss` within the theme-gem and that subsequently imports the partials with respect to itself, i.e. partials within the gem. Hence you should either include a *copy of `minima.scss` from the gem* inside the `_sass` directory at source or the overriding `/assets/css/style.scss` file should explicitly import the edited partial. :
+  e.g. To have an **edited** `_syntax-highlighting.scss` be rendered, you should either have
+
+```sass
+/* <your-site>/assets/css/style.scss */
+
+@import "minima";
+@import "minima/syntax-highlighting";
+```
+or
+your `<your-site>/_sass/` should look like:
 
 ```
-# Navigation links
-nav:
-  home: '/'
-  tags: '/tags.html'
+.
+├── minima.scss
+├── minima
+|   ├── _syntax-highlighting.scss
 ```
 
-导航链接需要写上完整的html文件名，它们都是放于根目录下的，如果自建文件夹，请务必在`exclude` 参数中增加自建文件夹的文件名:
+To have your CSS overrides in sync with upstream changes released in future versions, collect all your overrides into a single partial sass-file and then import that partial after importing minima, like so:
 
-```
-# Build settings
-exclude: ['node_modules', 'dev', 'package.json', '自定义的文件夹名字']
-```
+```sass
+/* <your-site>/assets/css/style.scss */
 
-这样做是为了在Jekyll运行时排除某些文件被复制到运行文件`_site`里去。
-
-#### 侧边栏
-
-![](screenshot/jekyll-theme-h2o-sideBar.png)
-
-侧边栏分为两个部分：【个人简介】和【推荐标签】。当屏幕宽度小于960px时，侧边栏会被隐藏。
-
-#### 社交图标
-
-使用阿里的图标管理平台Iconfont整理了一套常用的社交图标用于博客的个人简介上，包括微博、知乎、掘金、简书、Github等十三个网站，并且对鼠标悬停时的样式颜色进行了优化。
-
-配置格式如下：
-
-```
-# SNS settings 配置社交网站url
-sns:
-  weibo: '//weibo.com/lovecolcol'
-  juejin: '//juejin.im/user/57a6f434165abd006159b4cc'
-  instagram: '//www.instagram.com/steveliaocn'
-  github: '//github.com/kaeyleo'
+@import "minima";
+@import "my_overrides";
 ```
 
-sns属性可选参数：
 
-社交网站 | 参数
---------|----
-微博 | `weibo`
-推特 | `twitter`
-Github | `github`
-知乎 | `zhihu`
-掘金 | `juejin`
-豆瓣 | `douban`
-简书 | `jianshu`
-UI中国 | `uicn`
-领英 | `linkedin`
-Facebook | `facebook`
-Youtube | `youtube`
-Instagram | `instagram`
-Dribbble | `dribbble`
-Behance | `behance`
-Medium | `medium`
-VK | `vk`
+### Customize navigation links
 
-#### 个人简介
+This allows you to set which pages you want to appear in the navigation area and configure order of the links.
 
-首页侧边栏和文章页面底部都会显示你的个人简介
+For instance, to only link to the `about` and the `portfolio` page, add the following to your `_config.yml`:
 
-```
-# Author 配置博主信息
-author: 'Jack'
-nickname: 'xx'
-bio: '程序员'
-avatar: 'assets/img/avatar.jpg'
+```yaml
+header_pages:
+  - about.md
+  - portfolio.md
 ```
 
-#### 标签
+--
 
-对侧边栏的标签模块进行相应配置：
+### Change default date format
 
-```
-# Tags
-recommend-tags: true
-recommend-condition-size: 12
+You can change the default date format by specifying `site.minima.date_format`
+in `_config.yml`.
 
 ```
-
-Tags配置说明：
-
- 属性 | 参数 | 描述
------|-----|-------
-`recommend-tags` | `true`, `false` | 是否显示推荐标签
-`recommend-condition-size` | `12` 或其他数字 | 推荐标签个数限制
-
-#### 文章搜索
-
-![](screenshot/jekyll-theme-h2o-search.png)
-
-基于Jekyll服务器生成文章索引文件 `search.json` 为博客提供搜索服务。输入文章标题或与文章标签相关的关键字即可。
-
-搜索功能默认是开启的，以卡片的样式显示在侧边栏底部。如需关闭请将配置文件 `_config.yml` 中 `search ` 属性的值改为 `false` 。
-
-```
-# Search
-search: true
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
 ```
 
-说明 | 参数
-----|-----
-开启搜索功能 | `true`
-关闭搜索功能 | `false`
+--
 
-#### 代码高亮
+### Add your favicons
 
-模板引入了[Prism.js](http://prismjs.com)，一款轻量、可扩展的代码语法高亮库。
+1. Head over to [https://realfavicongenerator.net/](https://realfavicongenerator.net/) to add your own favicons.
+2. [Customize](#customization) default `_includes/head.html` in your source directory and insert the given code snippet.
 
-很多知名网站如[MDN](https://developer.mozilla.org/)、[css-tricks](https://css-tricks.com/)也在用它，就连 JavaScript 之父 [Brendan Eich](https://brendaneich.com/) 也在个人博客上使用。
+--
 
-![代码高亮](http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-highlight.png)
+### Enabling comments (via Disqus)
 
-遵循 [HTML5](https://www.w3.org/TR/html5/grouping-content.html#the-pre-element) 标准，Prism 使用语义化的 `<pre>` 元素和 `<code>` 元素来标记代码区块：
+Optionally, if you have a Disqus account, you can tell Jekyll to use it to show a comments section below each post.
 
-```
-<pre><code class="language-css">p { color: red }</code></pre>
-```
+To enable it, add the following lines to your Jekyll site:
 
-在Markdown中你可以这样写：
-
-
-	 ```css
-		p { color: red }
-	 ```
-
-支持语言：
-
-- HTML
-- CSS
-- Sass
-- JavaScript
-- CoffeeScript
-- Java
-- C-like
-- Swift
-- PHP
-- Go
-- Python
-
-#### 夜间模式
-
-晚11点至次日凌晨6点自动开启夜间模式。如果不需要，则将配置文件 `_config.yml` 中 `nightMode ` 属性的值改为 `false` 即可。
-
-```
-# Night mode
-nightMode: true
+```yaml
+  disqus:
+    shortname: my_disqus_shortname
 ```
 
-说明 | 参数
-----|-----
-开启夜间模式 | `true`
-关闭夜间模式 | `false`
+You can find out more about Disqus' shortnames [here](https://help.disqus.com/installation/whats-a-shortname).
 
-#### 主题皮肤
+Comments are enabled by default and will only appear in production, i.e., `JEKYLL_ENV=production`
 
-![](screenshot/jekyll-theme-h2o-themecolor.jpg)
+If you don't want to display comments for a particular post you can disable them by adding `comments: false` to that post's YAML Front Matter.
 
-支持两种主题颜色蓝色（默认）和粉色
+:warning: `url`, e.g. `https://example.com`, must be set in you config file for Disqus to work.
 
-主要效果体现在首页博客封面、顶部导航栏的logo以及鼠标悬停时文字显示的颜色效果。
+--
 
-```
-# theme color
-theme-color: 'default' # pink or default
-```
+### Social networks
 
-颜色 | 参数
-----|-----
-蓝色 | `default`
-粉色 | `pink`
+You can add links to the accounts you have on other sites, with respective icon, by adding one or more of the following options in your config.
+From `Minima-3.0` onwards, the usernames are to be nested under `minima.social_links`, with the keys being simply the social-network's name:
 
-如果你希望在博客封面显示图片，需要去index.html文件中的头信息中添加 `header-img` 配置：
+```yaml
+minima:
+  social_links:
+    twitter: jekyllrb
+    github: jekyll
+    dribbble: jekyll
+    facebook: jekyll
+    flickr: jekyll
+    instagram: jekyll
+    linkedin: jekyll
+    pinterest: jekyll
+    telegram: jekyll
+    googleplus: +jekyll
+    microdotblog: jekyll
+    rss: rss
 
-```
----
-layout: default
-home-title: Steven的博客
-description: 开发者，创造者
-header-img: assets/img/banner.jpg
----
-```
+    mastodon:
+     - username: jekyll
+       instance: example.com
+     - username: jekyll2
+       instance: example.com
 
-#### 头图底纹
-
-![](screenshot/jekyll-theme-h2o-heroPatterns.png)
-
-在没有图片的情况下单纯显示颜色会不会太无趣了点？于是想到了加入底纹元素，底纹素材是SVG格式的（保存在css样式里），加载比图片快很多。六种底纹（电路、食物、云海、钻石等等）供你选择，配置如下：
-
-```
-# Hero background patterns
-postPatterns: 'circuitBoard'
+    youtube: jekyll
+    youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+    youtube_channel_name: CloudCannon
 ```
 
-`postPatterns` 属性参数配置：
+--
 
-底纹描述  |  参数
-------|------
-电路 | `circuitBoard`
-圆环 | `overlappingCircles`
-吃货日常：啃打鸡 | `food`
-土豪必备：钻石| `glamorous`
-圈圈叉叉 | `ticTacToe`
-中国风：云海 | `seaOfClouds`
+### Enabling Google Analytics
 
-#### 自定义
+To enable Google Analytics, add the following lines to your Jekyll site:
 
-主题开发使用的技术栈也比较简单：引入jQuery类库、使用Sass代替CSS编写样式，使用Gulp完成Sass的编译、CSS和JavaScript的代码合并压缩等任务。
-
-如果你喜欢折腾，想对模板的代码进行修改，需要使用命令 `npm install` 安装 `package.json` 中的依赖，然后 `gulp` 一下即可开始你的自定义之旅。
-
-在了解H2O主题的目录结构之前，确保你对[Jekyll目录结构](http://jekyll.com.cn/docs/structure/)有所了解。
-
-```
-	.
-	├── _config.yml # 配置文件
-	├── _includes # 页面组件方便重用
-	|   ├── footer.html # 页脚
-	|   └── head.html # html文档的头部内容
-	|   └── header.html # 顶部菜单栏
-	|   └── pageNav.html # 文章列表分页组件
-	├── _layouts # 布局模板
-	|   ├── default.html # 默认模板
-	|   └── post.html # 文章页面模板
-	├── _posts # 这里放文章
-	|   ├── 2017-05-03-elements-of-javascript-style.md # 命名格式：年-月-日-文章标题.md
-	|   └── 2007-02-21-life-on-mars.md
-	├── _site # Jekyll将源码处理后生成的站点文件，里面的内容可直接发布
-	├── assets # 存放用于线上环境的静态资源，如需修改css和js文件请到dev文件夹
-	|   ├── css # dev文件夹中sass编译后的样式文件
-	|   └── fonts # 字体文件
-	|   └── icons # 图标文件
-	|   └── img #  图片文件
-	|   └── js # dev文件夹中处理后的脚本文件
-	├── dev # 开发文件
-	|   ├── js # 存放脚本源码
-	|   └── sass # 样式源码
-	|       └── app.scss # 整合下面的所有样式文件
-	|       └── base.scss # 引入字体、Reset部分样式
-	|       └── common.scss # 模板的主要样式
-	|       └── helper.scss # 工具样式
-	|       └── layouts.scss # 响应式布局
-	└── gulpfile.js # 自动化任务脚本
-	└── index.html # 模板首页
-	└── tags.html # 标签页面
-	└── 404.html # 404页面
-	└── package.json # 管理项目的依赖项
+```yaml
+  google_analytics: UA-NNNNNNNN-N
 ```
 
-值得注意的是，css及js的源码都在 `dev` 文件夹中，每一次保存 gulp 都会对它们进行处理并保存到 `assets` 文件夹以供 `_site` 上线环境使用。
+Google Analytics will only appear in production, i.e., `JEKYLL_ENV=production`
 
-#### Disqus
+--
 
-[Disqus](https://disqus.com/)是一个第三方社交评论插件，体验相当不错。
+### Enabling Excerpts on the Home Page
 
-在配置文件 `_config.yml` 中找到comments的相关配置，设置 `disqus` 参数为 `true` 打开评论功能（ `false` 为关闭），并且设置 `disqus_url`。
+To display post-excerpts on the Home Page, simply add the following to your `_config.yml`:
 
-```
-# Comments
-comments:
-	disqus: true
-	disqus_url: 'https://your-disqus-username.disqus.com/embed.js'
+```yaml
+show_excerpts: true
 ```
 
-注：`disqus` 默认值为 `false`
+## Contributing
 
-#### Share.js
+Bug reports and pull requests are welcome on GitHub at https://github.com/jekyll/minima. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
-为了让文章更方便地分享，使用了第三方分享插件[Share.js](https://github.com/overtrue/share.js)，支持一键分享到微博、QQ空间、QQ好友、微信、腾讯微博、豆瓣、Facebook、Twitter、Linkedin、Google+、点点等社交网站。
+## Development
 
-```
-# Share
-social-share: true # 开启或者关闭分享功能
-social-share-items: ['wechat', 'weibo', 'douban','twitter']
-```
+To set up your environment to develop this theme, run `script/bootstrap`.
 
-### Contribution 贡献
+To test your theme, run `script/server` (or `bundle exec jekyll serve`) and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme and the contents. As you make modifications, your site will regenerate and you should see the changes in the browser after a refresh.
 
-Any types of contribution are welcome. Thanks.
+## License
 
-接受各种形式的贡献，包括不限于提交问题与需求，修复代码。等待您的 ```Pull Request```
-
-#### 感谢参与代码贡献的伙伴
-
-- [Ray-Eldath](https://github.com/Ray-Eldath)
-- [sctop](https://github.com/sctop)
-- [bananaappletw](https://github.com/bananaappletw)
-- [moycat](https://github.com/moycat)
-
-### License 许可证
-
-Jekyll-Theme-H2O is licensed under [MIT](https://github.com/kaeyleo/jekyll-theme-H2O/blob/master/LICENSE).
+The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
