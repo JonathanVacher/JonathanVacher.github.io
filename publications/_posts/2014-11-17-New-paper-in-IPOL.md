@@ -1,5 +1,5 @@
 ---
-title: The Heeger & Bergen Pyramid Based Texture Synthesis Algorithm 
+title: The Heeger &amp; Bergen Pyramid Based Texture Synthesis Algorithm 
 image: /assets/img/blog/hb-tex.png
 description: > 
    with T. Briand, B. Galerne and J. Rabin.
