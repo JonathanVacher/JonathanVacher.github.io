@@ -1,0 +1,49 @@
+---
+---
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 10%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+
+{{ reference }} <br>
+
+<div class="row">
+	<div class="column">
+		<button onclick="myFunction{{key}}()"><img src="{{site.url}}/assets/icons/BibTeX_logo.png"></button> 
+  	</div>
+  	<div class="column">
+    		<a href="{{link}}"><img src="{{site.url}}/assets/icons/pdf_icon.png"></a>
+  	</div>
+</div>
+
+<div id="{{key}}-materials" style="display:none">
+	<pre id="{{key}}-bibtex" class="pre pre-scrollable collapse">{{entry.bibtex}}</pre>
+</div>
+
+
+<script>
+function myFunction{{key}}() {
+  var x = document.getElementById("{{key}}-materials");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } 
+  else {
+    x.style.display = "none";
+  }
+}
+</script>
+
