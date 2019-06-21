@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://jonathanvacher.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jonathanvacher.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2019-06-06T18:33:58-04:00</updated><id>https://jonathanvacher.github.io/feed.xml</id><title type="html">Jonathan Vacher</title><subtitle>Postdoc @ Albert Einstein, New-York
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://jonathanvacher.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jonathanvacher.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2019-06-21T13:01:42-04:00</updated><id>https://jonathanvacher.github.io/feed.xml</id><title type="html">Jonathan Vacher</title><subtitle>Postdoc @ Albert Einstein, New-York
 </subtitle><author><name>Jonathan Vacher</name><email>jonathan.vacher@einstein.yu.edu</email></author><entry><title type="html">Combining mixture models with linear mixing updates: multilayer image segmentation and synthesis</title><link href="https://jonathanvacher.github.io/publications/2019-05-25-New-preprint/" rel="alternate" type="text/html" title="Combining mixture models with linear mixing updates&amp;#58; multilayer image segmentation and synthesis" /><published>2019-05-25T00:00:00-04:00</published><updated>2019-05-25T00:00:00-04:00</updated><id>https://jonathanvacher.github.io/publications/New-preprint</id><content type="html" xml:base="https://jonathanvacher.github.io/publications/2019-05-25-New-preprint/">&lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
 
 &lt;p&gt;We propose a flexible framework for mixture models. We apply this framework to natural image segmentation using deepnet features at all layers. We show that these mixture models can achieve state-of-the-art boundary scores.&lt;!--&lt;a class=&quot;citation&quot; href=&quot;#post1-vacher2019combining&quot;&gt;&lt;span style=&quot;vertical-align: super&quot;&gt;1&lt;/span&gt;&lt;/a&gt;--&gt;.&lt;/p&gt;
@@ -26,7 +26,7 @@
 
 &lt;div class=&quot;row&quot;&gt;
 	&lt;div class=&quot;column&quot;&gt;
-		&lt;button onclick=&quot;myFunctionvacher2019combining()&quot;&gt;&lt;img src=&quot;https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png&quot; /&gt;&lt;/button&gt; 
+		&lt;button onclick=&quot;myFunctionvacher2019combining()&quot;&gt;&lt;img width=&quot;46&quot; height=&quot;15&quot; src=&quot;https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png&quot; /&gt;&lt;/button&gt; 
   	&lt;/div&gt;
   	&lt;div class=&quot;column&quot;&gt;
     		&lt;a href=&quot;/pdf/vacher2019combining.pdf&quot;&gt;&lt;img src=&quot;https://jonathanvacher.github.io/assets/icons/pdf_icon.png&quot; /&gt;&lt;/a&gt;
@@ -87,7 +87,7 @@ function myFunctionvacher2019combining() {
 
 &lt;div class=&quot;row&quot;&gt;
 	&lt;div class=&quot;column&quot;&gt;
-		&lt;button onclick=&quot;myFunctionvacher2019probabilistic()&quot;&gt;&lt;img src=&quot;https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png&quot; /&gt;&lt;/button&gt; 
+		&lt;button onclick=&quot;myFunctionvacher2019probabilistic()&quot;&gt;&lt;img width=&quot;46&quot; height=&quot;15&quot; src=&quot;https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png&quot; /&gt;&lt;/button&gt; 
   	&lt;/div&gt;
   	&lt;div class=&quot;column&quot;&gt;
     		&lt;a href=&quot;/pdf/vacher2019probabilistic.pdf&quot;&gt;&lt;img src=&quot;https://jonathanvacher.github.io/assets/icons/pdf_icon.png&quot; /&gt;&lt;/a&gt;
@@ -148,7 +148,7 @@ function myFunctionvacher2019probabilistic() {
 
 &lt;div class=&quot;row&quot;&gt;
 	&lt;div class=&quot;column&quot;&gt;
-		&lt;button onclick=&quot;myFunctionVacher2018bayesian()&quot;&gt;&lt;img src=&quot;https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png&quot; /&gt;&lt;/button&gt; 
+		&lt;button onclick=&quot;myFunctionVacher2018bayesian()&quot;&gt;&lt;img width=&quot;46&quot; height=&quot;15&quot; src=&quot;https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png&quot; /&gt;&lt;/button&gt; 
   	&lt;/div&gt;
   	&lt;div class=&quot;column&quot;&gt;
     		&lt;a href=&quot;/pdf/Vacher2018bayesian.pdf&quot;&gt;&lt;img src=&quot;https://jonathanvacher.github.io/assets/icons/pdf_icon.png&quot; /&gt;&lt;/a&gt;
@@ -215,7 +215,7 @@ function myFunctionVacher2018bayesian() {
 
 &lt;div class=&quot;row&quot;&gt;
 	&lt;div class=&quot;column&quot;&gt;
-		&lt;button onclick=&quot;myFunctionLeCoent2018control()&quot;&gt;&lt;img src=&quot;https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png&quot; /&gt;&lt;/button&gt; 
+		&lt;button onclick=&quot;myFunctionLeCoent2018control()&quot;&gt;&lt;img width=&quot;46&quot; height=&quot;15&quot; src=&quot;https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png&quot; /&gt;&lt;/button&gt; 
   	&lt;/div&gt;
   	&lt;div class=&quot;column&quot;&gt;
     		&lt;a href=&quot;/pdf/LeCoent2018control.pdf&quot;&gt;&lt;img src=&quot;https://jonathanvacher.github.io/assets/icons/pdf_icon.png&quot; /&gt;&lt;/a&gt;
@@ -288,7 +288,7 @@ function myFunctionLeCoent2018control() {
 
 &lt;div class=&quot;row&quot;&gt;
 	&lt;div class=&quot;column&quot;&gt;
-		&lt;button onclick=&quot;myFunctionBriand2016how()&quot;&gt;&lt;img src=&quot;https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png&quot; /&gt;&lt;/button&gt; 
+		&lt;button onclick=&quot;myFunctionBriand2016how()&quot;&gt;&lt;img width=&quot;46&quot; height=&quot;15&quot; src=&quot;https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png&quot; /&gt;&lt;/button&gt; 
   	&lt;/div&gt;
   	&lt;div class=&quot;column&quot;&gt;
     		&lt;a href=&quot;/pdf/Briand2016how.pdf&quot;&gt;&lt;img src=&quot;https://jonathanvacher.github.io/assets/icons/pdf_icon.png&quot; /&gt;&lt;/a&gt;
@@ -354,7 +354,7 @@ function myFunctionBriand2016how() {
 
 &lt;div class=&quot;row&quot;&gt;
 	&lt;div class=&quot;column&quot;&gt;
-		&lt;button onclick=&quot;myFunctionVacher2015biologically()&quot;&gt;&lt;img src=&quot;https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png&quot; /&gt;&lt;/button&gt; 
+		&lt;button onclick=&quot;myFunctionVacher2015biologically()&quot;&gt;&lt;img width=&quot;46&quot; height=&quot;15&quot; src=&quot;https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png&quot; /&gt;&lt;/button&gt; 
   	&lt;/div&gt;
   	&lt;div class=&quot;column&quot;&gt;
     		&lt;a href=&quot;/pdf/Vacher2015biologically.pdf&quot;&gt;&lt;img src=&quot;https://jonathanvacher.github.io/assets/icons/pdf_icon.png&quot; /&gt;&lt;/a&gt;
@@ -417,7 +417,7 @@ function myFunctionVacher2015biologically() {
 
 &lt;div class=&quot;row&quot;&gt;
 	&lt;div class=&quot;column&quot;&gt;
-		&lt;button onclick=&quot;myFunctionBriand2014heeger()&quot;&gt;&lt;img src=&quot;https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png&quot; /&gt;&lt;/button&gt; 
+		&lt;button onclick=&quot;myFunctionBriand2014heeger()&quot;&gt;&lt;img width=&quot;46&quot; height=&quot;15&quot; src=&quot;https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png&quot; /&gt;&lt;/button&gt; 
   	&lt;/div&gt;
   	&lt;div class=&quot;column&quot;&gt;
     		&lt;a href=&quot;/pdf/Briand2014heeger.pdf&quot;&gt;&lt;img src=&quot;https://jonathanvacher.github.io/assets/icons/pdf_icon.png&quot; /&gt;&lt;/a&gt;
