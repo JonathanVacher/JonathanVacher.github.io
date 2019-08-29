@@ -2,15 +2,15 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://jonathanvacher.github.io/code/</loc>
-<lastmod>2019-08-03T20:18:27+02:00</lastmod>
+<lastmod>2019-08-29T10:32:08+02:00</lastmod>
 </url>
 <url>
 <loc>https://jonathanvacher.github.io/milestones/</loc>
-<lastmod>2019-08-03T20:18:27+02:00</lastmod>
+<lastmod>2019-08-29T10:32:08+02:00</lastmod>
 </url>
 <url>
 <loc>https://jonathanvacher.github.io/publications/</loc>
-<lastmod>2019-08-03T20:18:27+02:00</lastmod>
+<lastmod>2019-08-29T10:32:08+02:00</lastmod>
 </url>
 <url>
 <loc>https://jonathanvacher.github.io/publications/2014-11-17-New-paper-in-IPOL/</loc>
@@ -47,6 +47,10 @@
 <url>
 <loc>https://jonathanvacher.github.io/publications/2019-05-25-New-preprint/</loc>
 <lastmod>2019-05-25T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>https://jonathanvacher.github.io/milestones/2019-08-29-talk-ecvp/</loc>
+<lastmod>2019-08-29T00:00:00+02:00</lastmod>
 </url>
 <url>
 <loc>https://jonathanvacher.github.io/MC_examples/</loc>
@@ -177,6 +181,10 @@
 <url>
 <loc>https://jonathanvacher.github.io/pdf/exercices-MPSI.pdf</loc>
 <lastmod>2017-11-06T21:30:17+01:00</lastmod>
+</url>
+<url>
+<loc>https://jonathanvacher.github.io/pdf/vacher-ECVP-2019-slides.pdf</loc>
+<lastmod>2019-08-29T10:16:26+02:00</lastmod>
 </url>
 <url>
 <loc>https://jonathanvacher.github.io/pdf/vacher2019combining.pdf</loc>
