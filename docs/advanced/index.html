@@ -38,17 +38,17 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
   
 <!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Advanced | Jonathan Vacher</title>
-<meta name="generator" content="Jekyll v3.8.5" />
+<meta name="generator" content="Jekyll v3.8.6" />
 <meta property="og:title" content="Advanced" />
 <meta name="author" content="Jonathan Vacher" />
 <meta property="og:locale" content="en" />
 <meta name="description" content="This chapter covers advanced topics, such as offline support and custom JS builds. Codings skills are recommended." />
 <meta property="og:description" content="This chapter covers advanced topics, such as offline support and custom JS builds. Codings skills are recommended." />
-<link rel="canonical" href="https://jonathanvacher.github.io/docs/advanced/" />
-<meta property="og:url" content="https://jonathanvacher.github.io/docs/advanced/" />
+<link rel="canonical" href="http://localhost:4000/docs/advanced/" />
+<meta property="og:url" content="http://localhost:4000/docs/advanced/" />
 <meta property="og:site_name" content="Jonathan Vacher" />
 <script type="application/ld+json">
-{"description":"This chapter covers advanced topics, such as offline support and custom JS builds. Codings skills are recommended.","headline":"Advanced","@type":"WebPage","url":"https://jonathanvacher.github.io/docs/advanced/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://jonathanvacher.github.io/assets/icons/myphoto.jpg"},"name":"Jonathan Vacher"},"author":{"@type":"Person","name":"Jonathan Vacher"},"@context":"https://schema.org"}</script>
+{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/icons/myphoto.jpg"},"name":"Jonathan Vacher"},"@type":"WebPage","headline":"Advanced","author":{"@type":"Person","name":"Jonathan Vacher"},"url":"http://localhost:4000/docs/advanced/","description":"This chapter covers advanced topics, such as offline support and custom JS builds. Codings skills are recommended.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -74,11 +74,11 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 
 <meta name="generator" content="Hydejack v8.4.0" />
 
-<link type="application/atom+xml" rel="alternate" href="https://jonathanvacher.github.io/feed.xml" title="Jonathan Vacher" />
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Jonathan Vacher" />
 
 
 
-<link rel="alternate" href="https://jonathanvacher.github.io/docs/advanced/" hreflang="en">
+<link rel="alternate" href="http://localhost:4000/docs/advanced/" hreflang="en">
 
 <link rel="shortcut icon" href="/assets/icons/favicon.ico">
 <link rel="apple-touch-icon" href="/assets/icons/icon.png">
@@ -210,8 +210,7 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 
   </header>
 
-  
-<p>This chapter covers advanced topics, such as offline support and custom JS builds. Codings skills are recommended.</p>
+  <p>This chapter covers advanced topics, such as offline support and custom JS builds. Codings skills are recommended.</p>
 
 <h2 class="no_toc" id="table-of-contents">Table of Contents</h2>
 <ol id="markdown-toc">
@@ -244,7 +243,7 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 
 <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">---</span>
 <span class="o">---</span>
-<span class="nx">importScripts</span><span class="p">(</span><span class="s2">"{</span><span class="err">\</span><span class="s2">{ '/assets/js/sw.js' | relative_url }</span><span class="err">\</span><span class="s2">}?t={</span><span class="err">\</span><span class="s2">{ site.time | date_to_xmlschema }</span><span class="err">\</span><span class="s2">}"</span><span class="p">);</span>
+<span class="nx">importScripts</span><span class="p">(</span><span class="dl">"</span><span class="s2">{</span><span class="se">\</span><span class="s2">{ '/assets/js/sw.js' | relative_url }</span><span class="se">\</span><span class="s2">}?t={</span><span class="se">\</span><span class="s2">{ site.time | date_to_xmlschema }</span><span class="se">\</span><span class="s2">}</span><span class="dl">"</span><span class="p">);</span>
 </code></pre></div></div>
 
 <p class="message"><strong>NOTE</strong>: You have to remove the <code class="highlighter-rouge">\</code> after each <code class="highlighter-rouge">{</code> and before each <code class="highlighter-rouge">}</code>! Alternatively, you can just copy the file from <a href="https://github.com/qwtel/hydejack/blob/v8/sw.js">here</a>.</p>
@@ -255,7 +254,7 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 
 <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">offline</span><span class="pi">:</span>
   <span class="na">enabled</span><span class="pi">:</span> <span class="no">true</span>
-  <span class="na">cache_version</span><span class="pi">:</span> <span class="s">1</span>
+  <span class="na">cache_version</span><span class="pi">:</span> <span class="m">1</span>
 </code></pre></div></div>
 
 <p>The current implementation does not cache resources from external domains. There is now way of knowing if external sites conform to the conditions mentioned above, hence caching can be problematic and result in unexpected behavior.</p>

@@ -38,17 +38,17 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
   
 <!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Basics | Jonathan Vacher</title>
-<meta name="generator" content="Jekyll v3.8.5" />
+<meta name="generator" content="Jekyll v3.8.6" />
 <meta property="og:title" content="Basics" />
 <meta name="author" content="Jonathan Vacher" />
 <meta property="og:locale" content="en" />
 <meta name="description" content="This chapter covers the basics of content creation with Hydejack." />
 <meta property="og:description" content="This chapter covers the basics of content creation with Hydejack." />
-<link rel="canonical" href="https://jonathanvacher.github.io/docs/basics/" />
-<meta property="og:url" content="https://jonathanvacher.github.io/docs/basics/" />
+<link rel="canonical" href="http://localhost:4000/docs/basics/" />
+<meta property="og:url" content="http://localhost:4000/docs/basics/" />
 <meta property="og:site_name" content="Jonathan Vacher" />
 <script type="application/ld+json">
-{"description":"This chapter covers the basics of content creation with Hydejack.","headline":"Basics","@type":"WebPage","url":"https://jonathanvacher.github.io/docs/basics/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://jonathanvacher.github.io/assets/icons/myphoto.jpg"},"name":"Jonathan Vacher"},"author":{"@type":"Person","name":"Jonathan Vacher"},"@context":"https://schema.org"}</script>
+{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/icons/myphoto.jpg"},"name":"Jonathan Vacher"},"@type":"WebPage","headline":"Basics","author":{"@type":"Person","name":"Jonathan Vacher"},"url":"http://localhost:4000/docs/basics/","description":"This chapter covers the basics of content creation with Hydejack.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -74,11 +74,11 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 
 <meta name="generator" content="Hydejack v8.4.0" />
 
-<link type="application/atom+xml" rel="alternate" href="https://jonathanvacher.github.io/feed.xml" title="Jonathan Vacher" />
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Jonathan Vacher" />
 
 
 
-<link rel="alternate" href="https://jonathanvacher.github.io/docs/basics/" hreflang="en">
+<link rel="alternate" href="http://localhost:4000/docs/basics/" hreflang="en">
 
 <link rel="shortcut icon" href="/assets/icons/favicon.ico">
 <link rel="apple-touch-icon" href="/assets/icons/icon.png">
@@ -210,8 +210,7 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 
   </header>
 
-  
-<p>This chapter covers the basics of content creation with Hydejack.</p>
+  <p>This chapter covers the basics of content creation with Hydejack.</p>
 
 <h2 class="no_toc" id="table-of-contents">Table of Contents</h2>
 
@@ -383,8 +382,8 @@ For example, this documentation is written in markdown, consisting of several ge
 <span class="na">title</span><span class="pi">:</span>  <span class="s">Hyde</span>
 <span class="na">slug</span><span class="pi">:</span>   <span class="s">hyde</span>
 <span class="na">description</span><span class="pi">:</span> <span class="pi">&gt;</span>
-  <span class="no">Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme.</span>
-  <span class="no">It's based on [Poole](http://getpoole.com), the Jekyll butler.</span>
+  <span class="s">Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme.</span>
+  <span class="s">It's based on [Poole](http://getpoole.com), the Jekyll butler.</span>
 <span class="s">---</span>
 </code></pre></div></div>
 
@@ -552,7 +551,7 @@ A project’s front matter should look like:</p>
 <span class="c1"># file: _projects/hyde-v2.md</span>
 <span class="na">layout</span><span class="pi">:</span>      <span class="s">project</span>
 <span class="na">title</span><span class="pi">:</span>       <span class="s">Hyde v2*</span>
-<span class="na">date</span><span class="pi">:</span>        <span class="s">2 Jan 2014</span>
+<span class="na">date</span><span class="pi">:</span>        <span class="s">2 Jan </span><span class="m">2014</span>
 <span class="na">screenshot</span><span class="pi">:</span>
   <span class="na">src</span><span class="pi">:</span>       <span class="s">/assets/img/projects/hyde-v2@0,25x.jpg</span>
   <span class="na">srcset</span><span class="pi">:</span>
@@ -561,8 +560,8 @@ A project’s front matter should look like:</p>
     <span class="na">480w</span><span class="pi">:</span>    <span class="s">/assets/img/projects/hyde-v2@0,25x.jpg</span>
 <span class="na">caption</span><span class="pi">:</span>     <span class="s">Hyde is a brazen two-column Jekyll theme.</span>
 <span class="na">description</span><span class="pi">:</span> <span class="pi">&gt;</span>
-  <span class="no">Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme.</span>
-  <span class="no">It's based on [Poole](http://getpoole.com), the Jekyll butler.</span>
+  <span class="s">Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme.</span>
+  <span class="s">It's based on [Poole](http://getpoole.com), the Jekyll butler.</span>
 <span class="na">links</span><span class="pi">:</span>
   <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span>   <span class="s">Demo</span>
     <span class="na">url</span><span class="pi">:</span>     <span class="s">http://hyde.getpoole.com</span>
@@ -620,7 +619,7 @@ The <code class="highlighter-rouge">src</code> key is a fallback image for brows
 <span class="na">layout</span><span class="pi">:</span> <span class="s">resume</span>
 <span class="na">title</span><span class="pi">:</span>  <span class="s">Resume</span>
 <span class="na">description</span><span class="pi">:</span> <span class="pi">&gt;</span>
-  <span class="no">A short description of the page for search engines (~150 characters long).</span>
+  <span class="s">A short description of the page for search engines (~150 characters long).</span>
 <span class="s">---</span>
 </code></pre></div></div>
 
@@ -635,7 +634,7 @@ E.g.:</p>
 <span class="na">layout</span><span class="pi">:</span> <span class="s">resume</span>
 <span class="na">title</span><span class="pi">:</span>  <span class="s">Resume</span>
 <span class="na">description</span><span class="pi">:</span> <span class="pi">&gt;</span>
-  <span class="no">A short description of the page for search engines (~150 characters long).</span>
+  <span class="s">A short description of the page for search engines (~150 characters long).</span>
 <span class="na">resume</span><span class="pi">:</span>
   <span class="na">basics</span><span class="pi">:</span>
     <span class="na">name</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Richard</span><span class="nv"> </span><span class="s">Hendricks"</span>

@@ -38,17 +38,17 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
   
 <!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Scripts | Jonathan Vacher</title>
-<meta name="generator" content="Jekyll v3.8.5" />
+<meta name="generator" content="Jekyll v3.8.6" />
 <meta property="og:title" content="Scripts" />
 <meta name="author" content="Jonathan Vacher" />
 <meta property="og:locale" content="en" />
 <meta name="description" content="There are two ways of adding third party scripts. Embedding is ideal for one-off scripts, while global scripts are loaded on every page." />
 <meta property="og:description" content="There are two ways of adding third party scripts. Embedding is ideal for one-off scripts, while global scripts are loaded on every page." />
-<link rel="canonical" href="https://jonathanvacher.github.io/docs/scripts/" />
-<meta property="og:url" content="https://jonathanvacher.github.io/docs/scripts/" />
+<link rel="canonical" href="http://localhost:4000/docs/scripts/" />
+<meta property="og:url" content="http://localhost:4000/docs/scripts/" />
 <meta property="og:site_name" content="Jonathan Vacher" />
 <script type="application/ld+json">
-{"description":"There are two ways of adding third party scripts. Embedding is ideal for one-off scripts, while global scripts are loaded on every page.","headline":"Scripts","@type":"WebPage","url":"https://jonathanvacher.github.io/docs/scripts/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://jonathanvacher.github.io/assets/icons/myphoto.jpg"},"name":"Jonathan Vacher"},"author":{"@type":"Person","name":"Jonathan Vacher"},"@context":"https://schema.org"}</script>
+{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/icons/myphoto.jpg"},"name":"Jonathan Vacher"},"@type":"WebPage","headline":"Scripts","author":{"@type":"Person","name":"Jonathan Vacher"},"url":"http://localhost:4000/docs/scripts/","description":"There are two ways of adding third party scripts. Embedding is ideal for one-off scripts, while global scripts are loaded on every page.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -74,11 +74,11 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 
 <meta name="generator" content="Hydejack v8.4.0" />
 
-<link type="application/atom+xml" rel="alternate" href="https://jonathanvacher.github.io/feed.xml" title="Jonathan Vacher" />
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Jonathan Vacher" />
 
 
 
-<link rel="alternate" href="https://jonathanvacher.github.io/docs/scripts/" hreflang="en">
+<link rel="alternate" href="http://localhost:4000/docs/scripts/" hreflang="en">
 
 <link rel="shortcut icon" href="/assets/icons/favicon.ico">
 <link rel="apple-touch-icon" href="/assets/icons/icon.png">
@@ -210,8 +210,7 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 
   </header>
 
-  
-<p>There are two ways of adding third party scripts.
+  <p>There are two ways of adding third party scripts.
 <a href="#embedding">Embedding</a> is ideal for one-off scripts, e.g. <code class="highlighter-rouge">widgets.js</code> that is part of embedded tweets (see below).
 Adding <a href="#global-scripts">global scripts</a> is for scripts that should be loaded on every page.</p>
 
@@ -261,7 +260,7 @@ opening (or creating) <code class="highlighter-rouge">_includes/my-scripts.html<
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">&lt;!-- file: _includes/my-scripts.html --&gt;</span>
 <span class="nt">&lt;script&gt;</span>
-  <span class="nb">document</span><span class="p">.</span><span class="nx">getElementsByTagName</span><span class="p">(</span><span class="s1">'hy-push-state'</span><span class="p">)[</span><span class="mi">0</span><span class="p">].</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s1">'hy-push-state-load'</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+  <span class="nb">document</span><span class="p">.</span><span class="nx">getElementsByTagName</span><span class="p">(</span><span class="dl">'</span><span class="s1">hy-push-state</span><span class="dl">'</span><span class="p">)[</span><span class="mi">0</span><span class="p">].</span><span class="nx">addEventListener</span><span class="p">(</span><span class="dl">'</span><span class="s1">hy-push-state-load</span><span class="dl">'</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
     <span class="c1">// </span><span class="o">&lt;</span><span class="nx">your</span> <span class="nx">init</span> <span class="nx">code</span><span class="o">&gt;</span>
   <span class="p">});</span>
 <span class="nt">&lt;/script&gt;</span>

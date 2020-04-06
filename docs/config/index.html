@@ -38,17 +38,17 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
   
 <!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Config | Jonathan Vacher</title>
-<meta name="generator" content="Jekyll v3.8.5" />
+<meta name="generator" content="Jekyll v3.8.6" />
 <meta property="og:title" content="Config" />
 <meta name="author" content="Jonathan Vacher" />
 <meta property="og:locale" content="en" />
 <meta name="description" content="This chapter covers the many configuration options of Hydejack, allowing you to tailor it to your needs." />
 <meta property="og:description" content="This chapter covers the many configuration options of Hydejack, allowing you to tailor it to your needs." />
-<link rel="canonical" href="https://jonathanvacher.github.io/docs/config/" />
-<meta property="og:url" content="https://jonathanvacher.github.io/docs/config/" />
+<link rel="canonical" href="http://localhost:4000/docs/config/" />
+<meta property="og:url" content="http://localhost:4000/docs/config/" />
 <meta property="og:site_name" content="Jonathan Vacher" />
 <script type="application/ld+json">
-{"description":"This chapter covers the many configuration options of Hydejack, allowing you to tailor it to your needs.","headline":"Config","@type":"WebPage","url":"https://jonathanvacher.github.io/docs/config/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://jonathanvacher.github.io/assets/icons/myphoto.jpg"},"name":"Jonathan Vacher"},"author":{"@type":"Person","name":"Jonathan Vacher"},"@context":"https://schema.org"}</script>
+{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/icons/myphoto.jpg"},"name":"Jonathan Vacher"},"@type":"WebPage","headline":"Config","author":{"@type":"Person","name":"Jonathan Vacher"},"url":"http://localhost:4000/docs/config/","description":"This chapter covers the many configuration options of Hydejack, allowing you to tailor it to your needs.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -74,11 +74,11 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 
 <meta name="generator" content="Hydejack v8.4.0" />
 
-<link type="application/atom+xml" rel="alternate" href="https://jonathanvacher.github.io/feed.xml" title="Jonathan Vacher" />
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Jonathan Vacher" />
 
 
 
-<link rel="alternate" href="https://jonathanvacher.github.io/docs/config/" hreflang="en">
+<link rel="alternate" href="http://localhost:4000/docs/config/" hreflang="en">
 
 <link rel="shortcut icon" href="/assets/icons/favicon.ico">
 <link rel="apple-touch-icon" href="/assets/icons/icon.png">
@@ -210,8 +210,7 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 
   </header>
 
-  
-<p>Once Jekyll is running, you can start with basic configuration by adding various entries to <code class="highlighter-rouge">_config.yml</code>. Besides these descriptions, you can also read the <a href="https://github.com/qwtel/hydejack/blob/v8/_config.yml">annotated config file</a>.</p>
+  <p>Once Jekyll is running, you can start with basic configuration by adding various entries to <code class="highlighter-rouge">_config.yml</code>. Besides these descriptions, you can also read the <a href="https://github.com/qwtel/hydejack/blob/v8/_config.yml">annotated config file</a>.</p>
 
 <p class="message"><strong>NOTE</strong>: When making changes to <code class="highlighter-rouge">_config.yml</code>, it is necessary to restart the Jekyll process for changes to take effect.</p>
 
@@ -366,7 +365,7 @@ You may also remove the <code class="highlighter-rouge">google_fonts</code> key 
 <p>You also need to add the <code class="highlighter-rouge">paginate</code> and <code class="highlighter-rouge">paginate_path</code> keys to your config file, e.g.</p>
 
 <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: _config.yml</span>
-<span class="na">paginate</span><span class="pi">:</span>      <span class="s">5</span>
+<span class="na">paginate</span><span class="pi">:</span>      <span class="m">5</span>
 <span class="na">paginate_path</span><span class="pi">:</span> <span class="s1">'</span><span class="s">/page-:num/'</span>
 </code></pre></div></div>
 
@@ -415,7 +414,7 @@ To match the <code class="highlighter-rouge">paginate_path</code> above, put a <
 <p>Finally, in your config file, make sue the <code class="highlighter-rouge">paginate_path</code> matches the <code class="highlighter-rouge">permalink</code>:</p>
 
 <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: _config.yml</span>
-<span class="na">paginate</span><span class="pi">:</span>      <span class="s">5</span>
+<span class="na">paginate</span><span class="pi">:</span>      <span class="m">5</span>
 <span class="na">paginate_path</span><span class="pi">:</span> <span class="s">/my-blog/page-:num/</span>
 </code></pre></div></div>
 
@@ -436,9 +435,9 @@ To match the <code class="highlighter-rouge">paginate_path</code> above, put a <
   <span class="na">name</span><span class="pi">:</span>  <span class="s">Florian Klampfer</span>
   <span class="na">email</span><span class="pi">:</span> <span class="s">mail@qwtel.com</span>
   <span class="na">about</span><span class="pi">:</span> <span class="pi">|</span>
-    <span class="no">Hi, I'm Florian or @qwtel...</span>
+    <span class="s">Hi, I'm Florian or @qwtel...</span>
 
-    <span class="no">This is another paragraph.</span>
+    <span class="s">This is another paragraph.</span>
 </code></pre></div></div>
 
 <h3 id="adding-an-authors-picture">Adding an author’s picture</h3>
@@ -535,7 +534,7 @@ add the <code class="highlighter-rouge">email</code>, <code class="highlighter-r
 <span class="na">author</span><span class="pi">:</span>
   <span class="na">social</span><span class="pi">:</span>
     <span class="na">email</span><span class="pi">:</span>    <span class="s">mail@qwtel.com</span>
-    <span class="na">rss</span><span class="pi">:</span>      <span class="s">https://jonathanvacher.github.io/feed.xml</span> <span class="c1"># make sure you provide an absolute URL</span>
+    <span class="na">rss</span><span class="pi">:</span>      <span class="s">http://localhost:4000/feed.xml</span> <span class="c1"># make sure you provide an absolute URL</span>
     <span class="na">download</span><span class="pi">:</span> <span class="s">https://github.com/qwtel/hydejack/archive/v8.4.0.zip</span>
 </code></pre></div></div>
 
@@ -707,8 +706,8 @@ provide your <a href="https://tinyletter.com/">Tinyletter</a> username to the <c
 <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hydejack</span><span class="pi">:</span>
   <span class="na">dark_mode</span><span class="pi">:</span>
     <span class="na">dynamic</span><span class="pi">:</span> <span class="no">true</span>
-    <span class="na">sunrise</span><span class="pi">:</span> <span class="s">6</span>
-    <span class="na">sunset</span><span class="pi">:</span>  <span class="s">18</span>
+    <span class="na">sunrise</span><span class="pi">:</span> <span class="m">6</span>
+    <span class="na">sunset</span><span class="pi">:</span>  <span class="m">18</span>
     <span class="na">icon</span><span class="pi">:</span>    <span class="no">true</span>
     <span class="na">always</span><span class="pi">:</span>  <span class="no">false</span>
 </code></pre></div></div>
