@@ -208,23 +208,495 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 
   </header>
 
-  <h1 id="textures-synthesis">Textures Synthesis</h1>
-<h2 id="motion-clouds-dynamic-stimulation-for-neurosciences-and-psychophysics">Motion Clouds: Dynamic Stimulation for Neurosciences and Psychophysics</h2>
-<p>A python example code is available <a href="http://nbviewer.jupyter.org/github/JonathanVacher/projects/tree/master/motion_clouds/">here</a>. Many dynamic texture examples are shown <a href="/MC_examples">here</a>.</p>
+  <p>In reconstruction …
+<!--<a class="citation" href="#A1-Vacher2015biologically"><span style="vertical-align: super">1</span></a>-->
+<!--<a class="citation" href="#A2-Vacher2018bayesian"><span style="vertical-align: super">2</span></a>-->
+<!--<a class="citation" href="#A3-vacher2020texture"><span style="vertical-align: super">3</span></a>--></p>
 
-<h2 id="future-work">Future work</h2>
-<p>The sPDE formulation of Motion Clouds allows for real-time stimulation. However the spatial stationary covariance does not depend on time. Such an extension appears naturally and one can imagine designing stimuli parametrized by trajectories instead of constant values. Yet, this extension has some drawbacks. In particular the parameters of the solution are not equal to the input parameters but follow them with some delay. Some theoretical work must conducted to properly handle this delay. Then, it will possible to control the parameters with respect to neural responses using Bayesian prediction models (for instance, by seeking to maximize the responses).</p>
+<ul>
+  <li><strong>Textures Synthesis for Vision Studies</strong></li>
+</ul>
 
-<h1 id="psychophysics">Psychophysics</h1>
-<h2 id="psychophysics-data-simulation-and-bayesian-model-fitting">Psychophysics: Data Simulation and Bayesian Model Fitting</h2>
-<p>A python example code is available <a href="http://nbviewer.jupyter.org/github/JonathanVacher/projects/tree/master/bayesian_observer/">here</a>.</p>
+<p>A python example code to generate Motion Clouds is available <a href="http://nbviewer.jupyter.org/github/JonathanVacher/projects/tree/master/motion_clouds/">here</a>. Many dynamic texture examples are shown <a href="/MC_examples">here</a>.</p>
 
-<h1 id="electrophysiology">Electrophysiology</h1>
-<h2 id="vsd-imaging-interpolation-of-activation-maps">VSD Imaging: Interpolation of Activation Maps</h2>
-<p>A python example code is available <a href="http://nbviewer.jupyter.org/github/JonathanVacher/projects/tree/master/model_vsd/">here</a>.</p>
+<p>References:</p>
+<ol class="bibliography"><li><style>
+* {
+  box-sizing: border-box;
+}
 
-<h2 id="electrophysiology-data-simulation-with-motion-clouds-and-a-lnp-model-of-v1">Electrophysiology: Data Simulation with Motion Clouds and a LNP model of V1</h2>
-<p>A python example code is available <a href="http://nbviewer.jupyter.org/github/JonathanVacher/projects/tree/master/lnp_spiking_neurons/">here</a>.</p>
+.column1 {
+  float: left;
+  width: 17.5%;
+  padding: 0px;
+}
+
+.column2 {
+  float: left;
+  width: 12.5%;
+  padding: 8px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn{
+  width: 100%;
+  height: 30px;
+  background: url('https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png') no-repeat center;
+  background-color: #e7e7e7;
+  border-radius: 8px;
+}
+</style>
+
+<span id="A1-Vacher2015biologically">Vacher, J., Meso, A. I., Perrinet, L. U. &amp; Peyré, G. Biologically inspired dynamic textures for probing motion perception. in <i>Advances in Neural Information Processing Systems</i> (2015).</span> 
+
+<div class="row">
+	<div class="column1">
+		<button class="btn" onclick="myFunctionVacher2015biologically()"></button> 
+  	</div>
+  	<div class="column2">
+    	<a href="/pdf/Vacher2015biologically.pdf">
+  <hy-img root-margin="512px"  src="https://jonathanvacher.github.io/assets/icons/pdf_icon.png" >
+    <noscript><img data-ignore  src="https://jonathanvacher.github.io/assets/icons/pdf_icon.png" /></noscript>
+    <span class="loading" slot="loading" hidden>
+      <span class="icon-cog"></span>
+    </span>
+  </hy-img></a>
+  	</div>
+</div>
+
+<div id="Vacher2015biologically-materials" style="display:none">
+	<pre id="Vacher2015biologically-bibtex" class="pre pre-scrollable collapse">@inproceedings{Vacher2015biologically,
+  author = {Vacher, Jonathan and Meso, Andrew Isaac and Perrinet, Laurent U. and Peyr{\'{e}}, Gabriel},
+  booktitle = {Advances in Neural Information Processing Systems},
+  issn = {10495258},
+  title = {Biologically inspired dynamic textures for probing motion perception},
+  year = {2015}
+}
+</pre>
+</div>
+
+
+<script>
+function myFunctionVacher2015biologically() {
+  var x = document.getElementById("Vacher2015biologically-materials");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } 
+  else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+</li>
+<li><style>
+* {
+  box-sizing: border-box;
+}
+
+.column1 {
+  float: left;
+  width: 17.5%;
+  padding: 0px;
+}
+
+.column2 {
+  float: left;
+  width: 12.5%;
+  padding: 8px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn{
+  width: 100%;
+  height: 30px;
+  background: url('https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png') no-repeat center;
+  background-color: #e7e7e7;
+  border-radius: 8px;
+}
+</style>
+
+<span id="A1-Vacher2018bayesian">Vacher, J., Meso, A. I., Perrinet, L. U. &amp; Peyré, G. Bayesian modeling of motion perception using dynamical stochastic textures. <i>Neural computation</i> <b>30</b>, 3355–3392 (2018).</span> 
+
+<div class="row">
+	<div class="column1">
+		<button class="btn" onclick="myFunctionVacher2018bayesian()"></button> 
+  	</div>
+  	<div class="column2">
+    	<a href="/pdf/Vacher2018bayesian.pdf">
+  <hy-img root-margin="512px"  src="https://jonathanvacher.github.io/assets/icons/pdf_icon.png" >
+    <noscript><img data-ignore  src="https://jonathanvacher.github.io/assets/icons/pdf_icon.png" /></noscript>
+    <span class="loading" slot="loading" hidden>
+      <span class="icon-cog"></span>
+    </span>
+  </hy-img></a>
+  	</div>
+</div>
+
+<div id="Vacher2018bayesian-materials" style="display:none">
+	<pre id="Vacher2018bayesian-bibtex" class="pre pre-scrollable collapse">@article{Vacher2018bayesian,
+  title = {Bayesian modeling of motion perception using dynamical stochastic textures},
+  author = {Vacher, Jonathan and Meso, Andrew Isaac and Perrinet, Laurent U and Peyr{\'e}, Gabriel},
+  journal = {Neural computation},
+  volume = {30},
+  number = {12},
+  pages = {3355--3392},
+  year = {2018},
+  publisher = {MIT Press},
+  doi = {10.1162/neco_a_01142}
+}
+</pre>
+</div>
+
+
+<script>
+function myFunctionVacher2018bayesian() {
+  var x = document.getElementById("Vacher2018bayesian-materials");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } 
+  else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+</li>
+<li><style>
+* {
+  box-sizing: border-box;
+}
+
+.column1 {
+  float: left;
+  width: 17.5%;
+  padding: 0px;
+}
+
+.column2 {
+  float: left;
+  width: 12.5%;
+  padding: 8px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn{
+  width: 100%;
+  height: 30px;
+  background: url('https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png') no-repeat center;
+  background-color: #e7e7e7;
+  border-radius: 8px;
+}
+</style>
+
+<span id="A1-vacher2020texture">Vacher, J., Davila, A., Kohn, A. &amp; Coen-Cagli, R. Texture Interpolation for Probing Visual Perception. <i>arXiv preprint arXiv:2006.03698</i> (2020).</span> 
+
+<div class="row">
+	<div class="column1">
+		<button class="btn" onclick="myFunctionvacher2020texture()"></button> 
+  	</div>
+  	<div class="column2">
+    	<a href="/pdf/vacher2020texture.pdf">
+  <hy-img root-margin="512px"  src="https://jonathanvacher.github.io/assets/icons/pdf_icon.png" >
+    <noscript><img data-ignore  src="https://jonathanvacher.github.io/assets/icons/pdf_icon.png" /></noscript>
+    <span class="loading" slot="loading" hidden>
+      <span class="icon-cog"></span>
+    </span>
+  </hy-img></a>
+  	</div>
+</div>
+
+<div id="vacher2020texture-materials" style="display:none">
+	<pre id="vacher2020texture-bibtex" class="pre pre-scrollable collapse">@article{vacher2020texture,
+  title = {Texture Interpolation for Probing Visual Perception},
+  author = {Vacher, Jonathan and Davila, Aida and Kohn, Adam and Coen-Cagli, Ruben},
+  journal = {arXiv preprint arXiv:2006.03698},
+  year = {2020}
+}
+</pre>
+</div>
+
+
+<script>
+function myFunctionvacher2020texture() {
+  var x = document.getElementById("vacher2020texture-materials");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } 
+  else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+</li></ol>
+<ol class="bibliography"></ol>
+<ol class="bibliography"></ol>
+
+<ul>
+  <li><strong>Perception and Neurophysiology</strong></li>
+</ul>
+
+<p><em>Psychophysics</em></p>
+
+<!--<a class="citation" href="#B1-Vacher2018bayesian"><span style="vertical-align: super">2</span></a>-->
+<!--<a class="citation" href="#B2-roggerone2019auditory"><span style="vertical-align: super">2</span></a>-->
+<p>References:</p>
+<ol class="bibliography"><li><style>
+* {
+  box-sizing: border-box;
+}
+
+.column1 {
+  float: left;
+  width: 17.5%;
+  padding: 0px;
+}
+
+.column2 {
+  float: left;
+  width: 12.5%;
+  padding: 8px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn{
+  width: 100%;
+  height: 30px;
+  background: url('https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png') no-repeat center;
+  background-color: #e7e7e7;
+  border-radius: 8px;
+}
+</style>
+
+<span id="B1-Vacher2018bayesian">Vacher, J., Meso, A. I., Perrinet, L. U. &amp; Peyré, G. Bayesian modeling of motion perception using dynamical stochastic textures. <i>Neural computation</i> <b>30</b>, 3355–3392 (2018).</span> 
+
+<div class="row">
+	<div class="column1">
+		<button class="btn" onclick="myFunctionVacher2018bayesian()"></button> 
+  	</div>
+  	<div class="column2">
+    	<a href="/pdf/Vacher2018bayesian.pdf">
+  <hy-img root-margin="512px"  src="https://jonathanvacher.github.io/assets/icons/pdf_icon.png" >
+    <noscript><img data-ignore  src="https://jonathanvacher.github.io/assets/icons/pdf_icon.png" /></noscript>
+    <span class="loading" slot="loading" hidden>
+      <span class="icon-cog"></span>
+    </span>
+  </hy-img></a>
+  	</div>
+</div>
+
+<div id="Vacher2018bayesian-materials" style="display:none">
+	<pre id="Vacher2018bayesian-bibtex" class="pre pre-scrollable collapse">@article{Vacher2018bayesian,
+  title = {Bayesian modeling of motion perception using dynamical stochastic textures},
+  author = {Vacher, Jonathan and Meso, Andrew Isaac and Perrinet, Laurent U and Peyr{\'e}, Gabriel},
+  journal = {Neural computation},
+  volume = {30},
+  number = {12},
+  pages = {3355--3392},
+  year = {2018},
+  publisher = {MIT Press},
+  doi = {10.1162/neco_a_01142}
+}
+</pre>
+</div>
+
+
+<script>
+function myFunctionVacher2018bayesian() {
+  var x = document.getElementById("Vacher2018bayesian-materials");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } 
+  else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+</li>
+<li><style>
+* {
+  box-sizing: border-box;
+}
+
+.column1 {
+  float: left;
+  width: 17.5%;
+  padding: 0px;
+}
+
+.column2 {
+  float: left;
+  width: 12.5%;
+  padding: 8px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn{
+  width: 100%;
+  height: 30px;
+  background: url('https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png') no-repeat center;
+  background-color: #e7e7e7;
+  border-radius: 8px;
+}
+</style>
+
+<span id="B1-roggerone2019auditory">Roggerone, V., Vacher, J., Tarlao, C. &amp; Guastavino, C. Auditory motion perception emerges from successive sound localizations integrated over time. <i>Scientific Reports</i> <b>9</b>, 16437 (2019).</span> 
+
+<div class="row">
+	<div class="column1">
+		<button class="btn" onclick="myFunctionroggerone2019auditory()"></button> 
+  	</div>
+  	<div class="column2">
+    	<a href="/pdf/roggerone2019auditory.pdf">
+  <hy-img root-margin="512px"  src="https://jonathanvacher.github.io/assets/icons/pdf_icon.png" >
+    <noscript><img data-ignore  src="https://jonathanvacher.github.io/assets/icons/pdf_icon.png" /></noscript>
+    <span class="loading" slot="loading" hidden>
+      <span class="icon-cog"></span>
+    </span>
+  </hy-img></a>
+  	</div>
+</div>
+
+<div id="roggerone2019auditory-materials" style="display:none">
+	<pre id="roggerone2019auditory-bibtex" class="pre pre-scrollable collapse">@article{roggerone2019auditory,
+  title = {Auditory motion perception emerges from successive sound localizations integrated over time},
+  author = {Roggerone, Vincent and Vacher, Jonathan and Tarlao, Cynthia and Guastavino, Catherine},
+  journal = {Scientific Reports},
+  volume = {9},
+  pages = {16437},
+  year = {2019},
+  publisher = {Nature Publishing Group},
+  doi = {10.1038/s41598-019-52742-0}
+}
+</pre>
+</div>
+
+
+<script>
+function myFunctionroggerone2019auditory() {
+  var x = document.getElementById("roggerone2019auditory-materials");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } 
+  else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+</li></ol>
+<ol class="bibliography"></ol>
+
+<p><em>Neurophysiology</em></p>
+
+<!--<a class="citation" href="#C1-Vacher2017phd"><span style="vertical-align: super">1</span></a>-->
+<p>References:</p>
+<ol class="bibliography"><li><style>
+* {
+  box-sizing: border-box;
+}
+
+.column1 {
+  float: left;
+  width: 17.5%;
+  padding: 0px;
+}
+
+.column2 {
+  float: left;
+  width: 12.5%;
+  padding: 8px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn{
+  width: 100%;
+  height: 30px;
+  background: url('https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png') no-repeat center;
+  background-color: #e7e7e7;
+  border-radius: 8px;
+}
+</style>
+
+<span id="C1-Vacher2017phd">Vacher, J. Dynamic Textures Synthesis for Probing Vision in Psychophysics and Electrophysiology. (Paris Dauphine University, 2017).</span> 
+
+<div class="row">
+	<div class="column1">
+		<button class="btn" onclick="myFunctionVacher2017phd()"></button> 
+  	</div>
+  	<div class="column2">
+    	<a href="/pdf/Vacher2017phd.pdf">
+  <hy-img root-margin="512px"  src="https://jonathanvacher.github.io/assets/icons/pdf_icon.png" >
+    <noscript><img data-ignore  src="https://jonathanvacher.github.io/assets/icons/pdf_icon.png" /></noscript>
+    <span class="loading" slot="loading" hidden>
+      <span class="icon-cog"></span>
+    </span>
+  </hy-img></a>
+  	</div>
+</div>
+
+<div id="Vacher2017phd-materials" style="display:none">
+	<pre id="Vacher2017phd-bibtex" class="pre pre-scrollable collapse">@phdthesis{Vacher2017phd,
+  author = {Vacher, Jonathan},
+  school = {Paris Dauphine University},
+  title = {Dynamic Textures Synthesis for Probing Vision in Psychophysics and Electrophysiology},
+  year = {2017}
+}
+</pre>
+</div>
+
+
+<script>
+function myFunctionVacher2017phd() {
+  var x = document.getElementById("Vacher2017phd-materials");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } 
+  else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+</li></ol>
 
 
 </article>
@@ -379,7 +851,7 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
   
 
   <li>
-    <a href="mailto:jonathan.vacher@einstein.yu.edu" title="Email" class="no-mark-external">
+    <a href="mailto:jonathan.vacher@ens.fr" title="Email" class="no-mark-external">
       <span class="icon-mail"></span>
       <span class="sr-only">Email</span>
     </a>
