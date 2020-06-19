@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://jonathanvacher.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jonathanvacher.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2020-06-19T09:24:11-04:00</updated><id>https://jonathanvacher.github.io/feed.xml</id><title type="html">Jonathan Vacher</title><subtitle>Postdoc @ Albert Einstein, New-York
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://jonathanvacher.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jonathanvacher.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2020-06-19T16:38:38-04:00</updated><id>https://jonathanvacher.github.io/feed.xml</id><title type="html">Jonathan Vacher</title><subtitle>Postdoc @ Albert Einstein, New-York
 </subtitle><author><name>Jonathan Vacher</name><email>jonathan.vacher@ens.fr</email></author><entry><title type="html">Texture Interpolation for Probing Visual Perception</title><link href="https://jonathanvacher.github.io/publications/2020-06-09-New-preprint/" rel="alternate" type="text/html" title="Texture Interpolation for Probing Visual Perception" /><published>2020-06-09T00:00:00-04:00</published><updated>2020-06-09T00:00:00-04:00</updated><id>https://jonathanvacher.github.io/publications/New-preprint</id><content type="html" xml:base="https://jonathanvacher.github.io/publications/2020-06-09-New-preprint/">&lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
 
 &lt;p&gt;We use the Optimal Transport framework to interpolate between textures and use these textures in a perceptual task and record the macaque visual cortex.
@@ -11,13 +11,15 @@
 
 .column1 {
   float: left;
-  width: 17.5%;
+  width: 90px;
+  height: 25px;
   padding: 0px;
 }
 
 .column2 {
   float: left;
-  width: 12.5%;
+  width: 90px;
+  height: 25px;
   padding: 8px;
 }
 
@@ -29,23 +31,28 @@
 }
 
 .btn{
-  width: 100%;
-  height: 30px;
+  width: 90px;
+  height: 25px;
   background: url('https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png') no-repeat center;
   background-color: #e7e7e7;
   border-radius: 8px;
 }
+
+.inline{
+  display: inline-block;
+}
 &lt;/style&gt;
 
-&lt;span id=&quot;post2-vacher2020texture&quot;&gt;Vacher, J., Davila, A., Kohn, A. &amp;amp; Coen-Cagli, R. Texture Interpolation for Probing Visual Perception. &lt;i&gt;arXiv preprint arXiv:2006.03698&lt;/i&gt; (2020).&lt;/span&gt; 
-
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;column1&quot;&gt;
-		&lt;button class=&quot;btn&quot; onclick=&quot;myFunctionvacher2020texture()&quot;&gt;&lt;/button&gt; 
-  	&lt;/div&gt;
-  	&lt;div class=&quot;column2&quot;&gt;
-    	&lt;a href=&quot;/pdf/vacher2020texture.pdf&quot;&gt;&lt;img src=&quot;https://jonathanvacher.github.io/assets/icons/pdf_icon.png&quot; /&gt;&lt;/a&gt;
-  	&lt;/div&gt;
+&lt;span id=&quot;post2-vacher2020texture&quot;&gt;Vacher, J., Davila, A., Kohn, A. &amp;amp; Coen-Cagli, R. Texture Interpolation for Probing Visual Perception. &lt;i&gt;arXiv preprint arXiv:2006.03698&lt;/i&gt; (2020).&lt;/span&gt;
+&lt;div class=&quot;inline&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;column1&quot;&gt;
+        &lt;button class=&quot;btn&quot; onclick=&quot;myFunctionvacher2020texture()&quot;&gt;&lt;/button&gt; 
+        &lt;/div&gt;
+        &lt;div class=&quot;column2&quot;&gt;
+        &lt;a href=&quot;/pdf/vacher2020texture.pdf&quot;&gt;&lt;img src=&quot;https://jonathanvacher.github.io/assets/icons/pdf_icon.png&quot; float=&quot;right&quot; /&gt;&lt;/a&gt;     		
+        &lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div id=&quot;vacher2020texture-materials&quot; style=&quot;display:none&quot;&gt;
@@ -57,8 +64,6 @@
 }
 &lt;/pre&gt;
 &lt;/div&gt;
-
-
 &lt;script&gt;
 function myFunctionvacher2020texture() {
   var x = document.getElementById(&quot;vacher2020texture-materials&quot;);
@@ -69,8 +74,10 @@ function myFunctionvacher2020texture() {
     x.style.display = &quot;none&quot;;
   }
 }
+/*
+ &lt;div class=&quot;column0&quot;&gt;
+  	&lt;/div&gt; */
 &lt;/script&gt;
-
 &lt;/li&gt;&lt;/ol&gt;
 
 &lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;!--&lt;a class=&quot;citation&quot; href=&quot;#post2-vacher2020texture&quot;&gt;&lt;span style=&quot;vertical-align: super&quot;&gt;1&lt;/span&gt;&lt;/a&gt;--&gt;&lt;/h2&gt;
@@ -86,13 +93,15 @@ function myFunctionvacher2020texture() {
 
 .column1 {
   float: left;
-  width: 17.5%;
+  width: 90px;
+  height: 25px;
   padding: 0px;
 }
 
 .column2 {
   float: left;
-  width: 12.5%;
+  width: 90px;
+  height: 25px;
   padding: 8px;
 }
 
@@ -104,23 +113,28 @@ function myFunctionvacher2020texture() {
 }
 
 .btn{
-  width: 100%;
-  height: 30px;
+  width: 90px;
+  height: 25px;
   background: url('https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png') no-repeat center;
   background-color: #e7e7e7;
   border-radius: 8px;
 }
+
+.inline{
+  display: inline-block;
+}
 &lt;/style&gt;
 
-&lt;span id=&quot;post2-lecoent2020probabilistic&quot;&gt;Le Coënt, A., Fribourg, L., Vacher, J. &amp;amp; Wisniewski, R. Probabilistic reachability and control synthesis for stochastic switched systems using the tamed Euler method. &lt;i&gt;Nonlinear Analysis: Hybrid Systems&lt;/i&gt; &lt;b&gt;36&lt;/b&gt;, 100860 (2020).&lt;/span&gt; 
-
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;column1&quot;&gt;
-		&lt;button class=&quot;btn&quot; onclick=&quot;myFunctionlecoent2020probabilistic()&quot;&gt;&lt;/button&gt; 
-  	&lt;/div&gt;
-  	&lt;div class=&quot;column2&quot;&gt;
-    	&lt;a href=&quot;/pdf/lecoent2020probabilistic.pdf&quot;&gt;&lt;img src=&quot;https://jonathanvacher.github.io/assets/icons/pdf_icon.png&quot; /&gt;&lt;/a&gt;
-  	&lt;/div&gt;
+&lt;span id=&quot;post2-lecoent2020probabilistic&quot;&gt;Le Coënt, A., Fribourg, L., Vacher, J. &amp;amp; Wisniewski, R. Probabilistic reachability and control synthesis for stochastic switched systems using the tamed Euler method. &lt;i&gt;Nonlinear Analysis: Hybrid Systems&lt;/i&gt; &lt;b&gt;36&lt;/b&gt;, 100860 (2020).&lt;/span&gt;
+&lt;div class=&quot;inline&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;column1&quot;&gt;
+        &lt;button class=&quot;btn&quot; onclick=&quot;myFunctionlecoent2020probabilistic()&quot;&gt;&lt;/button&gt; 
+        &lt;/div&gt;
+        &lt;div class=&quot;column2&quot;&gt;
+        &lt;a href=&quot;/pdf/lecoent2020probabilistic.pdf&quot;&gt;&lt;img src=&quot;https://jonathanvacher.github.io/assets/icons/pdf_icon.png&quot; float=&quot;right&quot; /&gt;&lt;/a&gt;     		
+        &lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div id=&quot;lecoent2020probabilistic-materials&quot; style=&quot;display:none&quot;&gt;
@@ -136,8 +150,6 @@ function myFunctionvacher2020texture() {
 }
 &lt;/pre&gt;
 &lt;/div&gt;
-
-
 &lt;script&gt;
 function myFunctionlecoent2020probabilistic() {
   var x = document.getElementById(&quot;lecoent2020probabilistic-materials&quot;);
@@ -148,8 +160,10 @@ function myFunctionlecoent2020probabilistic() {
     x.style.display = &quot;none&quot;;
   }
 }
+/*
+ &lt;div class=&quot;column0&quot;&gt;
+  	&lt;/div&gt; */
 &lt;/script&gt;
-
 &lt;/li&gt;&lt;/ol&gt;
 
 &lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;!--&lt;a class=&quot;citation&quot; href=&quot;#post2-lecoent2020probabilistic&quot;&gt;&lt;span style=&quot;vertical-align: super&quot;&gt;1&lt;/span&gt;&lt;/a&gt;--&gt;&lt;/h2&gt;
@@ -165,13 +179,15 @@ function myFunctionlecoent2020probabilistic() {
 
 .column1 {
   float: left;
-  width: 17.5%;
+  width: 90px;
+  height: 25px;
   padding: 0px;
 }
 
 .column2 {
   float: left;
-  width: 12.5%;
+  width: 90px;
+  height: 25px;
   padding: 8px;
 }
 
@@ -183,23 +199,28 @@ function myFunctionlecoent2020probabilistic() {
 }
 
 .btn{
-  width: 100%;
-  height: 30px;
+  width: 90px;
+  height: 25px;
   background: url('https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png') no-repeat center;
   background-color: #e7e7e7;
   border-radius: 8px;
 }
+
+.inline{
+  display: inline-block;
+}
 &lt;/style&gt;
 
-&lt;span id=&quot;post2-roggerone2019auditory&quot;&gt;Roggerone, V., Vacher, J., Tarlao, C. &amp;amp; Guastavino, C. Auditory motion perception emerges from successive sound localizations integrated over time. &lt;i&gt;Scientific Reports&lt;/i&gt; &lt;b&gt;9&lt;/b&gt;, 16437 (2019).&lt;/span&gt; 
-
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;column1&quot;&gt;
-		&lt;button class=&quot;btn&quot; onclick=&quot;myFunctionroggerone2019auditory()&quot;&gt;&lt;/button&gt; 
-  	&lt;/div&gt;
-  	&lt;div class=&quot;column2&quot;&gt;
-    	&lt;a href=&quot;/pdf/roggerone2019auditory.pdf&quot;&gt;&lt;img src=&quot;https://jonathanvacher.github.io/assets/icons/pdf_icon.png&quot; /&gt;&lt;/a&gt;
-  	&lt;/div&gt;
+&lt;span id=&quot;post2-roggerone2019auditory&quot;&gt;Roggerone, V., Vacher, J., Tarlao, C. &amp;amp; Guastavino, C. Auditory motion perception emerges from successive sound localizations integrated over time. &lt;i&gt;Scientific Reports&lt;/i&gt; &lt;b&gt;9&lt;/b&gt;, 16437 (2019).&lt;/span&gt;
+&lt;div class=&quot;inline&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;column1&quot;&gt;
+        &lt;button class=&quot;btn&quot; onclick=&quot;myFunctionroggerone2019auditory()&quot;&gt;&lt;/button&gt; 
+        &lt;/div&gt;
+        &lt;div class=&quot;column2&quot;&gt;
+        &lt;a href=&quot;/pdf/roggerone2019auditory.pdf&quot;&gt;&lt;img src=&quot;https://jonathanvacher.github.io/assets/icons/pdf_icon.png&quot; float=&quot;right&quot; /&gt;&lt;/a&gt;     		
+        &lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div id=&quot;roggerone2019auditory-materials&quot; style=&quot;display:none&quot;&gt;
@@ -215,8 +236,6 @@ function myFunctionlecoent2020probabilistic() {
 }
 &lt;/pre&gt;
 &lt;/div&gt;
-
-
 &lt;script&gt;
 function myFunctionroggerone2019auditory() {
   var x = document.getElementById(&quot;roggerone2019auditory-materials&quot;);
@@ -227,8 +246,10 @@ function myFunctionroggerone2019auditory() {
     x.style.display = &quot;none&quot;;
   }
 }
+/*
+ &lt;div class=&quot;column0&quot;&gt;
+  	&lt;/div&gt; */
 &lt;/script&gt;
-
 &lt;/li&gt;&lt;/ol&gt;
 
 &lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;!--&lt;a class=&quot;citation&quot; href=&quot;#post2-roggerone2019auditory&quot;&gt;&lt;span style=&quot;vertical-align: super&quot;&gt;1&lt;/span&gt;&lt;/a&gt;--&gt;&lt;/h2&gt;
@@ -244,13 +265,15 @@ function myFunctionroggerone2019auditory() {
 
 .column1 {
   float: left;
-  width: 17.5%;
+  width: 90px;
+  height: 25px;
   padding: 0px;
 }
 
 .column2 {
   float: left;
-  width: 12.5%;
+  width: 90px;
+  height: 25px;
   padding: 8px;
 }
 
@@ -262,23 +285,28 @@ function myFunctionroggerone2019auditory() {
 }
 
 .btn{
-  width: 100%;
-  height: 30px;
+  width: 90px;
+  height: 25px;
   background: url('https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png') no-repeat center;
   background-color: #e7e7e7;
   border-radius: 8px;
 }
+
+.inline{
+  display: inline-block;
+}
 &lt;/style&gt;
 
-&lt;span id=&quot;post2-vacher2019combining&quot;&gt;Vacher, J. &amp;amp; Coen-Cagli, R. Combining mixture models with linear mixing updates: multilayer image segmentation and synthesis. &lt;i&gt;arXiv preprint arXiv:1905.10629&lt;/i&gt; (2019).&lt;/span&gt; 
-
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;column1&quot;&gt;
-		&lt;button class=&quot;btn&quot; onclick=&quot;myFunctionvacher2019combining()&quot;&gt;&lt;/button&gt; 
-  	&lt;/div&gt;
-  	&lt;div class=&quot;column2&quot;&gt;
-    	&lt;a href=&quot;/pdf/vacher2019combining.pdf&quot;&gt;&lt;img src=&quot;https://jonathanvacher.github.io/assets/icons/pdf_icon.png&quot; /&gt;&lt;/a&gt;
-  	&lt;/div&gt;
+&lt;span id=&quot;post2-vacher2019combining&quot;&gt;Vacher, J. &amp;amp; Coen-Cagli, R. Combining mixture models with linear mixing updates: multilayer image segmentation and synthesis. &lt;i&gt;arXiv preprint arXiv:1905.10629&lt;/i&gt; (2019).&lt;/span&gt;
+&lt;div class=&quot;inline&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;column1&quot;&gt;
+        &lt;button class=&quot;btn&quot; onclick=&quot;myFunctionvacher2019combining()&quot;&gt;&lt;/button&gt; 
+        &lt;/div&gt;
+        &lt;div class=&quot;column2&quot;&gt;
+        &lt;a href=&quot;/pdf/vacher2019combining.pdf&quot;&gt;&lt;img src=&quot;https://jonathanvacher.github.io/assets/icons/pdf_icon.png&quot; float=&quot;right&quot; /&gt;&lt;/a&gt;     		
+        &lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div id=&quot;vacher2019combining-materials&quot; style=&quot;display:none&quot;&gt;
@@ -290,8 +318,6 @@ function myFunctionroggerone2019auditory() {
 }
 &lt;/pre&gt;
 &lt;/div&gt;
-
-
 &lt;script&gt;
 function myFunctionvacher2019combining() {
   var x = document.getElementById(&quot;vacher2019combining-materials&quot;);
@@ -302,8 +328,10 @@ function myFunctionvacher2019combining() {
     x.style.display = &quot;none&quot;;
   }
 }
+/*
+ &lt;div class=&quot;column0&quot;&gt;
+  	&lt;/div&gt; */
 &lt;/script&gt;
-
 &lt;/li&gt;&lt;/ol&gt;
 
 &lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;!--&lt;a class=&quot;citation&quot; href=&quot;#post2-vacher2019combining&quot;&gt;&lt;span style=&quot;vertical-align: super&quot;&gt;1&lt;/span&gt;&lt;/a&gt;--&gt;&lt;/h2&gt;
@@ -319,13 +347,15 @@ function myFunctionvacher2019combining() {
 
 .column1 {
   float: left;
-  width: 17.5%;
+  width: 90px;
+  height: 25px;
   padding: 0px;
 }
 
 .column2 {
   float: left;
-  width: 12.5%;
+  width: 90px;
+  height: 25px;
   padding: 8px;
 }
 
@@ -337,23 +367,28 @@ function myFunctionvacher2019combining() {
 }
 
 .btn{
-  width: 100%;
-  height: 30px;
+  width: 90px;
+  height: 25px;
   background: url('https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png') no-repeat center;
   background-color: #e7e7e7;
   border-radius: 8px;
 }
+
+.inline{
+  display: inline-block;
+}
 &lt;/style&gt;
 
-&lt;span id=&quot;post2-vacher2019probabilistic&quot;&gt;Vacher, J., Mamassian, P. &amp;amp; Coen-Cagli, R. Probabilistic Model of Visual Segmentation. &lt;i&gt;arXiv preprint arXiv:1806.00111&lt;/i&gt; (2019).&lt;/span&gt; 
-
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;column1&quot;&gt;
-		&lt;button class=&quot;btn&quot; onclick=&quot;myFunctionvacher2019probabilistic()&quot;&gt;&lt;/button&gt; 
-  	&lt;/div&gt;
-  	&lt;div class=&quot;column2&quot;&gt;
-    	&lt;a href=&quot;/pdf/vacher2019probabilistic.pdf&quot;&gt;&lt;img src=&quot;https://jonathanvacher.github.io/assets/icons/pdf_icon.png&quot; /&gt;&lt;/a&gt;
-  	&lt;/div&gt;
+&lt;span id=&quot;post2-vacher2019probabilistic&quot;&gt;Vacher, J., Mamassian, P. &amp;amp; Coen-Cagli, R. Probabilistic Model of Visual Segmentation. &lt;i&gt;arXiv preprint arXiv:1806.00111&lt;/i&gt; (2019).&lt;/span&gt;
+&lt;div class=&quot;inline&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;column1&quot;&gt;
+        &lt;button class=&quot;btn&quot; onclick=&quot;myFunctionvacher2019probabilistic()&quot;&gt;&lt;/button&gt; 
+        &lt;/div&gt;
+        &lt;div class=&quot;column2&quot;&gt;
+        &lt;a href=&quot;/pdf/vacher2019probabilistic.pdf&quot;&gt;&lt;img src=&quot;https://jonathanvacher.github.io/assets/icons/pdf_icon.png&quot; float=&quot;right&quot; /&gt;&lt;/a&gt;     		
+        &lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div id=&quot;vacher2019probabilistic-materials&quot; style=&quot;display:none&quot;&gt;
@@ -365,8 +400,6 @@ function myFunctionvacher2019combining() {
 }
 &lt;/pre&gt;
 &lt;/div&gt;
-
-
 &lt;script&gt;
 function myFunctionvacher2019probabilistic() {
   var x = document.getElementById(&quot;vacher2019probabilistic-materials&quot;);
@@ -377,8 +410,10 @@ function myFunctionvacher2019probabilistic() {
     x.style.display = &quot;none&quot;;
   }
 }
+/*
+ &lt;div class=&quot;column0&quot;&gt;
+  	&lt;/div&gt; */
 &lt;/script&gt;
-
 &lt;/li&gt;&lt;/ol&gt;
 
 &lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;!--&lt;a class=&quot;citation&quot; href=&quot;#post2-vacher2019probabilistic&quot;&gt;&lt;span style=&quot;vertical-align: super&quot;&gt;1&lt;/span&gt;&lt;/a&gt;--&gt;&lt;/h2&gt;
@@ -394,13 +429,15 @@ function myFunctionvacher2019probabilistic() {
 
 .column1 {
   float: left;
-  width: 17.5%;
+  width: 90px;
+  height: 25px;
   padding: 0px;
 }
 
 .column2 {
   float: left;
-  width: 12.5%;
+  width: 90px;
+  height: 25px;
   padding: 8px;
 }
 
@@ -412,23 +449,28 @@ function myFunctionvacher2019probabilistic() {
 }
 
 .btn{
-  width: 100%;
-  height: 30px;
+  width: 90px;
+  height: 25px;
   background: url('https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png') no-repeat center;
   background-color: #e7e7e7;
   border-radius: 8px;
 }
+
+.inline{
+  display: inline-block;
+}
 &lt;/style&gt;
 
-&lt;span id=&quot;post2-Vacher2018bayesian&quot;&gt;Vacher, J., Meso, A. I., Perrinet, L. U. &amp;amp; Peyré, G. Bayesian modeling of motion perception using dynamical stochastic textures. &lt;i&gt;Neural computation&lt;/i&gt; &lt;b&gt;30&lt;/b&gt;, 3355–3392 (2018).&lt;/span&gt; 
-
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;column1&quot;&gt;
-		&lt;button class=&quot;btn&quot; onclick=&quot;myFunctionVacher2018bayesian()&quot;&gt;&lt;/button&gt; 
-  	&lt;/div&gt;
-  	&lt;div class=&quot;column2&quot;&gt;
-    	&lt;a href=&quot;/pdf/Vacher2018bayesian.pdf&quot;&gt;&lt;img src=&quot;https://jonathanvacher.github.io/assets/icons/pdf_icon.png&quot; /&gt;&lt;/a&gt;
-  	&lt;/div&gt;
+&lt;span id=&quot;post2-Vacher2018bayesian&quot;&gt;Vacher, J., Meso, A. I., Perrinet, L. U. &amp;amp; Peyré, G. Bayesian modeling of motion perception using dynamical stochastic textures. &lt;i&gt;Neural computation&lt;/i&gt; &lt;b&gt;30&lt;/b&gt;, 3355–3392 (2018).&lt;/span&gt;
+&lt;div class=&quot;inline&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;column1&quot;&gt;
+        &lt;button class=&quot;btn&quot; onclick=&quot;myFunctionVacher2018bayesian()&quot;&gt;&lt;/button&gt; 
+        &lt;/div&gt;
+        &lt;div class=&quot;column2&quot;&gt;
+        &lt;a href=&quot;/pdf/Vacher2018bayesian.pdf&quot;&gt;&lt;img src=&quot;https://jonathanvacher.github.io/assets/icons/pdf_icon.png&quot; float=&quot;right&quot; /&gt;&lt;/a&gt;     		
+        &lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div id=&quot;Vacher2018bayesian-materials&quot; style=&quot;display:none&quot;&gt;
@@ -445,8 +487,6 @@ function myFunctionvacher2019probabilistic() {
 }
 &lt;/pre&gt;
 &lt;/div&gt;
-
-
 &lt;script&gt;
 function myFunctionVacher2018bayesian() {
   var x = document.getElementById(&quot;Vacher2018bayesian-materials&quot;);
@@ -457,8 +497,10 @@ function myFunctionVacher2018bayesian() {
     x.style.display = &quot;none&quot;;
   }
 }
+/*
+ &lt;div class=&quot;column0&quot;&gt;
+  	&lt;/div&gt; */
 &lt;/script&gt;
-
 &lt;/li&gt;&lt;/ol&gt;
 
 &lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;!--&lt;a class=&quot;citation&quot; href=&quot;#post2-Vacher2018bayesian&quot;&gt;&lt;span style=&quot;vertical-align: super&quot;&gt;1&lt;/span&gt;&lt;/a&gt;--&gt;&lt;/h2&gt;
@@ -475,13 +517,15 @@ function myFunctionVacher2018bayesian() {
 
 .column1 {
   float: left;
-  width: 17.5%;
+  width: 90px;
+  height: 25px;
   padding: 0px;
 }
 
 .column2 {
   float: left;
-  width: 12.5%;
+  width: 90px;
+  height: 25px;
   padding: 8px;
 }
 
@@ -493,23 +537,28 @@ function myFunctionVacher2018bayesian() {
 }
 
 .btn{
-  width: 100%;
-  height: 30px;
+  width: 90px;
+  height: 25px;
   background: url('https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png') no-repeat center;
   background-color: #e7e7e7;
   border-radius: 8px;
 }
+
+.inline{
+  display: inline-block;
+}
 &lt;/style&gt;
 
-&lt;span id=&quot;post2-LeCoent2018control&quot;&gt;Le Coënt, A., Fribourg, L. &amp;amp; Vacher, J. Control Synthesis for Stochastic Switched Systems using the Tamed Euler Method. in &lt;i&gt;IFAC-PapersOnLine&lt;/i&gt; &lt;b&gt;51&lt;/b&gt;, 259–264 (2018).&lt;/span&gt; 
-
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;column1&quot;&gt;
-		&lt;button class=&quot;btn&quot; onclick=&quot;myFunctionLeCoent2018control()&quot;&gt;&lt;/button&gt; 
-  	&lt;/div&gt;
-  	&lt;div class=&quot;column2&quot;&gt;
-    	&lt;a href=&quot;/pdf/LeCoent2018control.pdf&quot;&gt;&lt;img src=&quot;https://jonathanvacher.github.io/assets/icons/pdf_icon.png&quot; /&gt;&lt;/a&gt;
-  	&lt;/div&gt;
+&lt;span id=&quot;post2-LeCoent2018control&quot;&gt;Le Coënt, A., Fribourg, L. &amp;amp; Vacher, J. Control Synthesis for Stochastic Switched Systems using the Tamed Euler Method. in &lt;i&gt;IFAC-PapersOnLine&lt;/i&gt; &lt;b&gt;51&lt;/b&gt;, 259–264 (2018).&lt;/span&gt;
+&lt;div class=&quot;inline&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;column1&quot;&gt;
+        &lt;button class=&quot;btn&quot; onclick=&quot;myFunctionLeCoent2018control()&quot;&gt;&lt;/button&gt; 
+        &lt;/div&gt;
+        &lt;div class=&quot;column2&quot;&gt;
+        &lt;a href=&quot;/pdf/LeCoent2018control.pdf&quot;&gt;&lt;img src=&quot;https://jonathanvacher.github.io/assets/icons/pdf_icon.png&quot; float=&quot;right&quot; /&gt;&lt;/a&gt;     		
+        &lt;/div&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div id=&quot;LeCoent2018control-materials&quot; style=&quot;display:none&quot;&gt;
@@ -528,8 +577,6 @@ function myFunctionVacher2018bayesian() {
 }
 &lt;/pre&gt;
 &lt;/div&gt;
-
-
 &lt;script&gt;
 function myFunctionLeCoent2018control() {
   var x = document.getElementById(&quot;LeCoent2018control-materials&quot;);
@@ -540,8 +587,10 @@ function myFunctionLeCoent2018control() {
     x.style.display = &quot;none&quot;;
   }
 }
+/*
+ &lt;div class=&quot;column0&quot;&gt;
+  	&lt;/div&gt; */
 &lt;/script&gt;
-
 &lt;/li&gt;&lt;/ol&gt;
 
 &lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;!--&lt;a class=&quot;citation&quot; href=&quot;#post2-LeCoent2018control&quot;&gt;&lt;span style=&quot;vertical-align: super&quot;&gt;1&lt;/span&gt;&lt;/a&gt;--&gt;&lt;/h2&gt;

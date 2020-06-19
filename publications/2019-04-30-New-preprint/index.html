@@ -301,13 +301,15 @@ in <a href="/publications/" class="flip-title">Publications</a>
 
 .column1 {
   float: left;
-  width: 17.5%;
+  width: 90px;
+  height: 25px;
   padding: 0px;
 }
 
 .column2 {
   float: left;
-  width: 12.5%;
+  width: 90px;
+  height: 25px;
   padding: 8px;
 }
 
@@ -319,29 +321,34 @@ in <a href="/publications/" class="flip-title">Publications</a>
 }
 
 .btn{
-  width: 100%;
-  height: 30px;
+  width: 90px;
+  height: 25px;
   background: url('https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png') no-repeat center;
   background-color: #e7e7e7;
   border-radius: 8px;
 }
+
+.inline{
+  display: inline-block;
+}
 </style>
 
-<span id="post2-vacher2019probabilistic">Vacher, J., Mamassian, P. &amp; Coen-Cagli, R. Probabilistic Model of Visual Segmentation. <i>arXiv preprint arXiv:1806.00111</i> (2019).</span> 
-
-<div class="row">
-	<div class="column1">
-		<button class="btn" onclick="myFunctionvacher2019probabilistic()"></button> 
-  	</div>
-  	<div class="column2">
-    	<a href="/pdf/vacher2019probabilistic.pdf">
-  <hy-img root-margin="512px"  src="https://jonathanvacher.github.io/assets/icons/pdf_icon.png" >
-    <noscript><img data-ignore  src="https://jonathanvacher.github.io/assets/icons/pdf_icon.png" /></noscript>
+<span id="post2-vacher2019probabilistic">Vacher, J., Mamassian, P. &amp; Coen-Cagli, R. Probabilistic Model of Visual Segmentation. <i>arXiv preprint arXiv:1806.00111</i> (2019).</span>
+<div class="inline">
+    <div class="row">
+        <div class="column1">
+        <button class="btn" onclick="myFunctionvacher2019probabilistic()"></button> 
+        </div>
+        <div class="column2">
+        <a href="/pdf/vacher2019probabilistic.pdf">
+  <hy-img root-margin="512px"  src="https://jonathanvacher.github.io/assets/icons/pdf_icon.png" float="right" >
+    <noscript><img data-ignore  src="https://jonathanvacher.github.io/assets/icons/pdf_icon.png" float="right" /></noscript>
     <span class="loading" slot="loading" hidden>
       <span class="icon-cog"></span>
     </span>
-  </hy-img></a>
-  	</div>
+  </hy-img></a>     		
+        </div>
+    </div>
 </div>
 
 <div id="vacher2019probabilistic-materials" style="display:none">
@@ -353,8 +360,6 @@ in <a href="/publications/" class="flip-title">Publications</a>
 }
 </pre>
 </div>
-
-
 <script>
 function myFunctionvacher2019probabilistic() {
   var x = document.getElementById("vacher2019probabilistic-materials");
@@ -365,8 +370,10 @@ function myFunctionvacher2019probabilistic() {
     x.style.display = "none";
   }
 }
+/*
+ <div class="column0">
+  	</div> */
 </script>
-
 </li></ol>
 
 <h2 id="abstract">Abstract<!--<a class="citation" href="#post2-vacher2019probabilistic"><span style="vertical-align: super">1</span></a>--></h2>
