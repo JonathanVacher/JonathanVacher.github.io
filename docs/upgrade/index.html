@@ -36,9 +36,9 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 
 
   
-<!-- Begin Jekyll SEO tag v2.6.1 -->
+<!-- Begin Jekyll SEO tag v2.7.1 -->
 <title>Upgrade | Jonathan Vacher</title>
-<meta name="generator" content="Jekyll v3.8.6" />
+<meta name="generator" content="Jekyll v4.1.1" />
 <meta property="og:title" content="Upgrade" />
 <meta name="author" content="Jonathan Vacher" />
 <meta property="og:locale" content="en" />
@@ -47,8 +47,10 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 <link rel="canonical" href="https://jonathanvacher.github.io/docs/upgrade/" />
 <meta property="og:url" content="https://jonathanvacher.github.io/docs/upgrade/" />
 <meta property="og:site_name" content="Jonathan Vacher" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Upgrade" />
 <script type="application/ld+json">
-{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://jonathanvacher.github.io/assets/icons/myphoto.jpg"},"name":"Jonathan Vacher"},"@type":"WebPage","headline":"Upgrade","author":{"@type":"Person","name":"Jonathan Vacher"},"url":"https://jonathanvacher.github.io/docs/upgrade/","description":"This chapter shows how to upgrade Hydejack to a newer version. The method depends on how you’ve installed Hydejack.","@context":"https://schema.org"}</script>
+{"@type":"WebPage","headline":"Upgrade","url":"https://jonathanvacher.github.io/docs/upgrade/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://jonathanvacher.github.io/assets/icons/myphoto.jpg"},"name":"Jonathan Vacher"},"author":{"@type":"Person","name":"Jonathan Vacher"},"description":"This chapter shows how to upgrade Hydejack to a newer version. The method depends on how you’ve installed Hydejack.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -228,12 +230,12 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 especially the part about the <a href="/CHANGELOG/#license-change">license change</a>!</p>
 
 <h2 id="via-starter-kit">Via Starter Kit</h2>
-<p>When using the Starter Kit, upgrading Hydejack is as simple as setting the <code class="highlighter-rouge">remote_theme</code> key in <code class="highlighter-rouge">config.yml</code> to the desired version.</p>
+<p>When using the Starter Kit, upgrading Hydejack is as simple as setting the <code class="language-plaintext highlighter-rouge">remote_theme</code> key in <code class="language-plaintext highlighter-rouge">config.yml</code> to the desired version.</p>
 
 <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">remote_theme</span><span class="pi">:</span> <span class="s">qwtel/hydejack@v8.4.0</span>
 </code></pre></div></div>
 
-<p>To use the latest version on the <code class="highlighter-rouge">v8</code> branch on each build, you can use  <code class="highlighter-rouge">qwtel/hydejack@v8</code>.</p>
+<p>To use the latest version on the <code class="language-plaintext highlighter-rouge">v8</code> branch on each build, you can use  <code class="language-plaintext highlighter-rouge">qwtel/hydejack@v8</code>.</p>
 
 <h2 id="via-gem">Via gem</h2>
 <p>Upgrading the gem-based theme is as easy as running</p>
@@ -248,15 +250,15 @@ and the prime reason why I suggest using the gem-based version of the theme.</p>
 <p>Generally, you’ll want to copy these files and folders:</p>
 
 <ul>
-  <li><code class="highlighter-rouge">_includes/</code></li>
-  <li><code class="highlighter-rouge">_layouts/</code></li>
-  <li><code class="highlighter-rouge">_sass/</code></li>
-  <li><code class="highlighter-rouge">assets/</code></li>
-  <li><code class="highlighter-rouge">Gemfile</code></li>
-  <li><code class="highlighter-rouge">Gemfile.lock</code></li>
+  <li><code class="language-plaintext highlighter-rouge">_includes/</code></li>
+  <li><code class="language-plaintext highlighter-rouge">_layouts/</code></li>
+  <li><code class="language-plaintext highlighter-rouge">_sass/</code></li>
+  <li><code class="language-plaintext highlighter-rouge">assets/</code></li>
+  <li><code class="language-plaintext highlighter-rouge">Gemfile</code></li>
+  <li><code class="language-plaintext highlighter-rouge">Gemfile.lock</code></li>
 </ul>
 
-<p>and merge them with your existing folder. However, you’ll also want to check out <code class="highlighter-rouge">_data</code> and <code class="highlighter-rouge">_config.yml</code> for any changes
+<p>and merge them with your existing folder. However, you’ll also want to check out <code class="language-plaintext highlighter-rouge">_data</code> and <code class="language-plaintext highlighter-rouge">_config.yml</code> for any changes
 and read latest entries to the <a href="/CHANGELOG/" class="heading flip-title">CHANGELOG</a>.</p>
 
 <p class="message"><strong>NOTE</strong>: If you’ve modified any of Hydejack’s internal files, your changes will most likely be overwritten
@@ -264,7 +266,7 @@ and you have to apply them again.
 Make sure you’ve made a backup before overwriting any files.</p>
 
 <h2 id="via-git">Via git</h2>
-<p>The latest version sits on the <code class="highlighter-rouge">master</code> branch of <a href="https://github.com/qwtel/hydejack">qwtel/hydejack</a>.
+<p>The latest version sits on the <code class="language-plaintext highlighter-rouge">master</code> branch of <a href="https://github.com/qwtel/hydejack">qwtel/hydejack</a>.
 To apply them to your repository run</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git remote add hydejack git@github.com:qwtel/hydejack.git
@@ -272,7 +274,7 @@ To apply them to your repository run</p>
 </code></pre></div></div>
 
 <h2 id="pro-version">PRO Version</h2>
-<p>Buyers of the PRO version will find the files necessary for an upgrade in the <code class="highlighter-rouge">upgrade</code> folder of the downloaded zip archive.</p>
+<p>Buyers of the PRO version will find the files necessary for an upgrade in the <code class="language-plaintext highlighter-rouge">upgrade</code> folder of the downloaded zip archive.</p>
 
 <p class="message"><strong>NOTE</strong>: If you’ve modified any of Hydejack’s internal files, your changes will most likely be overwritten
 and you have to apply them again.

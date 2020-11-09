@@ -36,9 +36,9 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 
 
   
-<!-- Begin Jekyll SEO tag v2.6.1 -->
+<!-- Begin Jekyll SEO tag v2.7.1 -->
 <title>Build | Jonathan Vacher</title>
-<meta name="generator" content="Jekyll v3.8.6" />
+<meta name="generator" content="Jekyll v4.1.1" />
 <meta property="og:title" content="Build" />
 <meta name="author" content="Jonathan Vacher" />
 <meta property="og:locale" content="en" />
@@ -47,8 +47,10 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 <link rel="canonical" href="https://jonathanvacher.github.io/docs/build/" />
 <meta property="og:url" content="https://jonathanvacher.github.io/docs/build/" />
 <meta property="og:site_name" content="Jonathan Vacher" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Build" />
 <script type="application/ld+json">
-{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://jonathanvacher.github.io/assets/icons/myphoto.jpg"},"name":"Jonathan Vacher"},"@type":"WebPage","headline":"Build","author":{"@type":"Person","name":"Jonathan Vacher"},"url":"https://jonathanvacher.github.io/docs/build/","description":"This chapters shows how to prepare your Hydejack site for a production build and deployment on 3rd party hosting providers.","@context":"https://schema.org"}</script>
+{"@type":"WebPage","headline":"Build","url":"https://jonathanvacher.github.io/docs/build/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://jonathanvacher.github.io/assets/icons/myphoto.jpg"},"name":"Jonathan Vacher"},"author":{"@type":"Person","name":"Jonathan Vacher"},"description":"This chapters shows how to prepare your Hydejack site for a production build and deployment on 3rd party hosting providers.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -247,37 +249,37 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 <a href="https://jekyllrb.com/docs/assets/#sassscss">https://jekyllrb.com/docs/assets/#sassscss</a> for details.</p>
 
 <h2 id="building-locally">Building locally</h2>
-<p>When building Hydejack it is important to set the environment variable <code class="highlighter-rouge">JEKYLL_ENV</code> to <code class="highlighter-rouge">production</code>.
-Otherwise the output will not be minified. Building itself happens via Jekyll’s <code class="highlighter-rouge">build</code> command.</p>
+<p>When building Hydejack it is important to set the environment variable <code class="language-plaintext highlighter-rouge">JEKYLL_ENV</code> to <code class="language-plaintext highlighter-rouge">production</code>.
+Otherwise the output will not be minified. Building itself happens via Jekyll’s <code class="language-plaintext highlighter-rouge">build</code> command.</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ JEKYLL_ENV</span><span class="o">=</span>production bundle <span class="nb">exec </span>jekyll build
 </code></pre></div></div>
 
-<p>This will generate the finished static files in <code class="highlighter-rouge">_site</code>,
+<p>This will generate the finished static files in <code class="language-plaintext highlighter-rouge">_site</code>,
 which can be deployed using the methods outlined in the <a href="https://jekyllrb.com/docs/deployment-methods/">Jekyll Documentation</a>.</p>
 
 <h2 id="building-locally-with-latent-semantic-analysis">Building locally with latent semantic analysis</h2>
 <p>By default, related posts are simply the most recent posts.
 Hydejack modifies this a bit, by showing the most recent posts of the same category or tag.
 However, the results are still pretty “unrelated”.
-To provide better results, Jekyll supports <a href="https://en.wikipedia.org/wiki/Latent_semantic_analysis">latent semantic analysis</a> via <a href="http://www.classifier-reborn.com/"><code class="highlighter-rouge">classifier-reborn</code></a>’s
+To provide better results, Jekyll supports <a href="https://en.wikipedia.org/wiki/Latent_semantic_analysis">latent semantic analysis</a> via <a href="http://www.classifier-reborn.com/"><code class="language-plaintext highlighter-rouge">classifier-reborn</code></a>’s
 <a href="http://www.classifier-reborn.com/lsi">Latent Semantic Indexer</a></p>
 
 <p>To use the <abbr title="Latent Semantic Indexer">LSI</abbr>, you first have to disable Hydejack’s default behavior,
-by setting <code class="highlighter-rouge">use_lsi: true</code> under the <code class="highlighter-rouge">hydejack</code> key in your config file.</p>
+by setting <code class="language-plaintext highlighter-rouge">use_lsi: true</code> under the <code class="language-plaintext highlighter-rouge">hydejack</code> key in your config file.</p>
 
 <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: _config.yml</span>
 <span class="na">hydejack</span><span class="pi">:</span>
   <span class="na">use_lsi</span><span class="pi">:</span> <span class="no">true</span>
 </code></pre></div></div>
 
-<p>Then, you have to run <code class="highlighter-rouge">jekyll build</code> with the <code class="highlighter-rouge">--lsi</code> flag:</p>
+<p>Then, you have to run <code class="language-plaintext highlighter-rouge">jekyll build</code> with the <code class="language-plaintext highlighter-rouge">--lsi</code> flag:</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ JEKYLL_ENV</span><span class="o">=</span>production bundle <span class="nb">exec </span>jekyll build <span class="nt">--lsi</span>
 </code></pre></div></div>
 
 <p>Note that this may take a long time.
-Once it is finished, the generated static files will be located in the <code class="highlighter-rouge">_site</code> directory,
+Once it is finished, the generated static files will be located in the <code class="language-plaintext highlighter-rouge">_site</code> directory,
 which can be deployed using the methods outlined in the <a href="https://jekyllrb.com/docs/deployment-methods/">Jekyll Documentation</a>.</p>
 
 <h2 id="github-pages">GitHub Pages</h2>
@@ -293,10 +295,10 @@ which can be deployed using the methods outlined in the <a href="https://jekyllr
 </code></pre></div></div>
 
 <dl>
-  <dt><code class="highlighter-rouge">github_remote_url</code></dt>
+  <dt><code class="language-plaintext highlighter-rouge">github_remote_url</code></dt>
   <dd>Find this on your repository’s GitHub page.</dd>
-  <dt><code class="highlighter-rouge">remote_branch</code></dt>
-  <dd>Either <code class="highlighter-rouge">master</code> for “user or organization pages”, or <code class="highlighter-rouge">gh-pages</code> for “project pages”</dd>
+  <dt><code class="language-plaintext highlighter-rouge">remote_branch</code></dt>
+  <dd>Either <code class="language-plaintext highlighter-rouge">master</code> for “user or organization pages”, or <code class="language-plaintext highlighter-rouge">gh-pages</code> for “project pages”</dd>
 </dl>
 
 <p>More on <a href="https://help.github.com/articles/user-organization-and-project-pages/">user, organization, and project pages</a>.</p>
