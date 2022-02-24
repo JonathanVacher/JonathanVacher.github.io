@@ -1,5 +1,106 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://jonathanvacher.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jonathanvacher.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-01-30T15:25:01+01:00</updated><id>https://jonathanvacher.github.io/feed.xml</id><title type="html">Jonathan Vacher</title><subtitle>Postdoc @ Albert Einstein, New-York
-</subtitle><author><name>Jonathan Vacher</name><email>jonathan.vacher@ens.fr</email></author><entry><title type="html">Texture Interpolation for Probing Visual Perception</title><link href="https://jonathanvacher.github.io/publications/2020-12-09-Neurips-paper/" rel="alternate" type="text/html" title="Texture Interpolation for Probing Visual Perception" /><published>2020-12-09T00:00:00+01:00</published><updated>2020-12-09T00:00:00+01:00</updated><id>https://jonathanvacher.github.io/publications/Neurips-paper</id><content type="html" xml:base="https://jonathanvacher.github.io/publications/2020-12-09-Neurips-paper/">&lt;table&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://jonathanvacher.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jonathanvacher.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-02-24T12:18:08+01:00</updated><id>https://jonathanvacher.github.io/feed.xml</id><title type="html">Jonathan Vacher</title><subtitle>Postdoc @ Albert Einstein, New-York
+</subtitle><author><name>Jonathan Vacher</name><email>jonathan.vacher@ens.fr</email></author><entry><title type="html">Flexibly regularized mixture models and application to image segmentation</title><link href="https://jonathanvacher.github.io/publications/2022-02-08-NeuralNetworks-paper/" rel="alternate" type="text/html" title="Flexibly regularized mixture models and application to image segmentation" /><published>2022-02-08T00:00:00+01:00</published><updated>2022-02-08T00:00:00+01:00</updated><id>https://jonathanvacher.github.io/publications/NeuralNetworks-paper</id><content type="html" xml:base="https://jonathanvacher.github.io/publications/2022-02-08-NeuralNetworks-paper/">&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://doi.org/10.1016/j.neunet.2022.02.010&quot;&gt;Journal Version&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://arxiv.org/abs/1905.10629&quot;&gt;Pre-Print Version&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
+
+&lt;p&gt;We propose a new method to regularize mixture models using the data topology. We demonstrate multiple advantages of our models by apply them to the taks of image segmentation :&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;flexible update rule in the EM algorithm&lt;/li&gt;
+  &lt;li&gt;binding together mixture models (mutual-supervision ?)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!--&lt;a class=&quot;citation&quot; href=&quot;#post1-vacher2022flexibly&quot;&gt;&lt;span style=&quot;vertical-align: super&quot;&gt;1&lt;/span&gt;&lt;/a&gt;--&gt;
+
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;style&gt;
+* {
+  box-sizing: border-box;
+}
+
+.column1 {
+  float: left;
+  width: 90px;
+  height: 25px;
+  padding: 0px;
+}
+
+.column2 {
+  float: left;
+  width: 90px;
+  height: 25px;
+  padding: 8px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: &quot;&quot;;
+  clear: both;
+  display: table;
+}
+
+.btn{
+  width: 90px;
+  height: 25px;
+  background: url('https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png') no-repeat center;
+  background-color: #e7e7e7;
+  border-radius: 8px;
+}
+
+.inline{
+  display: inline-block;
+}
+&lt;/style&gt;
+
+&lt;span id=&quot;post2-vacher2022flexibly&quot;&gt;Vacher, J. &amp;amp; Coen-Cagli, R. Flexibly Regularized Mixture Models and Application to Image Segmentation. &lt;i&gt;Neural Networks&lt;/i&gt; &lt;b&gt;149&lt;/b&gt;, 107–123 (2022).&lt;/span&gt;
+&lt;div class=&quot;inline&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;column1&quot;&gt;
+        &lt;button class=&quot;btn&quot; onclick=&quot;myFunctionvacher2022flexibly()&quot;&gt;&lt;/button&gt; 
+        &lt;/div&gt;
+        &lt;div class=&quot;column2&quot;&gt;
+        &lt;a href=&quot;/pdf/vacher2022flexibly.pdf&quot;&gt;&lt;img src=&quot;https://jonathanvacher.github.io/assets/icons/pdf_icon.png&quot; float=&quot;right&quot; /&gt;&lt;/a&gt;     		
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;vacher2022flexibly-materials&quot; style=&quot;display:none&quot;&gt;
+	&lt;pre id=&quot;vacher2022flexibly-bibtex&quot; class=&quot;pre pre-scrollable collapse&quot;&gt;@article{vacher2022flexibly,
+  title = {Flexibly Regularized Mixture Models and Application to Image Segmentation},
+  journal = {Neural Networks},
+  volume = {149},
+  pages = {107-123},
+  year = {2022},
+  author = {Vacher, Jonathan and Coen-Cagli, Ruben},
+  issn = {0893-6080},
+  doi = {https://doi.org/10.1016/j.neunet.2022.02.010}
+}
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;script&gt;
+function myFunctionvacher2022flexibly() {
+  var x = document.getElementById(&quot;vacher2022flexibly-materials&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+  } 
+  else {
+    x.style.display = &quot;none&quot;;
+  }
+}
+/*
+ &lt;div class=&quot;column0&quot;&gt;
+  	&lt;/div&gt; */
+&lt;/script&gt;
+&lt;/li&gt;&lt;/ol&gt;
+
+&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;!--&lt;a class=&quot;citation&quot; href=&quot;#post2-vacher2022flexibly&quot;&gt;&lt;span style=&quot;vertical-align: super&quot;&gt;1&lt;/span&gt;&lt;/a&gt;--&gt;&lt;/h2&gt;
+
+&lt;p&gt;Probabilistic finite mixture models are widely used for unsupervised clustering. These models can often be improved by adapting them to the topology of the data. For instance, in order to classify spatially adjacent data points similarly, it is common to introduce a Laplacian constraint on the posterior probability that each data point belongs to a class. Alternatively, the mixing probabilities can be treated as free parameters, while assuming Gauss–Markov or more complex priors to regularize those mixing probabilities. However, these approaches are constrained by the shape of the prior and often lead to complicated or intractable inference. Here, we propose a new parametrization of the Dirichlet distribution to flexibly regularize the mixing probabilities of over-parametrized mixture distributions. Using the Expectation-Maximization algorithm, we show that our approach allows us to define any linear update rule for the mixing probabilities, including spatial smoothing regularization as a special case. We then show that this flexible design can be extended to share class information between multiple mixture models. We apply our algorithm to artificial and natural image segmentation tasks, and we provide quantitative and qualitative comparison of the performance of Gaussian and Student-t mixtures on the Berkeley Segmentation Dataset. We also demonstrate how to propagate class information across the layers of deep convolutional neural networks in a probabilistically optimal way, suggesting a new interpretation for feedback signals in biological visual systems. Our flexible approach can be easily generalized to adapt probabilistic mixture models to arbitrary data topologies.&lt;/p&gt;</content><author><name>Jonathan Vacher</name><email>jonathan.vacher@ens.fr</email></author><category term="publications" /><summary type="html">Journal Version Pre-Print Version</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/neuralnetworks.png" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/neuralnetworks.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Texture Interpolation for Probing Visual Perception</title><link href="https://jonathanvacher.github.io/publications/2020-12-09-Neurips-paper/" rel="alternate" type="text/html" title="Texture Interpolation for Probing Visual Perception" /><published>2020-12-09T00:00:00+01:00</published><updated>2020-12-09T00:00:00+01:00</updated><id>https://jonathanvacher.github.io/publications/Neurips-paper</id><content type="html" xml:base="https://jonathanvacher.github.io/publications/2020-12-09-Neurips-paper/">&lt;table&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;a href=&quot;https://neurips.cc/virtual/2020/protected/session_oral_21095.html&quot;&gt;Live stream&lt;/a&gt; 12/9/20 at 7:10 PM PST&lt;/td&gt;
@@ -369,91 +470,4 @@ function myFunctionvacher2019probabilistic() {
 
 &lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;!--&lt;a class=&quot;citation&quot; href=&quot;#post2-vacher2019probabilistic&quot;&gt;&lt;span style=&quot;vertical-align: super&quot;&gt;1&lt;/span&gt;&lt;/a&gt;--&gt;&lt;/h2&gt;
 
-&lt;p&gt;Visual segmentation is a key perceptual function that partitions visual space and allows for detection, recognition and discrimination of objects in complex environments. The processes underlying human segmentation of natural images are still poorly understood. In part, this is because we lack segmentation models consistent with experimental and theoretical knowledge in visual neuroscience. Biological sensory systems have been shown to approximate probabilistic inference to interpret their inputs. This requires a generative model that captures both the statistics of the sensory inputs and expectations about the causes of those inputs. Following this hypothesis, we propose a probabilistic generative model of visual segmentation that combines knowledge about 1) the sensitivity of neurons in the visual cortex to statistical regularities in natural images; and 2) the preference of humans to form contiguous partitions of visual space. We develop an efficient algorithm for training and inference based on expectation-maximization and validate it on synthetic data. Importantly, with the appropriate choice of the prior, we derive an intuitive closed–form update rule for assigning pixels to segments: at each iteration, the pixel assignment probabilities to segments is the sum of the evidence (i.e. local pixel statistics) and prior (i.e. the assignments of neighboring pixels) weighted by their relative uncertainty. The model performs competitively on natural images from the Berkeley Segmentation Dataset (BSD), and we illustrate how the likelihood and prior components improve segmentation relative to traditional mixture models. Furthermore, our model explains some variability across human subjects as reflecting local uncertainty about the number of segments. Our model thus provides a viable approach to probe human visual segmentation.&lt;/p&gt;</content><author><name>Jonathan Vacher</name><email>jonathan.vacher@ens.fr</email></author><category term="publications" /><summary type="html">Vacher, J., Mamassian, P. &amp;amp; Coen-Cagli, R. Probabilistic Model of Visual Segmentation. arXiv preprint arXiv:1806.00111 (2019). @article{vacher2019probabilistic, title = {Probabilistic Model of Visual Segmentation}, author = {Vacher, Jonathan and Mamassian, Pascal and Coen-Cagli, Ruben}, journal = {arXiv preprint arXiv:1806.00111}, year = {2019} }</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/probabilistic-seg.png" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/probabilistic-seg.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Bayesian modeling of motion perception using dynamical stochastic textures</title><link href="https://jonathanvacher.github.io/publications/2018-11-21-New-paper-in-Neural-Computation/" rel="alternate" type="text/html" title="Bayesian modeling of motion perception using dynamical stochastic textures" /><published>2018-11-21T00:00:00+01:00</published><updated>2018-11-21T00:00:00+01:00</updated><id>https://jonathanvacher.github.io/publications/New-paper-in-Neural-Computation</id><content type="html" xml:base="https://jonathanvacher.github.io/publications/2018-11-21-New-paper-in-Neural-Computation/">&lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
-
-&lt;p&gt;Reproduction of the Heeger-Bergen pyramid-based texture analysis/synthesis algorithm. Code in C and algorithmic details&lt;!--&lt;a class=&quot;citation&quot; href=&quot;#post1-Vacher2018bayesian&quot;&gt;&lt;span style=&quot;vertical-align: super&quot;&gt;1&lt;/span&gt;&lt;/a&gt;--&gt;.&lt;/p&gt;
-
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;style&gt;
-* {
-  box-sizing: border-box;
-}
-
-.column1 {
-  float: left;
-  width: 90px;
-  height: 25px;
-  padding: 0px;
-}
-
-.column2 {
-  float: left;
-  width: 90px;
-  height: 25px;
-  padding: 8px;
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-  content: &quot;&quot;;
-  clear: both;
-  display: table;
-}
-
-.btn{
-  width: 90px;
-  height: 25px;
-  background: url('https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png') no-repeat center;
-  background-color: #e7e7e7;
-  border-radius: 8px;
-}
-
-.inline{
-  display: inline-block;
-}
-&lt;/style&gt;
-
-&lt;span id=&quot;post2-Vacher2018bayesian&quot;&gt;Vacher, J., Meso, A. I., Perrinet, L. U. &amp;amp; Peyré, G. Bayesian modeling of motion perception using dynamical stochastic textures. &lt;i&gt;Neural computation&lt;/i&gt; &lt;b&gt;30&lt;/b&gt;, 3355–3392 (2018).&lt;/span&gt;
-&lt;div class=&quot;inline&quot;&gt;
-    &lt;div class=&quot;row&quot;&gt;
-        &lt;div class=&quot;column1&quot;&gt;
-        &lt;button class=&quot;btn&quot; onclick=&quot;myFunctionVacher2018bayesian()&quot;&gt;&lt;/button&gt; 
-        &lt;/div&gt;
-        &lt;div class=&quot;column2&quot;&gt;
-        &lt;a href=&quot;/pdf/Vacher2018bayesian.pdf&quot;&gt;&lt;img src=&quot;https://jonathanvacher.github.io/assets/icons/pdf_icon.png&quot; float=&quot;right&quot; /&gt;&lt;/a&gt;     		
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div id=&quot;Vacher2018bayesian-materials&quot; style=&quot;display:none&quot;&gt;
-	&lt;pre id=&quot;Vacher2018bayesian-bibtex&quot; class=&quot;pre pre-scrollable collapse&quot;&gt;@article{Vacher2018bayesian,
-  title = {Bayesian modeling of motion perception using dynamical stochastic textures},
-  author = {Vacher, Jonathan and Meso, Andrew Isaac and Perrinet, Laurent U and Peyr{\'e}, Gabriel},
-  journal = {Neural computation},
-  volume = {30},
-  number = {12},
-  pages = {3355--3392},
-  year = {2018},
-  publisher = {MIT Press},
-  doi = {10.1162/neco_a_01142}
-}
-&lt;/pre&gt;
-&lt;/div&gt;
-&lt;script&gt;
-function myFunctionVacher2018bayesian() {
-  var x = document.getElementById(&quot;Vacher2018bayesian-materials&quot;);
-  if (x.style.display === &quot;none&quot;) {
-    x.style.display = &quot;block&quot;;
-  } 
-  else {
-    x.style.display = &quot;none&quot;;
-  }
-}
-/*
- &lt;div class=&quot;column0&quot;&gt;
-  	&lt;/div&gt; */
-&lt;/script&gt;
-&lt;/li&gt;&lt;/ol&gt;
-
-&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;!--&lt;a class=&quot;citation&quot; href=&quot;#post2-Vacher2018bayesian&quot;&gt;&lt;span style=&quot;vertical-align: super&quot;&gt;1&lt;/span&gt;&lt;/a&gt;--&gt;&lt;/h2&gt;
-
-&lt;p&gt;A common practice to account for psychophysical biases in vision is to frame them as consequences of a dynamic process relying on optimal inference with respect to a generative model. The present study details the complete formulation of such a gen-erative model intended to probe visual motion perception. It is first derived in a set of axiomatic steps constrained by biological plausibility. We then extend previous con-tributions by detailing three equivalent formulations of the Gaussian dynamic texture model. First, the composite dynamic textures are constructed by the random aggrega-tion of warped patterns, which can be viewed as 3D Gaussian fields. Second, these textures are cast as solutions to a stochastic partial differential equation (sPDE). This essential step enables real time, on-the-fly, texture synthesis using time-discretized auto-regressive processes. It also allows for the derivation of a local motion-energy model, which corresponds to the log-likelihood of the probability density. The log-likelihoods are finally essential for the construction of a Bayesian inference framework. We use the model to probe speed perception in humans psychophysically using zoom-like changes in stimulus spatial frequency content. The likelihood is contained within the genera-tive model and we chose a slow speed prior consistent with previous literature. We then validated the fitting process of the model using synthesized data. The human data replicates previous findings that relative perceived speed is positively biased by spatial frequency increments. The effect cannot be fully accounted for by previous models, but the current prior acting on the spatio-temporal likelihoods has proved necessary in accounting for the perceptual bias.&lt;/p&gt;</content><author><name>Jonathan Vacher</name><email>jonathan.vacher@ens.fr</email></author><category term="publications" /><summary type="html">Vacher, J., Meso, A. I., Perrinet, L. U. &amp;amp; Peyré, G. Bayesian modeling of motion perception using dynamical stochastic textures. Neural computation 30, 3355–3392 (2018). @article{Vacher2018bayesian, title = {Bayesian modeling of motion perception using dynamical stochastic textures}, author = {Vacher, Jonathan and Meso, Andrew Isaac and Perrinet, Laurent U and Peyr{\'e}, Gabriel}, journal = {Neural computation}, volume = {30}, number = {12}, pages = {3355--3392}, year = {2018}, publisher = {MIT Press}, doi = {10.1162/neco_a_01142} }</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/neco-2018.png" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/neco-2018.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;Visual segmentation is a key perceptual function that partitions visual space and allows for detection, recognition and discrimination of objects in complex environments. The processes underlying human segmentation of natural images are still poorly understood. In part, this is because we lack segmentation models consistent with experimental and theoretical knowledge in visual neuroscience. Biological sensory systems have been shown to approximate probabilistic inference to interpret their inputs. This requires a generative model that captures both the statistics of the sensory inputs and expectations about the causes of those inputs. Following this hypothesis, we propose a probabilistic generative model of visual segmentation that combines knowledge about 1) the sensitivity of neurons in the visual cortex to statistical regularities in natural images; and 2) the preference of humans to form contiguous partitions of visual space. We develop an efficient algorithm for training and inference based on expectation-maximization and validate it on synthetic data. Importantly, with the appropriate choice of the prior, we derive an intuitive closed–form update rule for assigning pixels to segments: at each iteration, the pixel assignment probabilities to segments is the sum of the evidence (i.e. local pixel statistics) and prior (i.e. the assignments of neighboring pixels) weighted by their relative uncertainty. The model performs competitively on natural images from the Berkeley Segmentation Dataset (BSD), and we illustrate how the likelihood and prior components improve segmentation relative to traditional mixture models. Furthermore, our model explains some variability across human subjects as reflecting local uncertainty about the number of segments. Our model thus provides a viable approach to probe human visual segmentation.&lt;/p&gt;</content><author><name>Jonathan Vacher</name><email>jonathan.vacher@ens.fr</email></author><category term="publications" /><summary type="html">Vacher, J., Mamassian, P. &amp;amp; Coen-Cagli, R. Probabilistic Model of Visual Segmentation. arXiv preprint arXiv:1806.00111 (2019). @article{vacher2019probabilistic, title = {Probabilistic Model of Visual Segmentation}, author = {Vacher, Jonathan and Mamassian, Pascal and Coen-Cagli, Ruben}, journal = {arXiv preprint arXiv:1806.00111}, year = {2019} }</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/probabilistic-seg.png" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/probabilistic-seg.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

@@ -216,7 +216,7 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
   <li><strong>Natural Image Models for Vision Studies</strong></li>
 </ul>
 
-<p>The ultimate goal is to have a controlled model of natural movies/images. First, I am interested in texture synthesis. I exploit the potential of the Stochastic Partial Differential Equation (sPDE) formulation of dynamic textures<a class="citation" href="#A1-Vacher2015biologically"><span style="vertical-align: super">1</span></a><sup>,</sup><a class="citation" href="#A1-Vacher2018bayesian"><span style="vertical-align: super">2</span></a> to provide well-controlled non-stationary (in time) dynamic textures to experimentalists (see some stationary <a href="/MC_examples">examples</a>). In particular, I explore the possibility of on the fly texture synthesis of spatially naturalistic textures<a class="citation" href="#A1-vacher2020texture"><span style="vertical-align: super">3</span></a>. Second, I am interested in image segmentation. I work on incorporating a key missing ingredient to the probabilistic segmentation algorithm I have developed<a class="citation" href="#A1-vacher2021flexibly"><span style="vertical-align: super">4</span></a> : contours. My approach is to study contour statistics in natural image in order to find a generative model of natural image contours.</p>
+<p>The ultimate goal is to have a controlled model of natural movies/images. First, I am interested in texture synthesis. I exploit the potential of the Stochastic Partial Differential Equation (sPDE) formulation of dynamic textures<a class="citation" href="#A1-Vacher2015biologically"><span style="vertical-align: super">1</span></a><sup>,</sup><a class="citation" href="#A1-Vacher2018bayesian"><span style="vertical-align: super">2</span></a> to provide well-controlled non-stationary (in time) dynamic textures to experimentalists (see some stationary <a href="/MC_examples">examples</a>). In particular, I explore the possibility of on the fly texture synthesis of spatially naturalistic textures<a class="citation" href="#A1-vacher2020texture"><span style="vertical-align: super">3</span></a>. Second, I am interested in image segmentation. I work on incorporating a key missing ingredient to the probabilistic segmentation algorithm I have developed<a class="citation" href="#A1-vacher2022flexibly"><span style="vertical-align: super">4</span></a> : contours. My approach is to study contour statistics in natural image in order to find a generative model of natural image contours.</p>
 
 <ul>
   <li><strong>From Theory of Perception to Machine Learning</strong></li>
@@ -520,14 +520,14 @@ function myFunctionvacher2020texture() {
 }
 </style>
 
-<span id="A1-vacher2021flexibly">Vacher, J. &amp; Coen-Cagli, R. Flexibly Regularized Mixture Models and Application to Image Segmentation. <i>arXiv preprint arXiv:1905.10629</i> (2021).</span>
+<span id="A1-vacher2022flexibly">Vacher, J. &amp; Coen-Cagli, R. Flexibly Regularized Mixture Models and Application to Image Segmentation. <i>Neural Networks</i> <b>149</b>, 107–123 (2022).</span>
 <div class="inline">
     <div class="row">
         <div class="column1">
-        <button class="btn" onclick="myFunctionvacher2021flexibly()"></button> 
+        <button class="btn" onclick="myFunctionvacher2022flexibly()"></button> 
         </div>
         <div class="column2">
-        <a href="/pdf/vacher2021flexibly.pdf">
+        <a href="/pdf/vacher2022flexibly.pdf">
   <hy-img root-margin="512px"  src="https://jonathanvacher.github.io/assets/icons/pdf_icon.png" float="right" >
     <noscript><img data-ignore  src="https://jonathanvacher.github.io/assets/icons/pdf_icon.png" float="right" /></noscript>
     <span class="loading" slot="loading" hidden>
@@ -538,18 +538,22 @@ function myFunctionvacher2020texture() {
     </div>
 </div>
 
-<div id="vacher2021flexibly-materials" style="display:none">
-	<pre id="vacher2021flexibly-bibtex" class="pre pre-scrollable collapse">@article{vacher2021flexibly,
+<div id="vacher2022flexibly-materials" style="display:none">
+	<pre id="vacher2022flexibly-bibtex" class="pre pre-scrollable collapse">@article{vacher2022flexibly,
   title = {Flexibly Regularized Mixture Models and Application to Image Segmentation},
+  journal = {Neural Networks},
+  volume = {149},
+  pages = {107-123},
+  year = {2022},
   author = {Vacher, Jonathan and Coen-Cagli, Ruben},
-  journal = {arXiv preprint arXiv:1905.10629},
-  year = {2021}
+  issn = {0893-6080},
+  doi = {https://doi.org/10.1016/j.neunet.2022.02.010}
 }
 </pre>
 </div>
 <script>
-function myFunctionvacher2021flexibly() {
-  var x = document.getElementById("vacher2021flexibly-materials");
+function myFunctionvacher2022flexibly() {
+  var x = document.getElementById("vacher2022flexibly-materials");
   if (x.style.display === "none") {
     x.style.display = "block";
   } 
