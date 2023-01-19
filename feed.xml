@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://jonathanvacher.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jonathanvacher.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-01-19T12:49:40+01:00</updated><id>https://jonathanvacher.github.io/feed.xml</id><title type="html">Jonathan Vacher</title><subtitle>Postdoc @ Albert Einstein, New-York
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://jonathanvacher.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jonathanvacher.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-01-19T13:04:31+01:00</updated><id>https://jonathanvacher.github.io/feed.xml</id><title type="html">Jonathan Vacher</title><subtitle>Postdoc @ Albert Einstein, New-York
 </subtitle><author><name>Jonathan Vacher</name><email>jonathan.vacher@ens.fr</email></author><entry><title type="html">Flexibly regularized mixture models and application to image segmentation</title><link href="https://jonathanvacher.github.io/publications/2022-02-08-NeuralNetworks-paper/" rel="alternate" type="text/html" title="Flexibly regularized mixture models and application to image segmentation" /><published>2022-02-08T00:00:00+01:00</published><updated>2022-02-08T00:00:00+01:00</updated><id>https://jonathanvacher.github.io/publications/NeuralNetworks-paper</id><content type="html" xml:base="https://jonathanvacher.github.io/publications/2022-02-08-NeuralNetworks-paper/">&lt;table&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
@@ -157,7 +157,7 @@ function myFunctionvacher2022flexibly() {
 }
 &lt;/style&gt;
 
-&lt;span id=&quot;post2-vacher2020texture&quot;&gt;Vacher, J., Davila, A., Kohn, A. &amp;amp; Coen-Cagli, R. Texture Interpolation for Probing Visual Perception. &lt;i&gt;Advances in Neural Information Processing Systems&lt;/i&gt; (2020).&lt;/span&gt;
+&lt;span id=&quot;post2-vacher2020texture&quot;&gt;Vacher, J., Davila, A., Kohn, A. &amp;amp; Coen-Cagli, R. Texture Interpolation for Probing Visual Perception. in &lt;i&gt;Advances in Neural Information Processing Systems&lt;/i&gt; (2020).&lt;/span&gt;
 &lt;div class=&quot;inline&quot;&gt;
     &lt;div class=&quot;row&quot;&gt;
         &lt;div class=&quot;column1&quot;&gt;
@@ -170,7 +170,7 @@ function myFunctionvacher2022flexibly() {
 &lt;/div&gt;
 
 &lt;div id=&quot;vacher2020texture-materials&quot; style=&quot;display:none&quot;&gt;
-	&lt;pre id=&quot;vacher2020texture-bibtex&quot; class=&quot;pre pre-scrollable collapse&quot;&gt;@article{vacher2020texture,
+	&lt;pre id=&quot;vacher2020texture-bibtex&quot; class=&quot;pre pre-scrollable collapse&quot;&gt;@inproceedings{vacher2020texture,
   title = {Texture Interpolation for Probing Visual Perception},
   author = {Vacher, Jonathan and Davila, Aida and Kohn, Adam and Coen-Cagli, Ruben},
   journal = {Advances in Neural Information Processing Systems},
