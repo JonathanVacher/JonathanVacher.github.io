@@ -1,5 +1,186 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://jonathanvacher.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jonathanvacher.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-01-20T18:25:38+01:00</updated><id>https://jonathanvacher.github.io/feed.xml</id><title type="html">Jonathan Vacher</title><subtitle>Postdoc @ Albert Einstein, New-York
-</subtitle><author><name>Jonathan Vacher</name><email>jonathan.vacher@ens.fr</email></author><entry><title type="html">Flexibly regularized mixture models and application to image segmentation</title><link href="https://jonathanvacher.github.io/publications/2022-02-08-NeuralNetworks-paper/" rel="alternate" type="text/html" title="Flexibly regularized mixture models and application to image segmentation" /><published>2022-02-08T00:00:00+01:00</published><updated>2022-02-08T00:00:00+01:00</updated><id>https://jonathanvacher.github.io/publications/NeuralNetworks-paper</id><content type="html" xml:base="https://jonathanvacher.github.io/publications/2022-02-08-NeuralNetworks-paper/">&lt;table&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://jonathanvacher.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jonathanvacher.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-01-20T22:28:48+01:00</updated><id>https://jonathanvacher.github.io/feed.xml</id><title type="html">Jonathan Vacher</title><subtitle>Postdoc @ Albert Einstein, New-York
+</subtitle><author><name>Jonathan Vacher</name><email>jonathan.vacher@ens.fr</email></author><entry><title type="html">Measuring uncertainty in human visual segmentation </title><link href="https://jonathanvacher.github.io/publications/2023-01-18-New-preprint/" rel="alternate" type="text/html" title="Measuring uncertainty in human visual segmentation " /><published>2023-01-18T00:00:00+01:00</published><updated>2023-01-18T00:00:00+01:00</updated><id>https://jonathanvacher.github.io/publications/New-preprint</id><content type="html" xml:base="https://jonathanvacher.github.io/publications/2023-01-18-New-preprint/">&lt;p&gt;&lt;a href=&quot;https://arxiv.org/abs/2301.07807&quot;&gt;Pre-Print Version&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
+
+&lt;p&gt;(i) We introduce the first experimental method to measure perceptual segmentation on arbitrary images. (ii) We capture individual-level variability and relate it to perceptual uncertainty, which is necessary to understand human perception. (iii) We offer computational tools to fit any segmentation algorithm to the data, which will enable new benchmarks for computer vision algorithms, and testing computational theories of perceptual segmentation.&lt;/p&gt;
+
+&lt;!--&lt;a class=&quot;citation&quot; href=&quot;#post1-vacher2023measuring&quot;&gt;&lt;span style=&quot;vertical-align: super&quot;&gt;1&lt;/span&gt;&lt;/a&gt;--&gt;
+
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;style&gt;
+* {
+  box-sizing: border-box;
+}
+
+.column1 {
+  float: left;
+  width: 90px;
+  height: 25px;
+  padding: 0px;
+}
+
+.column2 {
+  float: left;
+  width: 90px;
+  height: 25px;
+  padding: 8px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: &quot;&quot;;
+  clear: both;
+  display: table;
+}
+
+.btn{
+  width: 90px;
+  height: 25px;
+  background: url('https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png') no-repeat center;
+  background-color: #e7e7e7;
+  border-radius: 8px;
+}
+
+.inline{
+  display: inline-block;
+}
+&lt;/style&gt;
+
+&lt;span id=&quot;post2-vacher2023measuring&quot;&gt;Vacher, J., Launay, C., Mamassian, P. &amp;amp; Coen-Cagli, R. Measuring uncertainty in human visual segmentation . &lt;i&gt;arXiv preprint arXiv:2301.07807&lt;/i&gt; (2023).&lt;/span&gt;
+&lt;div class=&quot;inline&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;column1&quot;&gt;
+        &lt;button class=&quot;btn&quot; onclick=&quot;myFunctionvacher2023measuring()&quot;&gt;&lt;/button&gt; 
+        &lt;/div&gt;
+        &lt;div class=&quot;column2&quot;&gt;
+        &lt;a href=&quot;/pdf/vacher2023measuring.pdf&quot;&gt;&lt;img src=&quot;https://jonathanvacher.github.io/assets/icons/pdf_icon.png&quot; float=&quot;right&quot; /&gt;&lt;/a&gt;     		
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;vacher2023measuring-materials&quot; style=&quot;display:none&quot;&gt;
+	&lt;pre id=&quot;vacher2023measuring-bibtex&quot; class=&quot;pre pre-scrollable collapse&quot;&gt;@article{vacher2023measuring,
+  title = {Measuring uncertainty in human visual segmentation },
+  author = {Vacher, Jonathan and Launay, Claire and Mamassian, Pascal and Coen-Cagli, Ruben},
+  journal = {arXiv preprint arXiv:2301.07807},
+  year = {2023}
+}
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;script&gt;
+function myFunctionvacher2023measuring() {
+  var x = document.getElementById(&quot;vacher2023measuring-materials&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+  } 
+  else {
+    x.style.display = &quot;none&quot;;
+  }
+}
+/*
+ &lt;div class=&quot;column0&quot;&gt;
+  	&lt;/div&gt; */
+&lt;/script&gt;
+&lt;/li&gt;&lt;/ol&gt;
+
+&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;!--&lt;a class=&quot;citation&quot; href=&quot;#post2-vacher2023measuring&quot;&gt;&lt;span style=&quot;vertical-align: super&quot;&gt;1&lt;/span&gt;&lt;/a&gt;--&gt;&lt;/h2&gt;
+
+&lt;p&gt;Segmenting visual stimuli into distinct groups of features and visual objects is central to visual function. Classical psychophysical methods have helped uncover many rules of human perceptual segmentation, and recent progress in machine learning has produced successful algorithms. Yet, the computational logic of human segmentation remains unclear, partially because we lack well-controlled paradigms to measure perceptual segmentation maps and compare models quantitatively. Here we propose a new, integrated approach: given an image, we measure multiple pixel-based same–different judgments and perform model–based reconstruction of the underlying segmentation map. The reconstruction is robust to several experimental manipulations and captures the variability of individual participants. We demonstrate the validity of the approach on human segmentation of natural images and composite textures. We show that image uncertainty affects measured human variability, and it influences how participants weigh different visual features. Because any putative segmentation algorithm can be inserted to perform the reconstruction, our paradigm affords quantitative tests of theories of perception as well as new benchmarks for segmentation algorithms.&lt;/p&gt;</content><author><name>Jonathan Vacher</name><email>jonathan.vacher@ens.fr</email></author><category term="publications" /><summary type="html">Pre-Print Version</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/vacher2023measuring.png" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/vacher2023measuring.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Unsupervised Video Segmentation Algorithms Based On Flexibly Regularized Mixture Models</title><link href="https://jonathanvacher.github.io/publications/2022-10-16-ICIP-paper/" rel="alternate" type="text/html" title="Unsupervised Video Segmentation Algorithms Based On Flexibly Regularized Mixture Models" /><published>2022-10-16T00:00:00+02:00</published><updated>2022-10-16T00:00:00+02:00</updated><id>https://jonathanvacher.github.io/publications/ICIP-paper</id><content type="html" xml:base="https://jonathanvacher.github.io/publications/2022-10-16-ICIP-paper/">&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ieeexplore.ieee.org/document/9897691&quot;&gt;Proceedings Version&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9670685/&quot;&gt;Pre-Print Version&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
+
+&lt;p&gt;Claire Launay applied our algorithm based on mixture models to the task of video segmentation by propagating segmentation information across frames !&lt;/p&gt;
+
+&lt;!--&lt;a class=&quot;citation&quot; href=&quot;#post1-launay2022unsupervised&quot;&gt;&lt;span style=&quot;vertical-align: super&quot;&gt;1&lt;/span&gt;&lt;/a&gt;--&gt;
+
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;style&gt;
+* {
+  box-sizing: border-box;
+}
+
+.column1 {
+  float: left;
+  width: 90px;
+  height: 25px;
+  padding: 0px;
+}
+
+.column2 {
+  float: left;
+  width: 90px;
+  height: 25px;
+  padding: 8px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: &quot;&quot;;
+  clear: both;
+  display: table;
+}
+
+.btn{
+  width: 90px;
+  height: 25px;
+  background: url('https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png') no-repeat center;
+  background-color: #e7e7e7;
+  border-radius: 8px;
+}
+
+.inline{
+  display: inline-block;
+}
+&lt;/style&gt;
+
+&lt;span id=&quot;post2-launay2022unsupervised&quot;&gt;Launay, C., Vacher, J. &amp;amp; Coen-Cagli, R. Unsupervised Video Segmentation Algorithms Based On Flexibly Regularized Mixture Models. in &lt;i&gt;2022 IEEE International Conference on Image Processing (ICIP)&lt;/i&gt; 4073–4077 (IEEE, 2022).&lt;/span&gt;
+&lt;div class=&quot;inline&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;column1&quot;&gt;
+        &lt;button class=&quot;btn&quot; onclick=&quot;myFunctionlaunay2022unsupervised()&quot;&gt;&lt;/button&gt; 
+        &lt;/div&gt;
+        &lt;div class=&quot;column2&quot;&gt;
+        &lt;a href=&quot;/pdf/launay2022unsupervised.pdf&quot;&gt;&lt;img src=&quot;https://jonathanvacher.github.io/assets/icons/pdf_icon.png&quot; float=&quot;right&quot; /&gt;&lt;/a&gt;     		
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;launay2022unsupervised-materials&quot; style=&quot;display:none&quot;&gt;
+	&lt;pre id=&quot;launay2022unsupervised-bibtex&quot; class=&quot;pre pre-scrollable collapse&quot;&gt;@inproceedings{launay2022unsupervised,
+  title = {Unsupervised Video Segmentation Algorithms Based On Flexibly Regularized Mixture Models},
+  author = {Launay, Claire and Vacher, Jonathan and Coen-Cagli, Ruben},
+  booktitle = {2022 IEEE International Conference on Image Processing (ICIP)},
+  pages = {4073--4077},
+  year = {2022},
+  organization = {IEEE}
+}
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;script&gt;
+function myFunctionlaunay2022unsupervised() {
+  var x = document.getElementById(&quot;launay2022unsupervised-materials&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+  } 
+  else {
+    x.style.display = &quot;none&quot;;
+  }
+}
+/*
+ &lt;div class=&quot;column0&quot;&gt;
+  	&lt;/div&gt; */
+&lt;/script&gt;
+&lt;/li&gt;&lt;/ol&gt;
+
+&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;!--&lt;a class=&quot;citation&quot; href=&quot;#post2-launay2022unsupervised&quot;&gt;&lt;span style=&quot;vertical-align: super&quot;&gt;1&lt;/span&gt;&lt;/a&gt;--&gt;&lt;/h2&gt;
+
+&lt;p&gt;We propose a family of probabilistic segmentation algorithms for videos that rely on a generative model capturing static and dynamic natural image statistics. Our framework adopts flexibly regularized mixture models (FlexMM) [1], an efficient method to combine mixture distributions across different data sources. FlexMMs of Student-t distributions successfully segment static natural images, through uncertainty-based information sharing between hidden layers of CNNs. We further extend this approach to videos and exploit FlexMM to propagate segment labels across space and time. We show that temporal propagation improves temporal consistency of segmentation, reproducing qualitatively a key aspect of human perceptual grouping. Besides, Student-t distributions can capture statistics of optical flows of natural movies, which represent apparent motion in the video. Integrating these motion cues in our temporal FlexMM further enhances the segmentation of each frame of natural movies. Our probabilistic dynamic segmentation algorithms thus provide a new framework to study uncertainty in human dynamic perceptual segmentation.&lt;/p&gt;</content><author><name>Jonathan Vacher</name><email>jonathan.vacher@ens.fr</email></author><category term="publications" /><summary type="html">Proceedings Version Pre-Print Version</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/launay_icip_2022.png" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/launay_icip_2022.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Tenured position</title><link href="https://jonathanvacher.github.io/milestones/2022-09-01-tenured-position/" rel="alternate" type="text/html" title="Tenured position" /><published>2022-09-01T00:00:00+02:00</published><updated>2022-09-01T00:00:00+02:00</updated><id>https://jonathanvacher.github.io/milestones/tenured-position</id><content type="html" xml:base="https://jonathanvacher.github.io/milestones/2022-09-01-tenured-position/">&lt;p&gt;I will be Maître de Conférence in Applied Maths which is the french equivalent of Associate Professor.&lt;/p&gt;</content><author><name>Jonathan Vacher</name><email>jonathan.vacher@ens.fr</email></author><category term="milestones" /><summary type="html">I will be Maître de Conférence in Applied Maths which is the french equivalent of Associate Professor.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/map5.png" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/map5.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Flexibly regularized mixture models and application to image segmentation</title><link href="https://jonathanvacher.github.io/publications/2022-02-08-NeuralNetworks-paper/" rel="alternate" type="text/html" title="Flexibly regularized mixture models and application to image segmentation" /><published>2022-02-08T00:00:00+01:00</published><updated>2022-02-08T00:00:00+01:00</updated><id>https://jonathanvacher.github.io/publications/NeuralNetworks-paper</id><content type="html" xml:base="https://jonathanvacher.github.io/publications/2022-02-08-NeuralNetworks-paper/">&lt;table&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;a href=&quot;https://doi.org/10.1016/j.neunet.2022.02.010&quot;&gt;Journal Version&lt;/a&gt;&lt;/td&gt;
@@ -380,94 +561,4 @@ function myFunctionroggerone2019auditory() {
 
 &lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;!--&lt;a class=&quot;citation&quot; href=&quot;#post2-roggerone2019auditory&quot;&gt;&lt;span style=&quot;vertical-align: super&quot;&gt;1&lt;/span&gt;&lt;/a&gt;--&gt;&lt;/h2&gt;
 
-&lt;p&gt;Humans rely on auditory information to estimate the path of moving sound sources. But unlike in vision, the existence of motion-sensitive mechanisms in audition is still open to debate. Psychophysical studies indicate that auditory motion perception emerges from successive localization, but existing models fail to predict experimental results. However, these models do not account for any temporal integration. We propose a new model tracking motion using successive localization snapshots but integrated over time. This model is derived from psychophysical experiments on the upper limit for circular auditory motion perception (UL), defned as the speed above which humans no longer identify the direction of sounds spinning around them. Our model predicts ULs measured with diferent stimuli using solely static localization cues. The temporal integration blurs these localization cues rendering them unreliable at high speeds, which results in the UL. Our fndings indicate that auditory motion perception does not require motion-sensitive mechanisms.&lt;/p&gt;</content><author><name>Jonathan Vacher</name><email>jonathan.vacher@ens.fr</email></author><category term="publications" /><summary type="html">Roggerone, V., Vacher, J., Tarlao, C. &amp;amp; Guastavino, C. Auditory motion perception emerges from successive sound localizations integrated over time. Scientific Reports 9, 16437 (2019). @article{roggerone2019auditory, title = {Auditory motion perception emerges from successive sound localizations integrated over time}, author = {Roggerone, Vincent and Vacher, Jonathan and Tarlao, Cynthia and Guastavino, Catherine}, journal = {Scientific Reports}, volume = {9}, pages = {16437}, year = {2019}, publisher = {Nature Publishing Group}, doi = {10.1038/s41598-019-52742-0} }</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/figure-auditory-roggerone-2019.png" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/figure-auditory-roggerone-2019.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Contributed talk at ECVP !</title><link href="https://jonathanvacher.github.io/conferences/2019-08-29-talk-ecvp/" rel="alternate" type="text/html" title="Contributed talk at ECVP !" /><published>2019-08-29T00:00:00+02:00</published><updated>2019-08-29T00:00:00+02:00</updated><id>https://jonathanvacher.github.io/conferences/talk-ecvp</id><content type="html" xml:base="https://jonathanvacher.github.io/conferences/2019-08-29-talk-ecvp/">&lt;p&gt;Spatial context in images modulates visual perception reflecting optimization to the statistics of natural images. Popular models based on divisive normalization (ratio between target and context features) offer a link between optimal coding principles and contextual modulation in cortex. Here, we apply this framework to perceptual grouping in natural images, and more specifically to contour integration. First, we show that a successful model of image statistics based on normalization (termed Gaussian Scale Mixture, GSM) learns dependencies between colinear features in natural images. We then show analytically that image regions with strong normalization are statistical outliers of the model, and use this insight to distinguish high-salience regions due to high contrast from those corresponding to contours. To this aim, we extend the model to a mixture of GSMs, with each component encoding a specific orientation and curvature. Our model performs competitively on contour detection in natural images from the BSD500 database. We further evaluate our model by comparing its performance on iso-oriented Gabor elements embedded in Gabor noise (‘snakes’) to the psychophysics literature. Our model thus serves as an ideal observer for contour integration and a basis for future experiments on natural image segmentation.&lt;/p&gt;</content><author><name>Jonathan Vacher</name><email>jonathan.vacher@ens.fr</email></author><category term="conferences" /><summary type="html">Spatial context in images modulates visual perception reflecting optimization to the statistics of natural images. Popular models based on divisive normalization (ratio between target and context features) offer a link between optimal coding principles and contextual modulation in cortex. Here, we apply this framework to perceptual grouping in natural images, and more specifically to contour integration. First, we show that a successful model of image statistics based on normalization (termed Gaussian Scale Mixture, GSM) learns dependencies between colinear features in natural images. We then show analytically that image regions with strong normalization are statistical outliers of the model, and use this insight to distinguish high-salience regions due to high contrast from those corresponding to contours. To this aim, we extend the model to a mixture of GSMs, with each component encoding a specific orientation and curvature. Our model performs competitively on contour detection in natural images from the BSD500 database. We further evaluate our model by comparing its performance on iso-oriented Gabor elements embedded in Gabor noise (‘snakes’) to the psychophysics literature. Our model thus serves as an ideal observer for contour integration and a basis for future experiments on natural image segmentation.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/talk-ecvp-2019.png" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/talk-ecvp-2019.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Combining mixture models with linear mixing updates: multilayer image segmentation and synthesis</title><link href="https://jonathanvacher.github.io/publications/2019-05-25-New-preprint/" rel="alternate" type="text/html" title="Combining mixture models with linear mixing updates: multilayer image segmentation and synthesis" /><published>2019-05-25T00:00:00+02:00</published><updated>2019-05-25T00:00:00+02:00</updated><id>https://jonathanvacher.github.io/publications/New-preprint</id><content type="html" xml:base="https://jonathanvacher.github.io/publications/2019-05-25-New-preprint/">&lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
-
-&lt;p&gt;We propose a flexible framework for mixture models. We apply this framework to natural image segmentation using deepnet features at all layers. We show that these mixture models can achieve state-of-the-art boundary scores.&lt;!--(missing reference)--&gt;.&lt;/p&gt;
-
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
-
-&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;!--(missing reference)--&gt;&lt;/h2&gt;
-
-&lt;p&gt;Finite mixture models for clustering can often be improved by adding a regularization that is specific to the topology of the data. For instance, mixtures are common in unsupervised image segmentation, and typically rely on averaging the posterior mixing probabilities of spatially adjacent data points (i.e. smoothing). However, this approach has had limited success with natural images. Here we make three contributions. First, we show that a Dirichlet prior with an appropriate choice of parameters allows – using the Expectation-Maximization approach – to define any linear update rule for the mixing probabilities, including many smoothing regularizations as special cases. Second, we demonstrate how to use this flexible design of the update rule to propagate segmentation information across layers of a deep network, and to train mixtures jointly across layers. Third, we compare the standard Gaussian mixture and the Student-t mixture, which is known to better capture the statistics of low-level visual features. We show that our models achieve competitive performance in natural image segmentation, with the Student-t mixtures reaching state-of-the art on boundaries scores. We also demonstrate how to exploit the resulting multilayer probabilistic generative model to synthesize naturalistic images beyond uniform textures.&lt;/p&gt;</content><author><name>Jonathan Vacher</name><email>jonathan.vacher@ens.fr</email></author><category term="publications" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/combining.png" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/combining.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Probabilistic Model of Visual Segmentation</title><link href="https://jonathanvacher.github.io/publications/2019-04-30-New-preprint/" rel="alternate" type="text/html" title="Probabilistic Model of Visual Segmentation" /><published>2019-04-30T00:00:00+02:00</published><updated>2019-04-30T00:00:00+02:00</updated><id>https://jonathanvacher.github.io/publications/New-preprint</id><content type="html" xml:base="https://jonathanvacher.github.io/publications/2019-04-30-New-preprint/">&lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
-
-&lt;p&gt;A probabilistic model of visual segmentation with some insight about human uncertainties in segmentation.&lt;!--&lt;a class=&quot;citation&quot; href=&quot;#post1-vacher2019probabilistic&quot;&gt;&lt;span style=&quot;vertical-align: super&quot;&gt;1&lt;/span&gt;&lt;/a&gt;--&gt;.&lt;/p&gt;
-
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;style&gt;
-* {
-  box-sizing: border-box;
-}
-
-.column1 {
-  float: left;
-  width: 90px;
-  height: 25px;
-  padding: 0px;
-}
-
-.column2 {
-  float: left;
-  width: 90px;
-  height: 25px;
-  padding: 8px;
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-  content: &quot;&quot;;
-  clear: both;
-  display: table;
-}
-
-.btn{
-  width: 90px;
-  height: 25px;
-  background: url('https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png') no-repeat center;
-  background-color: #e7e7e7;
-  border-radius: 8px;
-}
-
-.inline{
-  display: inline-block;
-}
-&lt;/style&gt;
-
-&lt;span id=&quot;post2-vacher2019probabilistic&quot;&gt;Vacher, J., Mamassian, P. &amp;amp; Coen-Cagli, R. Probabilistic Model of Visual Segmentation. &lt;i&gt;arXiv preprint arXiv:1806.00111&lt;/i&gt; (2019).&lt;/span&gt;
-&lt;div class=&quot;inline&quot;&gt;
-    &lt;div class=&quot;row&quot;&gt;
-        &lt;div class=&quot;column1&quot;&gt;
-        &lt;button class=&quot;btn&quot; onclick=&quot;myFunctionvacher2019probabilistic()&quot;&gt;&lt;/button&gt; 
-        &lt;/div&gt;
-        &lt;div class=&quot;column2&quot;&gt;
-        &lt;a href=&quot;/pdf/vacher2019probabilistic.pdf&quot;&gt;&lt;img src=&quot;https://jonathanvacher.github.io/assets/icons/pdf_icon.png&quot; float=&quot;right&quot; /&gt;&lt;/a&gt;     		
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div id=&quot;vacher2019probabilistic-materials&quot; style=&quot;display:none&quot;&gt;
-	&lt;pre id=&quot;vacher2019probabilistic-bibtex&quot; class=&quot;pre pre-scrollable collapse&quot;&gt;@article{vacher2019probabilistic,
-  title = {Probabilistic Model of Visual Segmentation},
-  author = {Vacher, Jonathan and Mamassian, Pascal and Coen-Cagli, Ruben},
-  journal = {arXiv preprint arXiv:1806.00111},
-  year = {2019}
-}
-&lt;/pre&gt;
-&lt;/div&gt;
-&lt;script&gt;
-function myFunctionvacher2019probabilistic() {
-  var x = document.getElementById(&quot;vacher2019probabilistic-materials&quot;);
-  if (x.style.display === &quot;none&quot;) {
-    x.style.display = &quot;block&quot;;
-  } 
-  else {
-    x.style.display = &quot;none&quot;;
-  }
-}
-/*
- &lt;div class=&quot;column0&quot;&gt;
-  	&lt;/div&gt; */
-&lt;/script&gt;
-&lt;/li&gt;&lt;/ol&gt;
-
-&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;!--&lt;a class=&quot;citation&quot; href=&quot;#post2-vacher2019probabilistic&quot;&gt;&lt;span style=&quot;vertical-align: super&quot;&gt;1&lt;/span&gt;&lt;/a&gt;--&gt;&lt;/h2&gt;
-
-&lt;p&gt;Visual segmentation is a key perceptual function that partitions visual space and allows for detection, recognition and discrimination of objects in complex environments. The processes underlying human segmentation of natural images are still poorly understood. In part, this is because we lack segmentation models consistent with experimental and theoretical knowledge in visual neuroscience. Biological sensory systems have been shown to approximate probabilistic inference to interpret their inputs. This requires a generative model that captures both the statistics of the sensory inputs and expectations about the causes of those inputs. Following this hypothesis, we propose a probabilistic generative model of visual segmentation that combines knowledge about 1) the sensitivity of neurons in the visual cortex to statistical regularities in natural images; and 2) the preference of humans to form contiguous partitions of visual space. We develop an efficient algorithm for training and inference based on expectation-maximization and validate it on synthetic data. Importantly, with the appropriate choice of the prior, we derive an intuitive closed–form update rule for assigning pixels to segments: at each iteration, the pixel assignment probabilities to segments is the sum of the evidence (i.e. local pixel statistics) and prior (i.e. the assignments of neighboring pixels) weighted by their relative uncertainty. The model performs competitively on natural images from the Berkeley Segmentation Dataset (BSD), and we illustrate how the likelihood and prior components improve segmentation relative to traditional mixture models. Furthermore, our model explains some variability across human subjects as reflecting local uncertainty about the number of segments. Our model thus provides a viable approach to probe human visual segmentation.&lt;/p&gt;</content><author><name>Jonathan Vacher</name><email>jonathan.vacher@ens.fr</email></author><category term="publications" /><summary type="html">Vacher, J., Mamassian, P. &amp;amp; Coen-Cagli, R. Probabilistic Model of Visual Segmentation. arXiv preprint arXiv:1806.00111 (2019). @article{vacher2019probabilistic, title = {Probabilistic Model of Visual Segmentation}, author = {Vacher, Jonathan and Mamassian, Pascal and Coen-Cagli, Ruben}, journal = {arXiv preprint arXiv:1806.00111}, year = {2019} }</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/probabilistic-seg.png" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/probabilistic-seg.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;Humans rely on auditory information to estimate the path of moving sound sources. But unlike in vision, the existence of motion-sensitive mechanisms in audition is still open to debate. Psychophysical studies indicate that auditory motion perception emerges from successive localization, but existing models fail to predict experimental results. However, these models do not account for any temporal integration. We propose a new model tracking motion using successive localization snapshots but integrated over time. This model is derived from psychophysical experiments on the upper limit for circular auditory motion perception (UL), defned as the speed above which humans no longer identify the direction of sounds spinning around them. Our model predicts ULs measured with diferent stimuli using solely static localization cues. The temporal integration blurs these localization cues rendering them unreliable at high speeds, which results in the UL. Our fndings indicate that auditory motion perception does not require motion-sensitive mechanisms.&lt;/p&gt;</content><author><name>Jonathan Vacher</name><email>jonathan.vacher@ens.fr</email></author><category term="publications" /><summary type="html">Roggerone, V., Vacher, J., Tarlao, C. &amp;amp; Guastavino, C. Auditory motion perception emerges from successive sound localizations integrated over time. Scientific Reports 9, 16437 (2019). @article{roggerone2019auditory, title = {Auditory motion perception emerges from successive sound localizations integrated over time}, author = {Roggerone, Vincent and Vacher, Jonathan and Tarlao, Cynthia and Guastavino, Catherine}, journal = {Scientific Reports}, volume = {9}, pages = {16437}, year = {2019}, publisher = {Nature Publishing Group}, doi = {10.1038/s41598-019-52742-0} }</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/figure-auditory-roggerone-2019.png" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/figure-auditory-roggerone-2019.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
