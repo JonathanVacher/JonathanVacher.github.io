@@ -2,19 +2,19 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://jonathanvacher.github.io/code/</loc>
-<lastmod>2023-10-06T14:34:32+02:00</lastmod>
+<lastmod>2023-11-20T16:47:17+01:00</lastmod>
 </url>
 <url>
 <loc>https://jonathanvacher.github.io/conferences/</loc>
-<lastmod>2023-10-06T14:34:32+02:00</lastmod>
+<lastmod>2023-11-20T16:47:17+01:00</lastmod>
 </url>
 <url>
 <loc>https://jonathanvacher.github.io/milestones/</loc>
-<lastmod>2023-10-06T14:34:32+02:00</lastmod>
+<lastmod>2023-11-20T16:47:17+01:00</lastmod>
 </url>
 <url>
 <loc>https://jonathanvacher.github.io/publications/</loc>
-<lastmod>2023-10-06T14:34:32+02:00</lastmod>
+<lastmod>2023-11-20T16:47:17+01:00</lastmod>
 </url>
 <url>
 <loc>https://jonathanvacher.github.io/publications/2014-11-17-New-paper-in-IPOL/</loc>
@@ -95,6 +95,10 @@
 <url>
 <loc>https://jonathanvacher.github.io/publications/2023-10-06-New-paper/</loc>
 <lastmod>2023-10-06T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>https://jonathanvacher.github.io/publications/2023-11-20-New-preprint/</loc>
+<lastmod>2023-11-20T00:00:00+01:00</lastmod>
 </url>
 <url>
 <loc>https://jonathanvacher.github.io/2afc-stim-examples/</loc>
@@ -182,6 +186,9 @@
 </url>
 <url>
 <loc>https://jonathanvacher.github.io/blog/page-4/</loc>
+</url>
+<url>
+<loc>https://jonathanvacher.github.io/blog/page-5/</loc>
 </url>
 <url>
 <loc>https://jonathanvacher.github.io/assets/Resume.pdf</loc>
@@ -286,5 +293,9 @@
 <url>
 <loc>https://jonathanvacher.github.io/pdf/vacher2023measuring.pdf</loc>
 <lastmod>2023-01-20T18:25:01+01:00</lastmod>
+</url>
+<url>
+<loc>https://jonathanvacher.github.io/pdf/vacher2023perceptual.pdf</loc>
+<lastmod>2023-11-20T16:39:25+01:00</lastmod>
 </url>
 </urlset>

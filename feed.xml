@@ -1,5 +1,87 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://jonathanvacher.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jonathanvacher.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-10-06T14:34:32+02:00</updated><id>https://jonathanvacher.github.io/feed.xml</id><title type="html">Jonathan Vacher</title><subtitle>Postdoc @ Albert Einstein, New-York
-</subtitle><author><name>Jonathan Vacher</name><email>jonathan.vacher@ens.fr</email></author><entry><title type="html">Measuring uncertainty in human visual segmentation </title><link href="https://jonathanvacher.github.io/publications/2023-10-06-New-paper/" rel="alternate" type="text/html" title="Measuring uncertainty in human visual segmentation " /><published>2023-10-06T00:00:00+02:00</published><updated>2023-10-06T00:00:00+02:00</updated><id>https://jonathanvacher.github.io/publications/New-paper</id><content type="html" xml:base="https://jonathanvacher.github.io/publications/2023-10-06-New-paper/">&lt;p&gt;&lt;a href=&quot;https://doi.org/10.1371/journal.pcbi.1011483&quot;&gt;Published Version&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://jonathanvacher.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jonathanvacher.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-11-20T16:47:17+01:00</updated><id>https://jonathanvacher.github.io/feed.xml</id><title type="html">Jonathan Vacher</title><subtitle>Postdoc @ Albert Einstein, New-York
+</subtitle><author><name>Jonathan Vacher</name><email>jonathan.vacher@ens.fr</email></author><entry><title type="html">Perceptual Measurements, Distances and Metrics</title><link href="https://jonathanvacher.github.io/publications/2023-11-20-New-preprint/" rel="alternate" type="text/html" title="Perceptual Measurements, Distances and Metrics" /><published>2023-11-20T00:00:00+01:00</published><updated>2023-11-20T00:00:00+01:00</updated><id>https://jonathanvacher.github.io/publications/New-preprint</id><content type="html" xml:base="https://jonathanvacher.github.io/publications/2023-11-20-New-preprint/">&lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
+
+&lt;p&gt;We tested predictions of perceptual scales from Fisher information in a series of experiments. This will allow us to go beyond perceptual distances and get closer to perceptual geometry. &lt;!--&lt;a class=&quot;citation&quot; href=&quot;#post1-vacher2023perceptual&quot;&gt;&lt;span style=&quot;vertical-align: super&quot;&gt;1&lt;/span&gt;&lt;/a&gt;--&gt;.&lt;/p&gt;
+
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;style&gt;
+* {
+  box-sizing: border-box;
+}
+
+.column1 {
+  float: left;
+  width: 90px;
+  height: 25px;
+  padding: 0px;
+}
+
+.column2 {
+  float: left;
+  width: 90px;
+  height: 25px;
+  padding: 8px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: &quot;&quot;;
+  clear: both;
+  display: table;
+}
+
+.btn{
+  width: 90px;
+  height: 25px;
+  background: url(&apos;https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png&apos;) no-repeat center;
+  background-color: #e7e7e7;
+  border-radius: 8px;
+}
+
+.inline{
+  display: inline-block;
+}
+&lt;/style&gt;
+
+&lt;span id=&quot;post2-vacher2023perceptual&quot;&gt;Vacher, J. &amp;amp; Mamassian, P. Perceptual Measurements, Distances and Metrics. &lt;i&gt;arXiv preprint arXiv:2310.11759&lt;/i&gt; (2023).&lt;/span&gt;
+&lt;div class=&quot;inline&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;column1&quot;&gt;
+        &lt;button class=&quot;btn&quot; onclick=&quot;myFunctionvacher2023perceptual()&quot;&gt;&lt;/button&gt; 
+        &lt;/div&gt;
+        &lt;div class=&quot;column2&quot;&gt;
+        &lt;a href=&quot;/pdf/vacher2023perceptual.pdf&quot;&gt;&lt;img src=&quot;https://jonathanvacher.github.io/assets/icons/pdf_icon.png&quot; float=&quot;right&quot; /&gt;&lt;/a&gt;     		
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;vacher2023perceptual-materials&quot; style=&quot;display:none&quot;&gt;
+	&lt;pre id=&quot;vacher2023perceptual-bibtex&quot; class=&quot;pre pre-scrollable collapse&quot;&gt;@article{vacher2023perceptual,
+  title = {Perceptual Measurements, Distances and Metrics},
+  author = {Vacher, Jonathan and Mamassian, Pascal},
+  journal = {arXiv preprint arXiv:2310.11759},
+  year = {2023}
+}
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;script&gt;
+function myFunctionvacher2023perceptual() {
+  var x = document.getElementById(&quot;vacher2023perceptual-materials&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+  } 
+  else {
+    x.style.display = &quot;none&quot;;
+  }
+}
+/*
+ &lt;div class=&quot;column0&quot;&gt;
+  	&lt;/div&gt; */
+&lt;/script&gt;
+&lt;/li&gt;&lt;/ol&gt;
+
+&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;!--&lt;a class=&quot;citation&quot; href=&quot;#post2-vacher2023perceptual&quot;&gt;&lt;span style=&quot;vertical-align: super&quot;&gt;1&lt;/span&gt;&lt;/a&gt;--&gt;&lt;/h2&gt;
+
+&lt;p&gt;Perception is often viewed as a process that transforms physical variables, external to an observer, into internal psychological variables. Such a process can be modeled by a function coined &lt;em&gt;perceptual scale&lt;/em&gt;. The &lt;em&gt;perceptual scale&lt;/em&gt; can be deduced from psychophysical measurements that consist in comparing the relative differences between stimuli (&lt;em&gt;i.e.&lt;/em&gt; difference scaling experiments). However, this approach is often overlooked by the modeling and experimentation communities. Here, we demonstrate the value of measuring the &lt;em&gt;perceptual scale&lt;/em&gt; of classical (spatial frequency, orientation) and less classical physical variables (interpolation between textures) by embedding it in recent probabilistic modeling of perception. First, we show that the assumption that an observer has an internal representation of univariate parameters such as spatial frequency or orientation while stimuli are high-dimensional does not lead to contradictory predictions when following the theoretical framework. Second, we show that the measured &lt;em&gt;perceptual scale&lt;/em&gt; corresponds to the transduction function hypothesized in this framework. In particular, we demonstrate that it is related to the Fisher information of the generative model that underlies perception and we test the predictions given by the generative model of different stimuli in a set a of difference scaling experiments. Our main conclusion is that the &lt;em&gt;perceptual scale&lt;/em&gt; is mostly driven by the stimulus power spectrum. Finally, we propose that this measure of &lt;em&gt;perceptual scale&lt;/em&gt; is a way to push further the notion of perceptual distances by estimating the perceptual geometry of images &lt;em&gt;i.e.&lt;/em&gt; the path between images instead of simply the distance between those.&lt;/p&gt;</content><author><name>Jonathan Vacher</name><email>jonathan.vacher@ens.fr</email></author><category term="publications" /><summary type="html">Vacher, J. &amp;amp; Mamassian, P. Perceptual Measurements, Distances and Metrics. arXiv preprint arXiv:2310.11759 (2023). @article{vacher2023perceptual, title = {Perceptual Measurements, Distances and Metrics}, author = {Vacher, Jonathan and Mamassian, Pascal}, journal = {arXiv preprint arXiv:2310.11759}, year = {2023} }</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/vacher2023perceptual.png" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/vacher2023perceptual.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Measuring uncertainty in human visual segmentation </title><link href="https://jonathanvacher.github.io/publications/2023-10-06-New-paper/" rel="alternate" type="text/html" title="Measuring uncertainty in human visual segmentation " /><published>2023-10-06T00:00:00+02:00</published><updated>2023-10-06T00:00:00+02:00</updated><id>https://jonathanvacher.github.io/publications/New-paper</id><content type="html" xml:base="https://jonathanvacher.github.io/publications/2023-10-06-New-paper/">&lt;p&gt;&lt;a href=&quot;https://doi.org/10.1371/journal.pcbi.1011483&quot;&gt;Published Version&lt;/a&gt;&lt;/p&gt;
 
 &lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
 
@@ -36,7 +118,7 @@
 .btn{
   width: 90px;
   height: 25px;
-  background: url('https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png') no-repeat center;
+  background: url(&apos;https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png&apos;) no-repeat center;
   background-color: #e7e7e7;
   border-radius: 8px;
 }
@@ -135,7 +217,7 @@ function myFunctionvacher2023measuring() {
 .btn{
   width: 90px;
   height: 25px;
-  background: url('https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png') no-repeat center;
+  background: url(&apos;https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png&apos;) no-repeat center;
   background-color: #e7e7e7;
   border-radius: 8px;
 }
@@ -234,7 +316,7 @@ function myFunctionlaunay2022unsupervised() {
 .btn{
   width: 90px;
   height: 25px;
-  background: url('https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png') no-repeat center;
+  background: url(&apos;https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png&apos;) no-repeat center;
   background-color: #e7e7e7;
   border-radius: 8px;
 }
@@ -334,7 +416,7 @@ function myFunctionvacher2022flexibly() {
 .btn{
   width: 90px;
   height: 25px;
-  background: url('https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png') no-repeat center;
+  background: url(&apos;https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png&apos;) no-repeat center;
   background-color: #e7e7e7;
   border-radius: 8px;
 }
@@ -428,7 +510,7 @@ function myFunctionvacher2020texture() {
 .btn{
   width: 90px;
   height: 25px;
-  background: url('https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png') no-repeat center;
+  background: url(&apos;https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png&apos;) no-repeat center;
   background-color: #e7e7e7;
   border-radius: 8px;
 }
@@ -481,90 +563,4 @@ function myFunctionlecoent2020probabilistic() {
 
 &lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;!--&lt;a class=&quot;citation&quot; href=&quot;#post2-lecoent2020probabilistic&quot;&gt;&lt;span style=&quot;vertical-align: super&quot;&gt;1&lt;/span&gt;&lt;/a&gt;--&gt;&lt;/h2&gt;
 
-&lt;p&gt;In this paper, we explain how, under the one-sided Lipschitz (OSL) hypothesis, one can find a mean square error bound for a variant of the Euler–Maruyama approximation method for stochastic switched systems. Subsequently, we explain how this bound can be used to control a stochastic switched system in order to make it reach a target zone with guaranteed minimum probability. The method is illustrated on several examples from the literature.&lt;/p&gt;</content><author><name>Jonathan Vacher</name><email>jonathan.vacher@ens.fr</email></author><category term="publications" /><summary type="html">Le Coënt, A., Fribourg, L., Vacher, J. &amp;amp; Wisniewski, R. Probabilistic reachability and control synthesis for stochastic switched systems using the tamed Euler method. Nonlinear Analysis: Hybrid Systems 36, 100860 (2020). @article{lecoent2020probabilistic, title = {Probabilistic reachability and control synthesis for stochastic switched systems using the tamed Euler method}, author = {Le Co\&quot;ent, Adrien and Fribourg, Laurent and Vacher, Jonathan and Wisniewski, Rafael}, journal = {Nonlinear Analysis: Hybrid Systems}, volume = {36}, pages = {100860}, year = {2020}, publisher = {Elsevier}, doi = {10.1016/j.nahs.2020.100860} }</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/nahs-2020.png" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/nahs-2020.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Auditory motion perception emerges from successive sound localizations integrated over time.</title><link href="https://jonathanvacher.github.io/publications/2019-11-11-New-paper-in-SciRep/" rel="alternate" type="text/html" title="Auditory motion perception emerges from successive sound localizations integrated over time." /><published>2019-11-11T00:00:00+01:00</published><updated>2019-11-11T00:00:00+01:00</updated><id>https://jonathanvacher.github.io/publications/New-paper-in-SciRep</id><content type="html" xml:base="https://jonathanvacher.github.io/publications/2019-11-11-New-paper-in-SciRep/">&lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
-
-&lt;p&gt;We provide a connection between sound localization and sound motion perception through the upper limit (UL) speed of sound direction discrimination. We propose a spectral cue that explains both front-back confusion rates and the variation of the UL speed with the spectral content when accounting for a minimal integration time in the auditory cortex.&lt;!--&lt;a class=&quot;citation&quot; href=&quot;#post1-roggerone2019auditory&quot;&gt;&lt;span style=&quot;vertical-align: super&quot;&gt;1&lt;/span&gt;&lt;/a&gt;--&gt;.&lt;/p&gt;
-
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;style&gt;
-* {
-  box-sizing: border-box;
-}
-
-.column1 {
-  float: left;
-  width: 90px;
-  height: 25px;
-  padding: 0px;
-}
-
-.column2 {
-  float: left;
-  width: 90px;
-  height: 25px;
-  padding: 8px;
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-  content: &quot;&quot;;
-  clear: both;
-  display: table;
-}
-
-.btn{
-  width: 90px;
-  height: 25px;
-  background: url('https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png') no-repeat center;
-  background-color: #e7e7e7;
-  border-radius: 8px;
-}
-
-.inline{
-  display: inline-block;
-}
-&lt;/style&gt;
-
-&lt;span id=&quot;post2-roggerone2019auditory&quot;&gt;Roggerone, V., Vacher, J., Tarlao, C. &amp;amp; Guastavino, C. Auditory motion perception emerges from successive sound localizations integrated over time. &lt;i&gt;Scientific Reports&lt;/i&gt; &lt;b&gt;9&lt;/b&gt;, 16437 (2019).&lt;/span&gt;
-&lt;div class=&quot;inline&quot;&gt;
-    &lt;div class=&quot;row&quot;&gt;
-        &lt;div class=&quot;column1&quot;&gt;
-        &lt;button class=&quot;btn&quot; onclick=&quot;myFunctionroggerone2019auditory()&quot;&gt;&lt;/button&gt; 
-        &lt;/div&gt;
-        &lt;div class=&quot;column2&quot;&gt;
-        &lt;a href=&quot;/pdf/roggerone2019auditory.pdf&quot;&gt;&lt;img src=&quot;https://jonathanvacher.github.io/assets/icons/pdf_icon.png&quot; float=&quot;right&quot; /&gt;&lt;/a&gt;     		
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div id=&quot;roggerone2019auditory-materials&quot; style=&quot;display:none&quot;&gt;
-	&lt;pre id=&quot;roggerone2019auditory-bibtex&quot; class=&quot;pre pre-scrollable collapse&quot;&gt;@article{roggerone2019auditory,
-  title = {Auditory motion perception emerges from successive sound localizations integrated over time},
-  author = {Roggerone, Vincent and Vacher, Jonathan and Tarlao, Cynthia and Guastavino, Catherine},
-  journal = {Scientific Reports},
-  volume = {9},
-  pages = {16437},
-  year = {2019},
-  publisher = {Nature Publishing Group},
-  doi = {10.1038/s41598-019-52742-0}
-}
-&lt;/pre&gt;
-&lt;/div&gt;
-&lt;script&gt;
-function myFunctionroggerone2019auditory() {
-  var x = document.getElementById(&quot;roggerone2019auditory-materials&quot;);
-  if (x.style.display === &quot;none&quot;) {
-    x.style.display = &quot;block&quot;;
-  } 
-  else {
-    x.style.display = &quot;none&quot;;
-  }
-}
-/*
- &lt;div class=&quot;column0&quot;&gt;
-  	&lt;/div&gt; */
-&lt;/script&gt;
-&lt;/li&gt;&lt;/ol&gt;
-
-&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;!--&lt;a class=&quot;citation&quot; href=&quot;#post2-roggerone2019auditory&quot;&gt;&lt;span style=&quot;vertical-align: super&quot;&gt;1&lt;/span&gt;&lt;/a&gt;--&gt;&lt;/h2&gt;
-
-&lt;p&gt;Humans rely on auditory information to estimate the path of moving sound sources. But unlike in vision, the existence of motion-sensitive mechanisms in audition is still open to debate. Psychophysical studies indicate that auditory motion perception emerges from successive localization, but existing models fail to predict experimental results. However, these models do not account for any temporal integration. We propose a new model tracking motion using successive localization snapshots but integrated over time. This model is derived from psychophysical experiments on the upper limit for circular auditory motion perception (UL), defned as the speed above which humans no longer identify the direction of sounds spinning around them. Our model predicts ULs measured with diferent stimuli using solely static localization cues. The temporal integration blurs these localization cues rendering them unreliable at high speeds, which results in the UL. Our fndings indicate that auditory motion perception does not require motion-sensitive mechanisms.&lt;/p&gt;</content><author><name>Jonathan Vacher</name><email>jonathan.vacher@ens.fr</email></author><category term="publications" /><summary type="html">Roggerone, V., Vacher, J., Tarlao, C. &amp;amp; Guastavino, C. Auditory motion perception emerges from successive sound localizations integrated over time. Scientific Reports 9, 16437 (2019). @article{roggerone2019auditory, title = {Auditory motion perception emerges from successive sound localizations integrated over time}, author = {Roggerone, Vincent and Vacher, Jonathan and Tarlao, Cynthia and Guastavino, Catherine}, journal = {Scientific Reports}, volume = {9}, pages = {16437}, year = {2019}, publisher = {Nature Publishing Group}, doi = {10.1038/s41598-019-52742-0} }</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/figure-auditory-roggerone-2019.png" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/figure-auditory-roggerone-2019.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;In this paper, we explain how, under the one-sided Lipschitz (OSL) hypothesis, one can find a mean square error bound for a variant of the Euler–Maruyama approximation method for stochastic switched systems. Subsequently, we explain how this bound can be used to control a stochastic switched system in order to make it reach a target zone with guaranteed minimum probability. The method is illustrated on several examples from the literature.&lt;/p&gt;</content><author><name>Jonathan Vacher</name><email>jonathan.vacher@ens.fr</email></author><category term="publications" /><summary type="html">Le Coënt, A., Fribourg, L., Vacher, J. &amp;amp; Wisniewski, R. Probabilistic reachability and control synthesis for stochastic switched systems using the tamed Euler method. Nonlinear Analysis: Hybrid Systems 36, 100860 (2020). @article{lecoent2020probabilistic, title = {Probabilistic reachability and control synthesis for stochastic switched systems using the tamed Euler method}, author = {Le Co\&quot;ent, Adrien and Fribourg, Laurent and Vacher, Jonathan and Wisniewski, Rafael}, journal = {Nonlinear Analysis: Hybrid Systems}, volume = {36}, pages = {100860}, year = {2020}, publisher = {Elsevier}, doi = {10.1016/j.nahs.2020.100860} }</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/nahs-2020.png" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/nahs-2020.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
