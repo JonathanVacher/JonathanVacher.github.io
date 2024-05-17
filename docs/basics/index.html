@@ -36,9 +36,9 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 
 
   
-<!-- Begin Jekyll SEO tag v2.8.0 -->
+<!-- Begin Jekyll SEO tag v2.7.1 -->
 <title>Basics | Jonathan Vacher</title>
-<meta name="generator" content="Jekyll v4.3.2" />
+<meta name="generator" content="Jekyll v4.3.3" />
 <meta property="og:title" content="Basics" />
 <meta name="author" content="Jonathan Vacher" />
 <meta property="og:locale" content="en" />
@@ -47,11 +47,10 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 <link rel="canonical" href="https://jonathanvacher.github.io/docs/basics/" />
 <meta property="og:url" content="https://jonathanvacher.github.io/docs/basics/" />
 <meta property="og:site_name" content="Jonathan Vacher" />
-<meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Basics" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Jonathan Vacher"},"description":"This chapter covers the basics of content creation with Hydejack.","headline":"Basics","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://jonathanvacher.github.io/assets/icons/myphoto.jpg"},"name":"Jonathan Vacher"},"url":"https://jonathanvacher.github.io/docs/basics/"}</script>
+{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://jonathanvacher.github.io/assets/icons/myphoto.jpg"},"name":"Jonathan Vacher"},"author":{"@type":"Person","name":"Jonathan Vacher"},"@type":"WebPage","headline":"Basics","url":"https://jonathanvacher.github.io/docs/basics/","description":"This chapter covers the basics of content creation with Hydejack.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -291,10 +290,10 @@ For example, this documentation is written in markdown, consisting of several ge
 <span class="na">collections</span><span class="pi">:</span>
   <span class="na">featured_categories</span><span class="pi">:</span>
     <span class="na">permalink</span><span class="pi">:</span>         <span class="s">/:name/</span>
-    <span class="na">output</span><span class="pi">:</span>            <span class="no">true</span>
+    <span class="na">output</span><span class="pi">:</span>            <span class="kc">true</span>
   <span class="na">featured_tags</span><span class="pi">:</span>
     <span class="na">permalink</span><span class="pi">:</span>         <span class="s">/tag-:name/</span>
-    <span class="na">output</span><span class="pi">:</span>            <span class="no">true</span>
+    <span class="na">output</span><span class="pi">:</span>            <span class="kc">true</span>
 </code></pre></div></div>
 
 <h3 id="recap-categories-and-tags-in-jekyll">Recap: Categories and tags in Jekyll</h3>
@@ -457,7 +456,7 @@ Technically, it is a modified version of the <code class="language-plaintext hig
 <span class="c1"># file: index.md</span>
 <span class="na">layout</span><span class="pi">:</span> <span class="s">welcome</span>
 <span class="na">title</span><span class="pi">:</span>  <span class="s">Welcome</span>
-<span class="na">cover</span><span class="pi">:</span>  <span class="no">true</span>
+<span class="na">cover</span><span class="pi">:</span>  <span class="kc">true</span>
 <span class="nn">---</span>
 </code></pre></div></div>
 
@@ -477,7 +476,7 @@ To show the five most recent blog posts, add the <code class="language-plaintext
   <span class="pi">-</span> <span class="s">_posts/2017-05-03-javascripten.md</span>
   <span class="pi">-</span> <span class="s">_posts/2012-02-07-example-content.md</span>
 <span class="na">more_posts</span><span class="pi">:</span> <span class="s">posts.md</span>
-<span class="na">featured</span><span class="pi">:</span> <span class="no">true</span>
+<span class="na">featured</span><span class="pi">:</span> <span class="kc">true</span>
 <span class="nn">---</span>
 </code></pre></div></div>
 
@@ -510,7 +509,7 @@ First, you need to make sure that you have the <code class="language-plaintext h
 <span class="na">collections</span><span class="pi">:</span>
   <span class="na">projects</span><span class="pi">:</span>
     <span class="na">permalink</span><span class="pi">:</span> <span class="s">/projects/:path/</span>
-    <span class="na">output</span><span class="pi">:</span>    <span class="no">true</span>
+    <span class="na">output</span><span class="pi">:</span>    <span class="kc">true</span>
 </code></pre></div></div>
 
 <p>Next, add a <code class="language-plaintext highlighter-rouge">projects.md</code> to in the root (you can adjust the name/location to match the <code class="language-plaintext highlighter-rouge">permalink</code> of the
@@ -523,7 +522,7 @@ with the name of the collection as a value, e.g.:</p>
 <span class="na">layout</span><span class="pi">:</span>          <span class="s">projects</span>
 <span class="na">title</span><span class="pi">:</span>           <span class="s">Projects*</span>
 <span class="na">show_collection</span><span class="pi">:</span> <span class="s">projects</span>
-<span class="na">featured</span><span class="pi">:</span>        <span class="no">true</span>
+<span class="na">featured</span><span class="pi">:</span>        <span class="kc">true</span>
 <span class="nn">---</span>
 </code></pre></div></div>
 
@@ -569,7 +568,7 @@ A project’s front matter should look like:</p>
     <span class="na">url</span><span class="pi">:</span>     <span class="s">http://hyde.getpoole.com</span>
   <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span>   <span class="s">Source</span>
     <span class="na">url</span><span class="pi">:</span>     <span class="s">https://github.com/poole/hyde</span>
-<span class="na">featured</span><span class="pi">:</span>    <span class="no">false</span>
+<span class="na">featured</span><span class="pi">:</span>    <span class="kc">false</span>
 <span class="nn">---</span>
 </code></pre></div></div>
 
