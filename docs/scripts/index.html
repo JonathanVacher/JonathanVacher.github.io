@@ -36,9 +36,9 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 
 
   
-<!-- Begin Jekyll SEO tag v2.7.1 -->
+<!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Scripts | Jonathan Vacher</title>
-<meta name="generator" content="Jekyll v4.3.3" />
+<meta name="generator" content="Jekyll v4.3.2" />
 <meta property="og:title" content="Scripts" />
 <meta name="author" content="Jonathan Vacher" />
 <meta property="og:locale" content="en" />
@@ -47,10 +47,11 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 <link rel="canonical" href="https://jonathanvacher.github.io/docs/scripts/" />
 <meta property="og:url" content="https://jonathanvacher.github.io/docs/scripts/" />
 <meta property="og:site_name" content="Jonathan Vacher" />
+<meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Scripts" />
 <script type="application/ld+json">
-{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://jonathanvacher.github.io/assets/icons/myphoto.jpg"},"name":"Jonathan Vacher"},"author":{"@type":"Person","name":"Jonathan Vacher"},"@type":"WebPage","headline":"Scripts","url":"https://jonathanvacher.github.io/docs/scripts/","description":"There are two ways of adding third party scripts. Embedding is ideal for one-off scripts, while global scripts are loaded on every page.","@context":"https://schema.org"}</script>
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Jonathan Vacher"},"description":"There are two ways of adding third party scripts. Embedding is ideal for one-off scripts, while global scripts are loaded on every page.","headline":"Scripts","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://jonathanvacher.github.io/assets/icons/myphoto.jpg"},"name":"Jonathan Vacher"},"url":"https://jonathanvacher.github.io/docs/scripts/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -261,7 +262,7 @@ opening (or creating) <code class="language-plaintext highlighter-rouge">_includ
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">&lt;!-- file: _includes/my-scripts.html --&gt;</span>
 <span class="nt">&lt;script&gt;</span>
-  <span class="nb">document</span><span class="p">.</span><span class="nf">getElementsByTagName</span><span class="p">(</span><span class="dl">'</span><span class="s1">hy-push-state</span><span class="dl">'</span><span class="p">)[</span><span class="mi">0</span><span class="p">].</span><span class="nf">addEventListener</span><span class="p">(</span><span class="dl">'</span><span class="s1">hy-push-state-load</span><span class="dl">'</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+  <span class="nb">document</span><span class="p">.</span><span class="nx">getElementsByTagName</span><span class="p">(</span><span class="dl">'</span><span class="s1">hy-push-state</span><span class="dl">'</span><span class="p">)[</span><span class="mi">0</span><span class="p">].</span><span class="nx">addEventListener</span><span class="p">(</span><span class="dl">'</span><span class="s1">hy-push-state-load</span><span class="dl">'</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
     <span class="c1">// </span><span class="o">&lt;</span><span class="nx">your</span> <span class="nx">init</span> <span class="nx">code</span><span class="o">&gt;</span>
   <span class="p">});</span>
 <span class="nt">&lt;/script&gt;</span>
@@ -289,7 +290,7 @@ you can disable push state by adding to your config file:</p>
 
 <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: _config.yml</span>
 <span class="na">hydejack</span><span class="pi">:</span>
-  <span class="na">no_push_state</span><span class="pi">:</span> <span class="kc">true</span>
+  <span class="na">no_push_state</span><span class="pi">:</span> <span class="no">true</span>
 </code></pre></div></div>
 
 <p class="read-more">Continue with <a href="/docs/build/" class="heading flip-title">Build</a></p>

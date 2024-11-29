@@ -36,9 +36,9 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 
 
   
-<!-- Begin Jekyll SEO tag v2.7.1 -->
+<!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Config | Jonathan Vacher</title>
-<meta name="generator" content="Jekyll v4.3.3" />
+<meta name="generator" content="Jekyll v4.3.2" />
 <meta property="og:title" content="Config" />
 <meta name="author" content="Jonathan Vacher" />
 <meta property="og:locale" content="en" />
@@ -47,10 +47,11 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 <link rel="canonical" href="https://jonathanvacher.github.io/docs/config/" />
 <meta property="og:url" content="https://jonathanvacher.github.io/docs/config/" />
 <meta property="og:site_name" content="Jonathan Vacher" />
+<meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Config" />
 <script type="application/ld+json">
-{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://jonathanvacher.github.io/assets/icons/myphoto.jpg"},"name":"Jonathan Vacher"},"author":{"@type":"Person","name":"Jonathan Vacher"},"@type":"WebPage","headline":"Config","url":"https://jonathanvacher.github.io/docs/config/","description":"This chapter covers the many configuration options of Hydejack, allowing you to tailor it to your needs.","@context":"https://schema.org"}</script>
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Jonathan Vacher"},"description":"This chapter covers the many configuration options of Hydejack, allowing you to tailor it to your needs.","headline":"Config","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://jonathanvacher.github.io/assets/icons/myphoto.jpg"},"name":"Jonathan Vacher"},"url":"https://jonathanvacher.github.io/docs/config/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -330,7 +331,7 @@ set <code class="language-plaintext highlighter-rouge">no_google_fonts</code> to
 
 <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: _config.yml</span>
 <span class="na">hydejack</span><span class="pi">:</span>
-  <span class="na">no_google_fonts</span><span class="pi">:</span> <span class="kc">true</span>
+  <span class="na">no_google_fonts</span><span class="pi">:</span> <span class="no">true</span>
 </code></pre></div></div>
 
 <p>In this case, <code class="language-plaintext highlighter-rouge">font</code> and <code class="language-plaintext highlighter-rouge">font_heading</code> do not have to contain more than one font.
@@ -406,9 +407,9 @@ To match the <code class="language-plaintext highlighter-rouge">paginate_path</c
 <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
 <span class="c1"># file: !my-blog.md</span>
 <span class="na">title</span><span class="pi">:</span> <span class="s">My Blog</span>
-<span class="na">menu</span><span class="pi">:</span> <span class="kc">true</span>
+<span class="na">menu</span><span class="pi">:</span> <span class="no">true</span>
 <span class="na">permalink</span><span class="pi">:</span> <span class="s">/my-blog/</span>
-<span class="na">sitemap</span><span class="pi">:</span> <span class="kc">false</span>
+<span class="na">sitemap</span><span class="pi">:</span> <span class="no">false</span>
 <span class="nn">---</span>
 </code></pre></div></div>
 
@@ -551,7 +552,7 @@ add the <code class="language-plaintext highlighter-rouge">email</code>, <code c
 <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
 <span class="na">layout</span><span class="pi">:</span>   <span class="s">post</span>
 <span class="na">title</span><span class="pi">:</span>    <span class="s">Hello World</span>
-<span class="na">comments</span><span class="pi">:</span> <span class="kc">true</span>
+<span class="na">comments</span><span class="pi">:</span> <span class="no">true</span>
 <span class="nn">---</span>
 </code></pre></div></div>
 
@@ -563,7 +564,7 @@ E.g. to enable comments on all posts, add to your config file:</p>
   <span class="pi">-</span> <span class="na">scope</span><span class="pi">:</span>
       <span class="na">type</span><span class="pi">:</span> <span class="s">posts</span>
     <span class="na">values</span><span class="pi">:</span>
-      <span class="na">comments</span><span class="pi">:</span> <span class="kc">true</span>
+      <span class="na">comments</span><span class="pi">:</span> <span class="no">true</span>
 </code></pre></div></div>
 
 <h2 id="enabling-google-analytics">Enabling Google Analytics</h2>
@@ -706,11 +707,11 @@ provide your <a href="https://tinyletter.com/">Tinyletter</a> username to the <c
 
 <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hydejack</span><span class="pi">:</span>
   <span class="na">dark_mode</span><span class="pi">:</span>
-    <span class="na">dynamic</span><span class="pi">:</span> <span class="kc">true</span>
+    <span class="na">dynamic</span><span class="pi">:</span> <span class="no">true</span>
     <span class="na">sunrise</span><span class="pi">:</span> <span class="m">6</span>
     <span class="na">sunset</span><span class="pi">:</span>  <span class="m">18</span>
-    <span class="na">icon</span><span class="pi">:</span>    <span class="kc">true</span>
-    <span class="na">always</span><span class="pi">:</span>  <span class="kc">false</span>
+    <span class="na">icon</span><span class="pi">:</span>    <span class="no">true</span>
+    <span class="na">always</span><span class="pi">:</span>  <span class="no">false</span>
 </code></pre></div></div>
 
 <p>Setting <code class="language-plaintext highlighter-rouge">dynamic</code>, will enable dark mode based on the client’s local time (unlike location-based sunset calculations, this approach does not require a permission form the user). You can adjust <code class="language-plaintext highlighter-rouge">sunrise</code> and <code class="language-plaintext highlighter-rouge">sunset</code> to change when to show the light/dark theme.</p>

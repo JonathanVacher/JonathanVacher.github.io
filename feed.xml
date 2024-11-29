@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://jonathanvacher.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jonathanvacher.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-09-11T12:06:37+02:00</updated><id>https://jonathanvacher.github.io/feed.xml</id><title type="html">Jonathan Vacher</title><subtitle>Associated Prof. @ MAP5, Université Paris Cité
-</subtitle><author><name>Jonathan Vacher</name><email>jonathan.vacher@u-paris.fr</email></author><entry><title type="html">Perceptual Scales Predicted by Fisher Information Metrics</title><link href="https://jonathanvacher.github.io/publications/2024-01-20-New-paper/" rel="alternate" type="text/html" title="Perceptual Scales Predicted by Fisher Information Metrics" /><published>2024-01-20T00:00:00+01:00</published><updated>2024-01-20T00:00:00+01:00</updated><id>https://jonathanvacher.github.io/publications/New-paper</id><content type="html" xml:base="https://jonathanvacher.github.io/publications/2024-01-20-New-paper/">&lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://jonathanvacher.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jonathanvacher.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-11-29T17:45:15+01:00</updated><id>https://jonathanvacher.github.io/feed.xml</id><title type="html">Jonathan Vacher</title><subtitle>Associated Prof. @ MAP5, Université Paris Cité
+</subtitle><author><name>Jonathan Vacher</name><email>jonathan.vacher@u-paris.fr</email></author><entry><title type="html">Perceptual Scales Predicted by Fisher Information Metrics</title><link href="https://jonathanvacher.github.io/publications/2024-01-20-New-paper/" rel="alternate" type="text/html" title="Perceptual Scales Predicted by Fisher Information Metrics" /><published>2024-01-20T00:00:00+01:00</published><updated>2024-01-20T00:00:00+01:00</updated><id>https://jonathanvacher.github.io/publications/New-paper</id><content type="html" xml:base="https://jonathanvacher.github.io/publications/2024-01-20-New-paper/"><![CDATA[<ol class="bibliography"></ol>
 
-&lt;p&gt;We tested predictions of perceptual scales from Fisher information in a series of experiments. This will allow us to go beyond perceptual distances and get closer to perceptual geometry. &lt;!--&lt;a class=&quot;citation&quot; href=&quot;#post1-vacher2024perceptual&quot;&gt;&lt;span style=&quot;vertical-align: super&quot;&gt;1&lt;/span&gt;&lt;/a&gt;--&gt;.&lt;/p&gt;
+<p>We tested predictions of perceptual scales from Fisher information in a series of experiments. This will allow us to go beyond perceptual distances and get closer to perceptual geometry. <!--<a class="citation" href="#post1-vacher2024perceptual"><span style="vertical-align: super">1</span></a>-->.</p>
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;style&gt;
+<ol class="bibliography"><li><style>
 * {
   box-sizing: border-box;
 }
@@ -24,7 +24,7 @@
 
 /* Clearfix (clear floats) */
 .row::after {
-  content: &quot;&quot;;
+  content: "";
   clear: both;
   display: table;
 }
@@ -32,7 +32,7 @@
 .btn{
   width: 90px;
   height: 25px;
-  background: url(&apos;https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png&apos;) no-repeat center;
+  background: url('https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png') no-repeat center;
   background-color: #e7e7e7;
   border-radius: 8px;
 }
@@ -40,56 +40,62 @@
 .inline{
   display: inline-block;
 }
-&lt;/style&gt;
+</style>
 
-&lt;span id=&quot;post2-vacher2024perceptual&quot;&gt;Vacher, J. &amp;amp; Mamassian, P. Perceptual Scales Predicted by Fisher Information Metrics. in &lt;i&gt;The Twelfth International Conference on Learning Representations&lt;/i&gt; (2024).&lt;/span&gt;
-&lt;div class=&quot;inline&quot;&gt;
-    &lt;div class=&quot;row&quot;&gt;
-        &lt;div class=&quot;column1&quot;&gt;
-        &lt;button class=&quot;btn&quot; onclick=&quot;myFunctionvacher2024perceptual()&quot;&gt;&lt;/button&gt; 
-        &lt;/div&gt;
-        &lt;div class=&quot;column2&quot;&gt;
-        &lt;a href=&quot;/pdf/vacher2024perceptual.pdf&quot;&gt;&lt;img src=&quot;https://jonathanvacher.github.io/assets/icons/pdf_icon.png&quot; float=&quot;right&quot; /&gt;&lt;/a&gt;     		
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
+<span id="post2-vacher2024perceptual">Vacher, J. &amp; Mamassian, P. Perceptual Scales Predicted by Fisher Information Metrics. in <i>The Twelfth International Conference on Learning Representations</i> (2024).</span>
+<div class="inline">
+    <div class="row">
+        <div class="column1">
+        <button class="btn" onclick="myFunctionvacher2024perceptual()"></button> 
+        </div>
+        <div class="column2">
+        <a href="/pdf/vacher2024perceptual.pdf">
+  <hy-img root-margin="512px"  src="https://jonathanvacher.github.io/assets/icons/pdf_icon.png" float="right" >
+    <noscript><img data-ignore  src="https://jonathanvacher.github.io/assets/icons/pdf_icon.png" float="right" /></noscript>
+    <span class="loading" slot="loading" hidden>
+      <span class="icon-cog"></span>
+    </span>
+  </hy-img></a>     		
+        </div>
+    </div>
+</div>
 
-&lt;div id=&quot;vacher2024perceptual-materials&quot; style=&quot;display:none&quot;&gt;
-	&lt;pre id=&quot;vacher2024perceptual-bibtex&quot; class=&quot;pre pre-scrollable collapse&quot;&gt;@inproceedings{vacher2024perceptual,
+<div id="vacher2024perceptual-materials" style="display:none">
+	<pre id="vacher2024perceptual-bibtex" class="pre pre-scrollable collapse">@inproceedings{vacher2024perceptual,
   title = {Perceptual Scales Predicted by Fisher Information Metrics},
   author = {Vacher, Jonathan and Mamassian, Pascal},
   booktitle = {The Twelfth International Conference on Learning Representations},
   year = {2024}
 }
-&lt;/pre&gt;
-&lt;/div&gt;
-&lt;script&gt;
+</pre>
+</div>
+<script>
 function myFunctionvacher2024perceptual() {
-  var x = document.getElementById(&quot;vacher2024perceptual-materials&quot;);
-  if (x.style.display === &quot;none&quot;) {
-    x.style.display = &quot;block&quot;;
+  var x = document.getElementById("vacher2024perceptual-materials");
+  if (x.style.display === "none") {
+    x.style.display = "block";
   } 
   else {
-    x.style.display = &quot;none&quot;;
+    x.style.display = "none";
   }
 }
 /*
- &lt;div class=&quot;column0&quot;&gt;
-  	&lt;/div&gt; */
-&lt;/script&gt;
-&lt;/li&gt;&lt;/ol&gt;
+ <div class="column0">
+  	</div> */
+</script>
+</li></ol>
 
-&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;!--&lt;a class=&quot;citation&quot; href=&quot;#post2-vacher2024perceptual&quot;&gt;&lt;span style=&quot;vertical-align: super&quot;&gt;1&lt;/span&gt;&lt;/a&gt;--&gt;&lt;/h2&gt;
+<h2 id="abstract">Abstract<!--<a class="citation" href="#post2-vacher2024perceptual"><span style="vertical-align: super">1</span></a>--></h2>
 
-&lt;p&gt;Perception is often viewed as a process that transforms physical variables, external to an observer, into internal psychological variables. Such a process can be modeled by a function coined &lt;em&gt;perceptual scale&lt;/em&gt;. The &lt;em&gt;perceptual scale&lt;/em&gt; can be deduced from psychophysical measurements that consist in comparing the relative differences between stimuli (&lt;em&gt;i.e.&lt;/em&gt; difference scaling experiments). However, this approach is often overlooked by the modeling and experimentation communities. Here, we demonstrate the value of measuring the &lt;em&gt;perceptual scale&lt;/em&gt; of classical (spatial frequency, orientation) and less classical physical variables (interpolation between textures) by embedding it in recent probabilistic modeling of perception. First, we show that the assumption that an observer has an internal representation of univariate parameters such as spatial frequency or orientation while stimuli are high-dimensional does not lead to contradictory predictions when following the theoretical framework. Second, we show that the measured &lt;em&gt;perceptual scale&lt;/em&gt; corresponds to the transduction function hypothesized in this framework. In particular, we demonstrate that it is related to the Fisher information of the generative model that underlies perception and we test the predictions given by the generative model of different stimuli in a set a of difference scaling experiments. Our main conclusion is that the &lt;em&gt;perceptual scale&lt;/em&gt; is mostly driven by the stimulus power spectrum. Finally, we propose that this measure of &lt;em&gt;perceptual scale&lt;/em&gt; is a way to push further the notion of perceptual distances by estimating the perceptual geometry of images &lt;em&gt;i.e.&lt;/em&gt; the path between images instead of simply the distance between those.&lt;/p&gt;</content><author><name>Jonathan Vacher</name><email>jonathan.vacher@u-paris.fr</email></author><category term="publications" /><summary type="html">Vacher, J. &amp;amp; Mamassian, P. Perceptual Scales Predicted by Fisher Information Metrics. in The Twelfth International Conference on Learning Representations (2024). @inproceedings{vacher2024perceptual, title = {Perceptual Scales Predicted by Fisher Information Metrics}, author = {Vacher, Jonathan and Mamassian, Pascal}, booktitle = {The Twelfth International Conference on Learning Representations}, year = {2024} }</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/vacher2023perceptual.png" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/vacher2023perceptual.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Measuring uncertainty in human visual segmentation </title><link href="https://jonathanvacher.github.io/publications/2023-10-06-New-paper/" rel="alternate" type="text/html" title="Measuring uncertainty in human visual segmentation " /><published>2023-10-06T00:00:00+02:00</published><updated>2023-10-06T00:00:00+02:00</updated><id>https://jonathanvacher.github.io/publications/New-paper</id><content type="html" xml:base="https://jonathanvacher.github.io/publications/2023-10-06-New-paper/">&lt;p&gt;&lt;a href=&quot;https://doi.org/10.1371/journal.pcbi.1011483&quot;&gt;Published Version&lt;/a&gt;&lt;/p&gt;
+<p>Perception is often viewed as a process that transforms physical variables, external to an observer, into internal psychological variables. Such a process can be modeled by a function coined <em>perceptual scale</em>. The <em>perceptual scale</em> can be deduced from psychophysical measurements that consist in comparing the relative differences between stimuli (<em>i.e.</em> difference scaling experiments). However, this approach is often overlooked by the modeling and experimentation communities. Here, we demonstrate the value of measuring the <em>perceptual scale</em> of classical (spatial frequency, orientation) and less classical physical variables (interpolation between textures) by embedding it in recent probabilistic modeling of perception. First, we show that the assumption that an observer has an internal representation of univariate parameters such as spatial frequency or orientation while stimuli are high-dimensional does not lead to contradictory predictions when following the theoretical framework. Second, we show that the measured <em>perceptual scale</em> corresponds to the transduction function hypothesized in this framework. In particular, we demonstrate that it is related to the Fisher information of the generative model that underlies perception and we test the predictions given by the generative model of different stimuli in a set a of difference scaling experiments. Our main conclusion is that the <em>perceptual scale</em> is mostly driven by the stimulus power spectrum. Finally, we propose that this measure of <em>perceptual scale</em> is a way to push further the notion of perceptual distances by estimating the perceptual geometry of images <em>i.e.</em> the path between images instead of simply the distance between those.</p>]]></content><author><name>Jonathan Vacher</name><email>jonathan.vacher@u-paris.fr</email></author><category term="publications" /><summary type="html"><![CDATA[with Pascal Mamassian.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/vacher2023perceptual.png" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/vacher2023perceptual.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Measuring uncertainty in human visual segmentation </title><link href="https://jonathanvacher.github.io/publications/2023-10-06-New-paper/" rel="alternate" type="text/html" title="Measuring uncertainty in human visual segmentation " /><published>2023-10-06T00:00:00+02:00</published><updated>2023-10-06T00:00:00+02:00</updated><id>https://jonathanvacher.github.io/publications/New-paper</id><content type="html" xml:base="https://jonathanvacher.github.io/publications/2023-10-06-New-paper/"><![CDATA[<p><a href="https://doi.org/10.1371/journal.pcbi.1011483">Published Version</a></p>
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
+<ol class="bibliography"></ol>
 
-&lt;p&gt;(i) We introduce the first experimental method to measure perceptual segmentation on arbitrary images. (ii) We capture individual-level variability and relate it to perceptual uncertainty, which is necessary to understand human perception. (iii) We offer computational tools to fit any segmentation algorithm to the data, which will enable new benchmarks for computer vision algorithms, and testing computational theories of perceptual segmentation.&lt;/p&gt;
+<p>(i) We introduce the first experimental method to measure perceptual segmentation on arbitrary images. (ii) We capture individual-level variability and relate it to perceptual uncertainty, which is necessary to understand human perception. (iii) We offer computational tools to fit any segmentation algorithm to the data, which will enable new benchmarks for computer vision algorithms, and testing computational theories of perceptual segmentation.</p>
 
-&lt;!--&lt;a class=&quot;citation&quot; href=&quot;#post1-vacher2023measuring&quot;&gt;&lt;span style=&quot;vertical-align: super&quot;&gt;1&lt;/span&gt;&lt;/a&gt;--&gt;
+<!--<a class="citation" href="#post1-vacher2023measuring"><span style="vertical-align: super">1</span></a>-->
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;style&gt;
+<ol class="bibliography"><li><style>
 * {
   box-sizing: border-box;
 }
@@ -110,7 +116,7 @@ function myFunctionvacher2024perceptual() {
 
 /* Clearfix (clear floats) */
 .row::after {
-  content: &quot;&quot;;
+  content: "";
   clear: both;
   display: table;
 }
@@ -118,7 +124,7 @@ function myFunctionvacher2024perceptual() {
 .btn{
   width: 90px;
   height: 25px;
-  background: url(&apos;https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png&apos;) no-repeat center;
+  background: url('https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png') no-repeat center;
   background-color: #e7e7e7;
   border-radius: 8px;
 }
@@ -126,22 +132,28 @@ function myFunctionvacher2024perceptual() {
 .inline{
   display: inline-block;
 }
-&lt;/style&gt;
+</style>
 
-&lt;span id=&quot;post2-vacher2023measuring&quot;&gt;Vacher, J., Launay, C., Mamassian, P. &amp;amp; Coen-Cagli, R. Measuring uncertainty in human visual segmentation. &lt;i&gt;PLOS Computational Biology&lt;/i&gt; &lt;b&gt;19&lt;/b&gt;, 1–24 (2023).&lt;/span&gt;
-&lt;div class=&quot;inline&quot;&gt;
-    &lt;div class=&quot;row&quot;&gt;
-        &lt;div class=&quot;column1&quot;&gt;
-        &lt;button class=&quot;btn&quot; onclick=&quot;myFunctionvacher2023measuring()&quot;&gt;&lt;/button&gt; 
-        &lt;/div&gt;
-        &lt;div class=&quot;column2&quot;&gt;
-        &lt;a href=&quot;/pdf/vacher2023measuring.pdf&quot;&gt;&lt;img src=&quot;https://jonathanvacher.github.io/assets/icons/pdf_icon.png&quot; float=&quot;right&quot; /&gt;&lt;/a&gt;     		
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
+<span id="post2-vacher2023measuring">Vacher, J., Launay, C., Mamassian, P. &amp; Coen-Cagli, R. Measuring uncertainty in human visual segmentation. <i>PLOS Computational Biology</i> <b>19</b>, 1–24 (2023).</span>
+<div class="inline">
+    <div class="row">
+        <div class="column1">
+        <button class="btn" onclick="myFunctionvacher2023measuring()"></button> 
+        </div>
+        <div class="column2">
+        <a href="/pdf/vacher2023measuring.pdf">
+  <hy-img root-margin="512px"  src="https://jonathanvacher.github.io/assets/icons/pdf_icon.png" float="right" >
+    <noscript><img data-ignore  src="https://jonathanvacher.github.io/assets/icons/pdf_icon.png" float="right" /></noscript>
+    <span class="loading" slot="loading" hidden>
+      <span class="icon-cog"></span>
+    </span>
+  </hy-img></a>     		
+        </div>
+    </div>
+</div>
 
-&lt;div id=&quot;vacher2023measuring-materials&quot; style=&quot;display:none&quot;&gt;
-	&lt;pre id=&quot;vacher2023measuring-bibtex&quot; class=&quot;pre pre-scrollable collapse&quot;&gt;@article{vacher2023measuring,
+<div id="vacher2023measuring-materials" style="display:none">
+	<pre id="vacher2023measuring-bibtex" class="pre pre-scrollable collapse">@article{vacher2023measuring,
   doi = {10.1371/journal.pcbi.1011483},
   author = {Vacher, Jonathan and Launay, Claire and Mamassian, Pascal and Coen-Cagli, Ruben},
   journal = {PLOS Computational Biology},
@@ -153,42 +165,42 @@ function myFunctionvacher2024perceptual() {
   pages = {1-24},
   number = {9}
 }
-&lt;/pre&gt;
-&lt;/div&gt;
-&lt;script&gt;
+</pre>
+</div>
+<script>
 function myFunctionvacher2023measuring() {
-  var x = document.getElementById(&quot;vacher2023measuring-materials&quot;);
-  if (x.style.display === &quot;none&quot;) {
-    x.style.display = &quot;block&quot;;
+  var x = document.getElementById("vacher2023measuring-materials");
+  if (x.style.display === "none") {
+    x.style.display = "block";
   } 
   else {
-    x.style.display = &quot;none&quot;;
+    x.style.display = "none";
   }
 }
 /*
- &lt;div class=&quot;column0&quot;&gt;
-  	&lt;/div&gt; */
-&lt;/script&gt;
-&lt;/li&gt;&lt;/ol&gt;
+ <div class="column0">
+  	</div> */
+</script>
+</li></ol>
 
-&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;!--&lt;a class=&quot;citation&quot; href=&quot;#post2-vacher2023measuring&quot;&gt;&lt;span style=&quot;vertical-align: super&quot;&gt;1&lt;/span&gt;&lt;/a&gt;--&gt;&lt;/h2&gt;
+<h2 id="abstract">Abstract<!--<a class="citation" href="#post2-vacher2023measuring"><span style="vertical-align: super">1</span></a>--></h2>
 
-&lt;p&gt;Segmenting visual stimuli into distinct groups of features and visual objects is central to visual function. Classical psychophysical methods have helped uncover many rules of human perceptual segmentation, and recent progress in machine learning has produced successful algorithms. Yet, the computational logic of human segmentation remains unclear, partially because we lack well-controlled paradigms to measure perceptual segmentation maps and compare models quantitatively. Here we propose a new, integrated approach: given an image, we measure multiple pixel-based same–different judgments and perform model–based reconstruction of the underlying segmentation map. The reconstruction is robust to several experimental manipulations and captures the variability of individual participants. We demonstrate the validity of the approach on human segmentation of natural images and composite textures. We show that image uncertainty affects measured human variability, and it influences how participants weigh different visual features. Because any putative segmentation algorithm can be inserted to perform the reconstruction, our paradigm affords quantitative tests of theories of perception as well as new benchmarks for segmentation algorithms.&lt;/p&gt;</content><author><name>Jonathan Vacher</name><email>jonathan.vacher@u-paris.fr</email></author><category term="publications" /><summary type="html">Published Version</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/vacher2023measuring.png" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/vacher2023measuring.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Unsupervised Video Segmentation Algorithms Based On Flexibly Regularized Mixture Models</title><link href="https://jonathanvacher.github.io/publications/2022-10-16-ICIP-paper/" rel="alternate" type="text/html" title="Unsupervised Video Segmentation Algorithms Based On Flexibly Regularized Mixture Models" /><published>2022-10-16T00:00:00+02:00</published><updated>2022-10-16T00:00:00+02:00</updated><id>https://jonathanvacher.github.io/publications/ICIP-paper</id><content type="html" xml:base="https://jonathanvacher.github.io/publications/2022-10-16-ICIP-paper/">&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;https://ieeexplore.ieee.org/document/9897691&quot;&gt;Proceedings Version&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9670685/&quot;&gt;Pre-Print Version&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+<p>Segmenting visual stimuli into distinct groups of features and visual objects is central to visual function. Classical psychophysical methods have helped uncover many rules of human perceptual segmentation, and recent progress in machine learning has produced successful algorithms. Yet, the computational logic of human segmentation remains unclear, partially because we lack well-controlled paradigms to measure perceptual segmentation maps and compare models quantitatively. Here we propose a new, integrated approach: given an image, we measure multiple pixel-based same–different judgments and perform model–based reconstruction of the underlying segmentation map. The reconstruction is robust to several experimental manipulations and captures the variability of individual participants. We demonstrate the validity of the approach on human segmentation of natural images and composite textures. We show that image uncertainty affects measured human variability, and it influences how participants weigh different visual features. Because any putative segmentation algorithm can be inserted to perform the reconstruction, our paradigm affords quantitative tests of theories of perception as well as new benchmarks for segmentation algorithms.</p>]]></content><author><name>Jonathan Vacher</name><email>jonathan.vacher@u-paris.fr</email></author><category term="publications" /><summary type="html"><![CDATA[with C. Launay, P. Mamassian and R. Coen-Cagli.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/vacher2023measuring.png" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/vacher2023measuring.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Unsupervised Video Segmentation Algorithms Based On Flexibly Regularized Mixture Models</title><link href="https://jonathanvacher.github.io/publications/2022-10-16-ICIP-paper/" rel="alternate" type="text/html" title="Unsupervised Video Segmentation Algorithms Based On Flexibly Regularized Mixture Models" /><published>2022-10-16T00:00:00+02:00</published><updated>2022-10-16T00:00:00+02:00</updated><id>https://jonathanvacher.github.io/publications/ICIP-paper</id><content type="html" xml:base="https://jonathanvacher.github.io/publications/2022-10-16-ICIP-paper/"><![CDATA[<table>
+  <tbody>
+    <tr>
+      <td><a href="https://ieeexplore.ieee.org/document/9897691">Proceedings Version</a></td>
+      <td><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9670685/">Pre-Print Version</a></td>
+    </tr>
+  </tbody>
+</table>
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
+<ol class="bibliography"></ol>
 
-&lt;p&gt;Claire Launay applied our algorithm based on mixture models to the task of video segmentation by propagating segmentation information across frames !&lt;/p&gt;
+<p>Claire Launay applied our algorithm based on mixture models to the task of video segmentation by propagating segmentation information across frames !</p>
 
-&lt;!--&lt;a class=&quot;citation&quot; href=&quot;#post1-launay2022unsupervised&quot;&gt;&lt;span style=&quot;vertical-align: super&quot;&gt;1&lt;/span&gt;&lt;/a&gt;--&gt;
+<!--<a class="citation" href="#post1-launay2022unsupervised"><span style="vertical-align: super">1</span></a>-->
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;style&gt;
+<ol class="bibliography"><li><style>
 * {
   box-sizing: border-box;
 }
@@ -209,7 +221,7 @@ function myFunctionvacher2023measuring() {
 
 /* Clearfix (clear floats) */
 .row::after {
-  content: &quot;&quot;;
+  content: "";
   clear: both;
   display: table;
 }
@@ -217,7 +229,7 @@ function myFunctionvacher2023measuring() {
 .btn{
   width: 90px;
   height: 25px;
-  background: url(&apos;https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png&apos;) no-repeat center;
+  background: url('https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png') no-repeat center;
   background-color: #e7e7e7;
   border-radius: 8px;
 }
@@ -225,22 +237,28 @@ function myFunctionvacher2023measuring() {
 .inline{
   display: inline-block;
 }
-&lt;/style&gt;
+</style>
 
-&lt;span id=&quot;post2-launay2022unsupervised&quot;&gt;Launay, C., Vacher, J. &amp;amp; Coen-Cagli, R. Unsupervised Video Segmentation Algorithms Based On Flexibly Regularized Mixture Models. in &lt;i&gt;2022 IEEE International Conference on Image Processing (ICIP)&lt;/i&gt; 4073–4077 (IEEE, 2022).&lt;/span&gt;
-&lt;div class=&quot;inline&quot;&gt;
-    &lt;div class=&quot;row&quot;&gt;
-        &lt;div class=&quot;column1&quot;&gt;
-        &lt;button class=&quot;btn&quot; onclick=&quot;myFunctionlaunay2022unsupervised()&quot;&gt;&lt;/button&gt; 
-        &lt;/div&gt;
-        &lt;div class=&quot;column2&quot;&gt;
-        &lt;a href=&quot;/pdf/launay2022unsupervised.pdf&quot;&gt;&lt;img src=&quot;https://jonathanvacher.github.io/assets/icons/pdf_icon.png&quot; float=&quot;right&quot; /&gt;&lt;/a&gt;     		
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
+<span id="post2-launay2022unsupervised">Launay, C., Vacher, J. &amp; Coen-Cagli, R. Unsupervised Video Segmentation Algorithms Based On Flexibly Regularized Mixture Models. in <i>2022 IEEE International Conference on Image Processing (ICIP)</i> 4073–4077 (IEEE, 2022).</span>
+<div class="inline">
+    <div class="row">
+        <div class="column1">
+        <button class="btn" onclick="myFunctionlaunay2022unsupervised()"></button> 
+        </div>
+        <div class="column2">
+        <a href="/pdf/launay2022unsupervised.pdf">
+  <hy-img root-margin="512px"  src="https://jonathanvacher.github.io/assets/icons/pdf_icon.png" float="right" >
+    <noscript><img data-ignore  src="https://jonathanvacher.github.io/assets/icons/pdf_icon.png" float="right" /></noscript>
+    <span class="loading" slot="loading" hidden>
+      <span class="icon-cog"></span>
+    </span>
+  </hy-img></a>     		
+        </div>
+    </div>
+</div>
 
-&lt;div id=&quot;launay2022unsupervised-materials&quot; style=&quot;display:none&quot;&gt;
-	&lt;pre id=&quot;launay2022unsupervised-bibtex&quot; class=&quot;pre pre-scrollable collapse&quot;&gt;@inproceedings{launay2022unsupervised,
+<div id="launay2022unsupervised-materials" style="display:none">
+	<pre id="launay2022unsupervised-bibtex" class="pre pre-scrollable collapse">@inproceedings{launay2022unsupervised,
   title = {Unsupervised Video Segmentation Algorithms Based On Flexibly Regularized Mixture Models},
   author = {Launay, Claire and Vacher, Jonathan and Coen-Cagli, Ruben},
   booktitle = {2022 IEEE International Conference on Image Processing (ICIP)},
@@ -248,46 +266,46 @@ function myFunctionvacher2023measuring() {
   year = {2022},
   organization = {IEEE}
 }
-&lt;/pre&gt;
-&lt;/div&gt;
-&lt;script&gt;
+</pre>
+</div>
+<script>
 function myFunctionlaunay2022unsupervised() {
-  var x = document.getElementById(&quot;launay2022unsupervised-materials&quot;);
-  if (x.style.display === &quot;none&quot;) {
-    x.style.display = &quot;block&quot;;
+  var x = document.getElementById("launay2022unsupervised-materials");
+  if (x.style.display === "none") {
+    x.style.display = "block";
   } 
   else {
-    x.style.display = &quot;none&quot;;
+    x.style.display = "none";
   }
 }
 /*
- &lt;div class=&quot;column0&quot;&gt;
-  	&lt;/div&gt; */
-&lt;/script&gt;
-&lt;/li&gt;&lt;/ol&gt;
+ <div class="column0">
+  	</div> */
+</script>
+</li></ol>
 
-&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;!--&lt;a class=&quot;citation&quot; href=&quot;#post2-launay2022unsupervised&quot;&gt;&lt;span style=&quot;vertical-align: super&quot;&gt;1&lt;/span&gt;&lt;/a&gt;--&gt;&lt;/h2&gt;
+<h2 id="abstract">Abstract<!--<a class="citation" href="#post2-launay2022unsupervised"><span style="vertical-align: super">1</span></a>--></h2>
 
-&lt;p&gt;We propose a family of probabilistic segmentation algorithms for videos that rely on a generative model capturing static and dynamic natural image statistics. Our framework adopts flexibly regularized mixture models (FlexMM) [1], an efficient method to combine mixture distributions across different data sources. FlexMMs of Student-t distributions successfully segment static natural images, through uncertainty-based information sharing between hidden layers of CNNs. We further extend this approach to videos and exploit FlexMM to propagate segment labels across space and time. We show that temporal propagation improves temporal consistency of segmentation, reproducing qualitatively a key aspect of human perceptual grouping. Besides, Student-t distributions can capture statistics of optical flows of natural movies, which represent apparent motion in the video. Integrating these motion cues in our temporal FlexMM further enhances the segmentation of each frame of natural movies. Our probabilistic dynamic segmentation algorithms thus provide a new framework to study uncertainty in human dynamic perceptual segmentation.&lt;/p&gt;</content><author><name>Jonathan Vacher</name><email>jonathan.vacher@u-paris.fr</email></author><category term="publications" /><summary type="html">Proceedings Version Pre-Print Version</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/launay_icip_2022.png" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/launay_icip_2022.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Tenured position</title><link href="https://jonathanvacher.github.io/milestones/2022-09-01-tenured-position/" rel="alternate" type="text/html" title="Tenured position" /><published>2022-09-01T00:00:00+02:00</published><updated>2022-09-01T00:00:00+02:00</updated><id>https://jonathanvacher.github.io/milestones/tenured-position</id><content type="html" xml:base="https://jonathanvacher.github.io/milestones/2022-09-01-tenured-position/">&lt;p&gt;I will be Maître de Conférence in Applied Maths which is the french equivalent of Associate Professor.&lt;/p&gt;</content><author><name>Jonathan Vacher</name><email>jonathan.vacher@u-paris.fr</email></author><category term="milestones" /><summary type="html">I will be Maître de Conférence in Applied Maths which is the french equivalent of Associate Professor.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/map5.png" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/map5.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Flexibly regularized mixture models and application to image segmentation</title><link href="https://jonathanvacher.github.io/publications/2022-02-08-NeuralNetworks-paper/" rel="alternate" type="text/html" title="Flexibly regularized mixture models and application to image segmentation" /><published>2022-02-08T00:00:00+01:00</published><updated>2022-02-08T00:00:00+01:00</updated><id>https://jonathanvacher.github.io/publications/NeuralNetworks-paper</id><content type="html" xml:base="https://jonathanvacher.github.io/publications/2022-02-08-NeuralNetworks-paper/">&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;https://doi.org/10.1016/j.neunet.2022.02.010&quot;&gt;Journal Version&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://arxiv.org/abs/1905.10629&quot;&gt;Pre-Print Version&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+<p>We propose a family of probabilistic segmentation algorithms for videos that rely on a generative model capturing static and dynamic natural image statistics. Our framework adopts flexibly regularized mixture models (FlexMM) [1], an efficient method to combine mixture distributions across different data sources. FlexMMs of Student-t distributions successfully segment static natural images, through uncertainty-based information sharing between hidden layers of CNNs. We further extend this approach to videos and exploit FlexMM to propagate segment labels across space and time. We show that temporal propagation improves temporal consistency of segmentation, reproducing qualitatively a key aspect of human perceptual grouping. Besides, Student-t distributions can capture statistics of optical flows of natural movies, which represent apparent motion in the video. Integrating these motion cues in our temporal FlexMM further enhances the segmentation of each frame of natural movies. Our probabilistic dynamic segmentation algorithms thus provide a new framework to study uncertainty in human dynamic perceptual segmentation.</p>]]></content><author><name>Jonathan Vacher</name><email>jonathan.vacher@u-paris.fr</email></author><category term="publications" /><summary type="html"><![CDATA[with C. Launay and R. Coen-Cagli.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/launay_icip_2022.png" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/launay_icip_2022.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Tenured position</title><link href="https://jonathanvacher.github.io/milestones/2022-09-01-tenured-position/" rel="alternate" type="text/html" title="Tenured position" /><published>2022-09-01T00:00:00+02:00</published><updated>2022-09-01T00:00:00+02:00</updated><id>https://jonathanvacher.github.io/milestones/tenured-position</id><content type="html" xml:base="https://jonathanvacher.github.io/milestones/2022-09-01-tenured-position/"><![CDATA[<p>I will be Maître de Conférence in Applied Maths which is the french equivalent of Associate Professor.</p>]]></content><author><name>Jonathan Vacher</name><email>jonathan.vacher@u-paris.fr</email></author><category term="milestones" /><summary type="html"><![CDATA[I joined the [MAP5](https://map5.mi.parisdescartes.fr/) at Université Paris Cité in Paris on September the 1st !]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/map5.png" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/map5.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Flexibly regularized mixture models and application to image segmentation</title><link href="https://jonathanvacher.github.io/publications/2022-02-08-NeuralNetworks-paper/" rel="alternate" type="text/html" title="Flexibly regularized mixture models and application to image segmentation" /><published>2022-02-08T00:00:00+01:00</published><updated>2022-02-08T00:00:00+01:00</updated><id>https://jonathanvacher.github.io/publications/NeuralNetworks-paper</id><content type="html" xml:base="https://jonathanvacher.github.io/publications/2022-02-08-NeuralNetworks-paper/"><![CDATA[<table>
+  <tbody>
+    <tr>
+      <td><a href="https://doi.org/10.1016/j.neunet.2022.02.010">Journal Version</a></td>
+      <td><a href="https://arxiv.org/abs/1905.10629">Pre-Print Version</a></td>
+    </tr>
+  </tbody>
+</table>
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
+<ol class="bibliography"></ol>
 
-&lt;p&gt;We propose a new method to regularize mixture models using the data topology. We demonstrate multiple advantages of our models by apply them to the taks of image segmentation :&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;flexible update rule in the EM algorithm&lt;/li&gt;
-  &lt;li&gt;binding together mixture models (mutual-supervision ?)&lt;/li&gt;
-&lt;/ul&gt;
+<p>We propose a new method to regularize mixture models using the data topology. We demonstrate multiple advantages of our models by apply them to the taks of image segmentation :</p>
+<ul>
+  <li>flexible update rule in the EM algorithm</li>
+  <li>binding together mixture models (mutual-supervision ?)</li>
+</ul>
 
-&lt;!--&lt;a class=&quot;citation&quot; href=&quot;#post1-vacher2022flexibly&quot;&gt;&lt;span style=&quot;vertical-align: super&quot;&gt;1&lt;/span&gt;&lt;/a&gt;--&gt;
+<!--<a class="citation" href="#post1-vacher2022flexibly"><span style="vertical-align: super">1</span></a>-->
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;style&gt;
+<ol class="bibliography"><li><style>
 * {
   box-sizing: border-box;
 }
@@ -308,7 +326,7 @@ function myFunctionlaunay2022unsupervised() {
 
 /* Clearfix (clear floats) */
 .row::after {
-  content: &quot;&quot;;
+  content: "";
   clear: both;
   display: table;
 }
@@ -316,7 +334,7 @@ function myFunctionlaunay2022unsupervised() {
 .btn{
   width: 90px;
   height: 25px;
-  background: url(&apos;https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png&apos;) no-repeat center;
+  background: url('https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png') no-repeat center;
   background-color: #e7e7e7;
   border-radius: 8px;
 }
@@ -324,22 +342,28 @@ function myFunctionlaunay2022unsupervised() {
 .inline{
   display: inline-block;
 }
-&lt;/style&gt;
+</style>
 
-&lt;span id=&quot;post2-vacher2022flexibly&quot;&gt;Vacher, J., Launay, C. &amp;amp; Coen-Cagli, R. Flexibly Regularized Mixture Models and Application to Image Segmentation. &lt;i&gt;Neural Networks&lt;/i&gt; &lt;b&gt;149&lt;/b&gt;, 107–123 (2022).&lt;/span&gt;
-&lt;div class=&quot;inline&quot;&gt;
-    &lt;div class=&quot;row&quot;&gt;
-        &lt;div class=&quot;column1&quot;&gt;
-        &lt;button class=&quot;btn&quot; onclick=&quot;myFunctionvacher2022flexibly()&quot;&gt;&lt;/button&gt; 
-        &lt;/div&gt;
-        &lt;div class=&quot;column2&quot;&gt;
-        &lt;a href=&quot;/pdf/vacher2022flexibly.pdf&quot;&gt;&lt;img src=&quot;https://jonathanvacher.github.io/assets/icons/pdf_icon.png&quot; float=&quot;right&quot; /&gt;&lt;/a&gt;     		
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
+<span id="post2-vacher2022flexibly">Vacher, J., Launay, C. &amp; Coen-Cagli, R. Flexibly Regularized Mixture Models and Application to Image Segmentation. <i>Neural Networks</i> <b>149</b>, 107–123 (2022).</span>
+<div class="inline">
+    <div class="row">
+        <div class="column1">
+        <button class="btn" onclick="myFunctionvacher2022flexibly()"></button> 
+        </div>
+        <div class="column2">
+        <a href="/pdf/vacher2022flexibly.pdf">
+  <hy-img root-margin="512px"  src="https://jonathanvacher.github.io/assets/icons/pdf_icon.png" float="right" >
+    <noscript><img data-ignore  src="https://jonathanvacher.github.io/assets/icons/pdf_icon.png" float="right" /></noscript>
+    <span class="loading" slot="loading" hidden>
+      <span class="icon-cog"></span>
+    </span>
+  </hy-img></a>     		
+        </div>
+    </div>
+</div>
 
-&lt;div id=&quot;vacher2022flexibly-materials&quot; style=&quot;display:none&quot;&gt;
-	&lt;pre id=&quot;vacher2022flexibly-bibtex&quot; class=&quot;pre pre-scrollable collapse&quot;&gt;@article{vacher2022flexibly,
+<div id="vacher2022flexibly-materials" style="display:none">
+	<pre id="vacher2022flexibly-bibtex" class="pre pre-scrollable collapse">@article{vacher2022flexibly,
   title = {Flexibly Regularized Mixture Models and Application to Image Segmentation},
   journal = {Neural Networks},
   volume = {149},
@@ -349,45 +373,45 @@ function myFunctionlaunay2022unsupervised() {
   issn = {0893-6080},
   doi = {https://doi.org/10.1016/j.neunet.2022.02.010}
 }
-&lt;/pre&gt;
-&lt;/div&gt;
-&lt;script&gt;
+</pre>
+</div>
+<script>
 function myFunctionvacher2022flexibly() {
-  var x = document.getElementById(&quot;vacher2022flexibly-materials&quot;);
-  if (x.style.display === &quot;none&quot;) {
-    x.style.display = &quot;block&quot;;
+  var x = document.getElementById("vacher2022flexibly-materials");
+  if (x.style.display === "none") {
+    x.style.display = "block";
   } 
   else {
-    x.style.display = &quot;none&quot;;
+    x.style.display = "none";
   }
 }
 /*
- &lt;div class=&quot;column0&quot;&gt;
-  	&lt;/div&gt; */
-&lt;/script&gt;
-&lt;/li&gt;&lt;/ol&gt;
+ <div class="column0">
+  	</div> */
+</script>
+</li></ol>
 
-&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;!--&lt;a class=&quot;citation&quot; href=&quot;#post2-vacher2022flexibly&quot;&gt;&lt;span style=&quot;vertical-align: super&quot;&gt;1&lt;/span&gt;&lt;/a&gt;--&gt;&lt;/h2&gt;
+<h2 id="abstract">Abstract<!--<a class="citation" href="#post2-vacher2022flexibly"><span style="vertical-align: super">1</span></a>--></h2>
 
-&lt;p&gt;Probabilistic finite mixture models are widely used for unsupervised clustering. These models can often be improved by adapting them to the topology of the data. For instance, in order to classify spatially adjacent data points similarly, it is common to introduce a Laplacian constraint on the posterior probability that each data point belongs to a class. Alternatively, the mixing probabilities can be treated as free parameters, while assuming Gauss–Markov or more complex priors to regularize those mixing probabilities. However, these approaches are constrained by the shape of the prior and often lead to complicated or intractable inference. Here, we propose a new parametrization of the Dirichlet distribution to flexibly regularize the mixing probabilities of over-parametrized mixture distributions. Using the Expectation-Maximization algorithm, we show that our approach allows us to define any linear update rule for the mixing probabilities, including spatial smoothing regularization as a special case. We then show that this flexible design can be extended to share class information between multiple mixture models. We apply our algorithm to artificial and natural image segmentation tasks, and we provide quantitative and qualitative comparison of the performance of Gaussian and Student-t mixtures on the Berkeley Segmentation Dataset. We also demonstrate how to propagate class information across the layers of deep convolutional neural networks in a probabilistically optimal way, suggesting a new interpretation for feedback signals in biological visual systems. Our flexible approach can be easily generalized to adapt probabilistic mixture models to arbitrary data topologies.&lt;/p&gt;</content><author><name>Jonathan Vacher</name><email>jonathan.vacher@u-paris.fr</email></author><category term="publications" /><summary type="html">Journal Version Pre-Print Version</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/neuralnetworks.png" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/neuralnetworks.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Texture Interpolation for Probing Visual Perception</title><link href="https://jonathanvacher.github.io/publications/2020-12-09-Neurips-paper/" rel="alternate" type="text/html" title="Texture Interpolation for Probing Visual Perception" /><published>2020-12-09T00:00:00+01:00</published><updated>2020-12-09T00:00:00+01:00</updated><id>https://jonathanvacher.github.io/publications/Neurips-paper</id><content type="html" xml:base="https://jonathanvacher.github.io/publications/2020-12-09-Neurips-paper/">&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;https://neurips.cc/virtual/2020/protected/session_oral_21095.html&quot;&gt;Live stream&lt;/a&gt; 12/9/20 at 7:10 PM PST&lt;/td&gt;
-      &lt;td&gt;Q&amp;amp;A session 7:40 PM PST&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://nips.cc/virtual/2020/protected/poster_fba9d88164f3e2d9109ee770223212a0.html&quot;&gt;Poster&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://neurips2020.rocket.chat/channel/texture-interpolation-for-probing-visual-perception-99&quot;&gt;Rocket Chat&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://neurips.gather.town/app/qJ1RizBHxNrKQl6d/posterRoomD1?spawnx=33&amp;amp;spawny=48&amp;amp;map=neuripscustom-entrance&quot;&gt;GatherTown&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+<p>Probabilistic finite mixture models are widely used for unsupervised clustering. These models can often be improved by adapting them to the topology of the data. For instance, in order to classify spatially adjacent data points similarly, it is common to introduce a Laplacian constraint on the posterior probability that each data point belongs to a class. Alternatively, the mixing probabilities can be treated as free parameters, while assuming Gauss–Markov or more complex priors to regularize those mixing probabilities. However, these approaches are constrained by the shape of the prior and often lead to complicated or intractable inference. Here, we propose a new parametrization of the Dirichlet distribution to flexibly regularize the mixing probabilities of over-parametrized mixture distributions. Using the Expectation-Maximization algorithm, we show that our approach allows us to define any linear update rule for the mixing probabilities, including spatial smoothing regularization as a special case. We then show that this flexible design can be extended to share class information between multiple mixture models. We apply our algorithm to artificial and natural image segmentation tasks, and we provide quantitative and qualitative comparison of the performance of Gaussian and Student-t mixtures on the Berkeley Segmentation Dataset. We also demonstrate how to propagate class information across the layers of deep convolutional neural networks in a probabilistically optimal way, suggesting a new interpretation for feedback signals in biological visual systems. Our flexible approach can be easily generalized to adapt probabilistic mixture models to arbitrary data topologies.</p>]]></content><author><name>Jonathan Vacher</name><email>jonathan.vacher@u-paris.fr</email></author><category term="publications" /><summary type="html"><![CDATA[with C. Launay and R. Coen-Cagli.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/neuralnetworks.png" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/neuralnetworks.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Texture Interpolation for Probing Visual Perception</title><link href="https://jonathanvacher.github.io/publications/2020-12-09-Neurips-paper/" rel="alternate" type="text/html" title="Texture Interpolation for Probing Visual Perception" /><published>2020-12-09T00:00:00+01:00</published><updated>2020-12-09T00:00:00+01:00</updated><id>https://jonathanvacher.github.io/publications/Neurips-paper</id><content type="html" xml:base="https://jonathanvacher.github.io/publications/2020-12-09-Neurips-paper/"><![CDATA[<table>
+  <tbody>
+    <tr>
+      <td><a href="https://neurips.cc/virtual/2020/protected/session_oral_21095.html">Live stream</a> 12/9/20 at 7:10 PM PST</td>
+      <td>Q&amp;A session 7:40 PM PST</td>
+      <td><a href="https://nips.cc/virtual/2020/protected/poster_fba9d88164f3e2d9109ee770223212a0.html">Poster</a></td>
+      <td><a href="https://neurips2020.rocket.chat/channel/texture-interpolation-for-probing-visual-perception-99">Rocket Chat</a></td>
+      <td><a href="https://neurips.gather.town/app/qJ1RizBHxNrKQl6d/posterRoomD1?spawnx=33&amp;spawny=48&amp;map=neuripscustom-entrance">GatherTown</a></td>
+    </tr>
+  </tbody>
+</table>
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
+<ol class="bibliography"></ol>
 
-&lt;p&gt;We use the Optimal Transport framework to interpolate between textures and use these textures in a perceptual task. We also recorded the macaque primary and mid-level visual cortex.&lt;/p&gt;
+<p>We use the Optimal Transport framework to interpolate between textures and use these textures in a perceptual task. We also recorded the macaque primary and mid-level visual cortex.</p>
 
-&lt;!--&lt;a class=&quot;citation&quot; href=&quot;#post1-vacher2020texture&quot;&gt;&lt;span style=&quot;vertical-align: super&quot;&gt;1&lt;/span&gt;&lt;/a&gt;--&gt;
+<!--<a class="citation" href="#post1-vacher2020texture"><span style="vertical-align: super">1</span></a>-->
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;style&gt;
+<ol class="bibliography"><li><style>
 * {
   box-sizing: border-box;
 }
@@ -408,7 +432,7 @@ function myFunctionvacher2022flexibly() {
 
 /* Clearfix (clear floats) */
 .row::after {
-  content: &quot;&quot;;
+  content: "";
   clear: both;
   display: table;
 }
@@ -416,7 +440,7 @@ function myFunctionvacher2022flexibly() {
 .btn{
   width: 90px;
   height: 25px;
-  background: url(&apos;https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png&apos;) no-repeat center;
+  background: url('https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png') no-repeat center;
   background-color: #e7e7e7;
   border-radius: 8px;
 }
@@ -424,64 +448,70 @@ function myFunctionvacher2022flexibly() {
 .inline{
   display: inline-block;
 }
-&lt;/style&gt;
+</style>
 
-&lt;span id=&quot;post2-vacher2020texture&quot;&gt;Vacher, J., Davila, A., Kohn, A. &amp;amp; Coen-Cagli, R. Texture Interpolation for Probing Visual Perception. in &lt;i&gt;Advances in Neural Information Processing Systems&lt;/i&gt; (2020).&lt;/span&gt;
-&lt;div class=&quot;inline&quot;&gt;
-    &lt;div class=&quot;row&quot;&gt;
-        &lt;div class=&quot;column1&quot;&gt;
-        &lt;button class=&quot;btn&quot; onclick=&quot;myFunctionvacher2020texture()&quot;&gt;&lt;/button&gt; 
-        &lt;/div&gt;
-        &lt;div class=&quot;column2&quot;&gt;
-        &lt;a href=&quot;/pdf/vacher2020texture.pdf&quot;&gt;&lt;img src=&quot;https://jonathanvacher.github.io/assets/icons/pdf_icon.png&quot; float=&quot;right&quot; /&gt;&lt;/a&gt;     		
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
+<span id="post2-vacher2020texture">Vacher, J., Davila, A., Kohn, A. &amp; Coen-Cagli, R. Texture Interpolation for Probing Visual Perception. in <i>Advances in Neural Information Processing Systems</i> (2020).</span>
+<div class="inline">
+    <div class="row">
+        <div class="column1">
+        <button class="btn" onclick="myFunctionvacher2020texture()"></button> 
+        </div>
+        <div class="column2">
+        <a href="/pdf/vacher2020texture.pdf">
+  <hy-img root-margin="512px"  src="https://jonathanvacher.github.io/assets/icons/pdf_icon.png" float="right" >
+    <noscript><img data-ignore  src="https://jonathanvacher.github.io/assets/icons/pdf_icon.png" float="right" /></noscript>
+    <span class="loading" slot="loading" hidden>
+      <span class="icon-cog"></span>
+    </span>
+  </hy-img></a>     		
+        </div>
+    </div>
+</div>
 
-&lt;div id=&quot;vacher2020texture-materials&quot; style=&quot;display:none&quot;&gt;
-	&lt;pre id=&quot;vacher2020texture-bibtex&quot; class=&quot;pre pre-scrollable collapse&quot;&gt;@inproceedings{vacher2020texture,
+<div id="vacher2020texture-materials" style="display:none">
+	<pre id="vacher2020texture-bibtex" class="pre pre-scrollable collapse">@inproceedings{vacher2020texture,
   title = {Texture Interpolation for Probing Visual Perception},
   author = {Vacher, Jonathan and Davila, Aida and Kohn, Adam and Coen-Cagli, Ruben},
   journal = {Advances in Neural Information Processing Systems},
   year = {2020}
 }
-&lt;/pre&gt;
-&lt;/div&gt;
-&lt;script&gt;
+</pre>
+</div>
+<script>
 function myFunctionvacher2020texture() {
-  var x = document.getElementById(&quot;vacher2020texture-materials&quot;);
-  if (x.style.display === &quot;none&quot;) {
-    x.style.display = &quot;block&quot;;
+  var x = document.getElementById("vacher2020texture-materials");
+  if (x.style.display === "none") {
+    x.style.display = "block";
   } 
   else {
-    x.style.display = &quot;none&quot;;
+    x.style.display = "none";
   }
 }
 /*
- &lt;div class=&quot;column0&quot;&gt;
-  	&lt;/div&gt; */
-&lt;/script&gt;
-&lt;/li&gt;&lt;/ol&gt;
+ <div class="column0">
+  	</div> */
+</script>
+</li></ol>
 
-&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;!--&lt;a class=&quot;citation&quot; href=&quot;#post2-vacher2020texture&quot;&gt;&lt;span style=&quot;vertical-align: super&quot;&gt;1&lt;/span&gt;&lt;/a&gt;--&gt;&lt;/h2&gt;
+<h2 id="abstract">Abstract<!--<a class="citation" href="#post2-vacher2020texture"><span style="vertical-align: super">1</span></a>--></h2>
 
-&lt;p&gt;Texture synthesis models are important to understand visual processing. In particu-lar, statistical approaches based on neurally relevant features have been instrumentalto understanding aspects of visual perception and of neural coding.  New deeplearning-based approaches further improve the quality of synthetic textures. Yet, itis still unclear why deep texture synthesis performs so well, and applications ofthis new framework to probe visual perception are scarce. Here, we show that dis-tributions of deep convolutional neural network (CNN) activations of a texture arewell described by elliptical distributions and therefore, following optimal transporttheory, constraining their mean and covariance is sufficient to generate new texturesamples. Then, we propose the natural geodesics (i.e.the shortest path between twopoints) arising with the optimal transport metric to interpolate between arbitrarytextures. The comparison to alternative interpolation methods suggests that oursmatches more closely the geometry of texture perception, and is better suited tostudy its statistical nature. We demonstrate our method by measuring the perceptualscale associated to the interpolation parameter in human observers, and the neuralsensitivity of different areas of visual cortex in macaque monkeys.&lt;/p&gt;</content><author><name>Jonathan Vacher</name><email>jonathan.vacher@u-paris.fr</email></author><category term="publications" /><summary type="html">Live stream 12/9/20 at 7:10 PM PST Q&amp;amp;A session 7:40 PM PST Poster Rocket Chat GatherTown</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/neurips-2020.png" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/neurips-2020.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">New postdoc position</title><link href="https://jonathanvacher.github.io/milestones/2020-09-01-new-postdoc-position/" rel="alternate" type="text/html" title="New postdoc position" /><published>2020-09-01T00:00:00+02:00</published><updated>2020-09-01T00:00:00+02:00</updated><id>https://jonathanvacher.github.io/milestones/new-postdoc-position</id><content type="html" xml:base="https://jonathanvacher.github.io/milestones/2020-09-01-new-postdoc-position/">&lt;p&gt;The work is in the continuation of my previous Postdoc. And I will be surpervised by Pascal Mamassian and Ruben Coen-Cagli (AECOM, NYC).&lt;/p&gt;
+<p>Texture synthesis models are important to understand visual processing. In particu-lar, statistical approaches based on neurally relevant features have been instrumentalto understanding aspects of visual perception and of neural coding.  New deeplearning-based approaches further improve the quality of synthetic textures. Yet, itis still unclear why deep texture synthesis performs so well, and applications ofthis new framework to probe visual perception are scarce. Here, we show that dis-tributions of deep convolutional neural network (CNN) activations of a texture arewell described by elliptical distributions and therefore, following optimal transporttheory, constraining their mean and covariance is sufficient to generate new texturesamples. Then, we propose the natural geodesics (i.e.the shortest path between twopoints) arising with the optimal transport metric to interpolate between arbitrarytextures. The comparison to alternative interpolation methods suggests that oursmatches more closely the geometry of texture perception, and is better suited tostudy its statistical nature. We demonstrate our method by measuring the perceptualscale associated to the interpolation parameter in human observers, and the neuralsensitivity of different areas of visual cortex in macaque monkeys.</p>]]></content><author><name>Jonathan Vacher</name><email>jonathan.vacher@u-paris.fr</email></author><category term="publications" /><summary type="html"><![CDATA[with A. Davila, A. Kohn and R. Coen-Cagli.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/neurips-2020.png" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/neurips-2020.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">New postdoc position</title><link href="https://jonathanvacher.github.io/milestones/2020-09-01-new-postdoc-position/" rel="alternate" type="text/html" title="New postdoc position" /><published>2020-09-01T00:00:00+02:00</published><updated>2020-09-01T00:00:00+02:00</updated><id>https://jonathanvacher.github.io/milestones/new-postdoc-position</id><content type="html" xml:base="https://jonathanvacher.github.io/milestones/2020-09-01-new-postdoc-position/"><![CDATA[<p>The work is in the continuation of my previous Postdoc. And I will be surpervised by Pascal Mamassian and Ruben Coen-Cagli (AECOM, NYC).</p>
 
-&lt;p&gt;We work on natural image segmentation. Our goal is to develop a neurally plausible model of image segmentation and to use it to conduct well control psychometric experiments with artificial and natural images.&lt;/p&gt;</content><author><name>Jonathan Vacher</name><email>jonathan.vacher@u-paris.fr</email></author><category term="milestones" /><summary type="html">The work is in the continuation of my previous Postdoc. And I will be surpervised by Pascal Mamassian and Ruben Coen-Cagli (AECOM, NYC).</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/ens.jpg" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/ens.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">VSS Poster</title><link href="https://jonathanvacher.github.io/conferences/2020-06-21-poster-vss/" rel="alternate" type="text/html" title="VSS Poster" /><published>2020-06-21T00:00:00+02:00</published><updated>2020-06-21T00:00:00+02:00</updated><id>https://jonathanvacher.github.io/conferences/poster-vss</id><content type="html" xml:base="https://jonathanvacher.github.io/conferences/2020-06-21-poster-vss/">&lt;p&gt;Visual segmentation is a core function of biological vision, key to adaptive behavior in complex environments. Early models inspired by the feedforward processing in the visual system described texture-based human segmentation as a comparison of the summary statistics of low-level image features across space. Here we consider the alternative view that, due to image ambiguity and sensory noise, perceptual segmentation requires probabilistic inference.&lt;/p&gt;
+<p>We work on natural image segmentation. Our goal is to develop a neurally plausible model of image segmentation and to use it to conduct well control psychometric experiments with artificial and natural images.</p>]]></content><author><name>Jonathan Vacher</name><email>jonathan.vacher@u-paris.fr</email></author><category term="milestones" /><summary type="html"><![CDATA[I joined the [Laboratoire des Systèmes Perceptifs (LSP)](https://lsp.dec.ens.fr/en) at École Normale Supérieure in Paris on September the 1st !]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/ens.jpg" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/ens.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">VSS Poster</title><link href="https://jonathanvacher.github.io/conferences/2020-06-21-poster-vss/" rel="alternate" type="text/html" title="VSS Poster" /><published>2020-06-21T00:00:00+02:00</published><updated>2020-06-21T00:00:00+02:00</updated><id>https://jonathanvacher.github.io/conferences/poster-vss</id><content type="html" xml:base="https://jonathanvacher.github.io/conferences/2020-06-21-poster-vss/"><![CDATA[<p>Visual segmentation is a core function of biological vision, key to adaptive behavior in complex environments. Early models inspired by the feedforward processing in the visual system described texture-based human segmentation as a comparison of the summary statistics of low-level image features across space. Here we consider the alternative view that, due to image ambiguity and sensory noise, perceptual segmentation requires probabilistic inference.</p>
 
-&lt;p&gt;To test this hypothesis, we develop a novel paradigm to measure perceptual segmentation maps and their variability. We use composite textures: each segment is characterized by a different distribution of oriented features. Participants briefly view an image followed by two spatial cues and report whether the cued locations belong to the same segment. We repeat the sequence with different locations and reconstruct the full segmentation map from the binary choices, solving a system of equations. In a second set of experiments, we manipulate uncertainty by controlling the overlap between feature distributions and smoothing the texture boundary and measure texture discrimination performance.&lt;/p&gt;
+<p>To test this hypothesis, we develop a novel paradigm to measure perceptual segmentation maps and their variability. We use composite textures: each segment is characterized by a different distribution of oriented features. Participants briefly view an image followed by two spatial cues and report whether the cued locations belong to the same segment. We repeat the sequence with different locations and reconstruct the full segmentation map from the binary choices, solving a system of equations. In a second set of experiments, we manipulate uncertainty by controlling the overlap between feature distributions and smoothing the texture boundary and measure texture discrimination performance.</p>
 
-&lt;p&gt;We find that segmentation maps are similar across observers but variable: perceptual variability correlates with intrinsic image uncertainty, and both are higher near segment boundaries. We then test the inference model that consists in assigning pixels to segments by evaluating which distribution explains best the observed features. Quantitative model comparison shows that perceptual variability reflects image uncertainty beyond sensory noise and that human segmentation is better explained by optimal probabilistic inference than by comparing summary statistics. Lastly, we find an interaction between the effects of contour uncertainty and feature distribution overlap.&lt;/p&gt;
+<p>We find that segmentation maps are similar across observers but variable: perceptual variability correlates with intrinsic image uncertainty, and both are higher near segment boundaries. We then test the inference model that consists in assigning pixels to segments by evaluating which distribution explains best the observed features. Quantitative model comparison shows that perceptual variability reflects image uncertainty beyond sensory noise and that human segmentation is better explained by optimal probabilistic inference than by comparing summary statistics. Lastly, we find an interaction between the effects of contour uncertainty and feature distribution overlap.</p>
 
-&lt;p&gt;These results support the probabilistic inference hypothesis and suggest extending the model with contour specific components. Our work provides a normative explanation of human perceptual segmentation as probabilistic inference and demonstrates a novel framework to study perceptual segmentation, which could be extended to natural images.&lt;/p&gt;</content><author><name>Jonathan Vacher</name><email>jonathan.vacher@u-paris.fr</email></author><category term="conferences" /><summary type="html">Visual segmentation is a core function of biological vision, key to adaptive behavior in complex environments. Early models inspired by the feedforward processing in the visual system described texture-based human segmentation as a comparison of the summary statistics of low-level image features across space. Here we consider the alternative view that, due to image ambiguity and sensory noise, perceptual segmentation requires probabilistic inference.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/poster-vss-2020.png" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/poster-vss-2020.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Cosyne Poster</title><link href="https://jonathanvacher.github.io/conferences/2020-02-29-poster-cosyne/" rel="alternate" type="text/html" title="Cosyne Poster" /><published>2020-02-29T00:00:00+01:00</published><updated>2020-02-29T00:00:00+01:00</updated><id>https://jonathanvacher.github.io/conferences/poster-cosyne</id><content type="html" xml:base="https://jonathanvacher.github.io/conferences/2020-02-29-poster-cosyne/">&lt;p&gt;Visual segmentation is a core function of biological vision, key to adaptive behavior in complex environments. Foundational work identified Gestalt principles of segmentation, e.g. grouping by similarity, proximity and good continuation, and revealed that visual cortical neurons are sensitive to those cues. Early models inspired by the feedforward cortical architecture described texture-based human segmentation as the process of comparing the summary statistics of low-level visual features across space. Indeed the summary statistics representation is the most prominent model of naturalistic texture perception, yet it has been challenged precisely because it does not fully capture the influence of segmentation.&lt;/p&gt;
+<p>These results support the probabilistic inference hypothesis and suggest extending the model with contour specific components. Our work provides a normative explanation of human perceptual segmentation as probabilistic inference and demonstrates a novel framework to study perceptual segmentation, which could be extended to natural images.</p>]]></content><author><name>Jonathan Vacher</name><email>jonathan.vacher@u-paris.fr</email></author><category term="conferences" /><summary type="html"><![CDATA[Measuring and Modeling Human Probabilistic Segmentation Maps. Check the poster [here](../../pdf/vacher-VSS-2020-poster.pdf) and the short video presentation [here](../../assets/video/vss_poster_short_pres.mp4). Joint work with Pascal Mamassian and Ruben Coen-Cagli]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/poster-vss-2020.png" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/poster-vss-2020.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Cosyne Poster</title><link href="https://jonathanvacher.github.io/conferences/2020-02-29-poster-cosyne/" rel="alternate" type="text/html" title="Cosyne Poster" /><published>2020-02-29T00:00:00+01:00</published><updated>2020-02-29T00:00:00+01:00</updated><id>https://jonathanvacher.github.io/conferences/poster-cosyne</id><content type="html" xml:base="https://jonathanvacher.github.io/conferences/2020-02-29-poster-cosyne/"><![CDATA[<p>Visual segmentation is a core function of biological vision, key to adaptive behavior in complex environments. Foundational work identified Gestalt principles of segmentation, e.g. grouping by similarity, proximity and good continuation, and revealed that visual cortical neurons are sensitive to those cues. Early models inspired by the feedforward cortical architecture described texture-based human segmentation as the process of comparing the summary statistics of low-level visual features across space. Indeed the summary statistics representation is the most prominent model of naturalistic texture perception, yet it has been challenged precisely because it does not fully capture the influence of segmentation.</p>
 
-&lt;p&gt;Here we consider the alternative view that, due to image ambiguity and sensory noise, perceptual segmentation requires probabilistic inference. This view is consistent with reports that humans combine multiple segmentation cues near-optimally in artificial displays, and that Gestalt laws reflect optimization to natural image statistics. The probabilistic approach is also widespread in computer vision algorithms for unsupervised segmentation, but has not been used to model perceptual segmentation. We present new experiments that for the first time measure perceptual segmentation maps and their variability, allowing us to test the probabilistic inference hypothesis, and compare it quantitatively to summary statistics models.&lt;/p&gt;
+<p>Here we consider the alternative view that, due to image ambiguity and sensory noise, perceptual segmentation requires probabilistic inference. This view is consistent with reports that humans combine multiple segmentation cues near-optimally in artificial displays, and that Gestalt laws reflect optimization to natural image statistics. The probabilistic approach is also widespread in computer vision algorithms for unsupervised segmentation, but has not been used to model perceptual segmentation. We present new experiments that for the first time measure perceptual segmentation maps and their variability, allowing us to test the probabilistic inference hypothesis, and compare it quantitatively to summary statistics models.</p>
 
-&lt;p&gt;We use composite textures, with segments characterized by different statistical relations between features. Optimal probabilistic inference assigns pixels to segments by evaluating which of those relations better explains the observed features (generative model), as opposed to comparing summary statistics at different locations (feature discrimination). We find the generative model best captures our data, and perceptual variability reflects image uncertainty beyond sensory noise. We also demonstrate the approach on natural images, which will allow testing more sophisticated segmentation algorithms. Our results provide a normative explanation of human perceptual segmentation as probabilistic inference, and demonstrate a novel framework to study perceptual segmentation of natural images.&lt;/p&gt;</content><author><name>Jonathan Vacher</name><email>jonathan.vacher@u-paris.fr</email></author><category term="conferences" /><summary type="html">Visual segmentation is a core function of biological vision, key to adaptive behavior in complex environments. Foundational work identified Gestalt principles of segmentation, e.g. grouping by similarity, proximity and good continuation, and revealed that visual cortical neurons are sensitive to those cues. Early models inspired by the feedforward cortical architecture described texture-based human segmentation as the process of comparing the summary statistics of low-level visual features across space. Indeed the summary statistics representation is the most prominent model of naturalistic texture perception, yet it has been challenged precisely because it does not fully capture the influence of segmentation.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/poster-cosyne-2020.png" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/poster-cosyne-2020.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Probabilistic reachability and control synthesis for stochastic switched systems using the tamed Euler method.</title><link href="https://jonathanvacher.github.io/publications/2020-01-14-New-paper-in-NAHS/" rel="alternate" type="text/html" title="Probabilistic reachability and control synthesis for stochastic switched systems using the tamed Euler method." /><published>2020-01-14T00:00:00+01:00</published><updated>2020-01-14T00:00:00+01:00</updated><id>https://jonathanvacher.github.io/publications/New-paper-in-NAHS</id><content type="html" xml:base="https://jonathanvacher.github.io/publications/2020-01-14-New-paper-in-NAHS/">&lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
+<p>We use composite textures, with segments characterized by different statistical relations between features. Optimal probabilistic inference assigns pixels to segments by evaluating which of those relations better explains the observed features (generative model), as opposed to comparing summary statistics at different locations (feature discrimination). We find the generative model best captures our data, and perceptual variability reflects image uncertainty beyond sensory noise. We also demonstrate the approach on natural images, which will allow testing more sophisticated segmentation algorithms. Our results provide a normative explanation of human perceptual segmentation as probabilistic inference, and demonstrate a novel framework to study perceptual segmentation of natural images.</p>]]></content><author><name>Jonathan Vacher</name><email>jonathan.vacher@u-paris.fr</email></author><category term="conferences" /><summary type="html"><![CDATA[Measuring Human Probabilistic Segmentation Maps. Check the poster [here](../../pdf/vacher-cosyne-2020-poster.pdf) and the 2-pages abstract [here](../../pdf/vacher-cosyne-2020-abstract.pdf). Joint work with Pascal Mamassian and Ruben Coen-Cagli]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/poster-cosyne-2020.png" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/poster-cosyne-2020.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Probabilistic reachability and control synthesis for stochastic switched systems using the tamed Euler method.</title><link href="https://jonathanvacher.github.io/publications/2020-01-14-New-paper-in-NAHS/" rel="alternate" type="text/html" title="Probabilistic reachability and control synthesis for stochastic switched systems using the tamed Euler method." /><published>2020-01-14T00:00:00+01:00</published><updated>2020-01-14T00:00:00+01:00</updated><id>https://jonathanvacher.github.io/publications/New-paper-in-NAHS</id><content type="html" xml:base="https://jonathanvacher.github.io/publications/2020-01-14-New-paper-in-NAHS/"><![CDATA[<ol class="bibliography"></ol>
 
-&lt;p&gt;We combined our knowledge to apply a direct symbolic control method to SDEs. We guarantee that solutions remain in a tube with high-proba!&lt;!--&lt;a class=&quot;citation&quot; href=&quot;#post1-lecoent2020probabilistic&quot;&gt;&lt;span style=&quot;vertical-align: super&quot;&gt;1&lt;/span&gt;&lt;/a&gt;--&gt;.&lt;/p&gt;
+<p>We combined our knowledge to apply a direct symbolic control method to SDEs. We guarantee that solutions remain in a tube with high-proba!<!--<a class="citation" href="#post1-lecoent2020probabilistic"><span style="vertical-align: super">1</span></a>-->.</p>
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;style&gt;
+<ol class="bibliography"><li><style>
 * {
   box-sizing: border-box;
 }
@@ -502,7 +532,7 @@ function myFunctionvacher2020texture() {
 
 /* Clearfix (clear floats) */
 .row::after {
-  content: &quot;&quot;;
+  content: "";
   clear: both;
   display: table;
 }
@@ -510,7 +540,7 @@ function myFunctionvacher2020texture() {
 .btn{
   width: 90px;
   height: 25px;
-  background: url(&apos;https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png&apos;) no-repeat center;
+  background: url('https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png') no-repeat center;
   background-color: #e7e7e7;
   border-radius: 8px;
 }
@@ -518,24 +548,30 @@ function myFunctionvacher2020texture() {
 .inline{
   display: inline-block;
 }
-&lt;/style&gt;
+</style>
 
-&lt;span id=&quot;post2-lecoent2020probabilistic&quot;&gt;Le Coënt, A., Fribourg, L., Vacher, J. &amp;amp; Wisniewski, R. Probabilistic reachability and control synthesis for stochastic switched systems using the tamed Euler method. &lt;i&gt;Nonlinear Analysis: Hybrid Systems&lt;/i&gt; &lt;b&gt;36&lt;/b&gt;, 100860 (2020).&lt;/span&gt;
-&lt;div class=&quot;inline&quot;&gt;
-    &lt;div class=&quot;row&quot;&gt;
-        &lt;div class=&quot;column1&quot;&gt;
-        &lt;button class=&quot;btn&quot; onclick=&quot;myFunctionlecoent2020probabilistic()&quot;&gt;&lt;/button&gt; 
-        &lt;/div&gt;
-        &lt;div class=&quot;column2&quot;&gt;
-        &lt;a href=&quot;/pdf/lecoent2020probabilistic.pdf&quot;&gt;&lt;img src=&quot;https://jonathanvacher.github.io/assets/icons/pdf_icon.png&quot; float=&quot;right&quot; /&gt;&lt;/a&gt;     		
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
+<span id="post2-lecoent2020probabilistic">Le Coënt, A., Fribourg, L., Vacher, J. &amp; Wisniewski, R. Probabilistic reachability and control synthesis for stochastic switched systems using the tamed Euler method. <i>Nonlinear Analysis: Hybrid Systems</i> <b>36</b>, 100860 (2020).</span>
+<div class="inline">
+    <div class="row">
+        <div class="column1">
+        <button class="btn" onclick="myFunctionlecoent2020probabilistic()"></button> 
+        </div>
+        <div class="column2">
+        <a href="/pdf/lecoent2020probabilistic.pdf">
+  <hy-img root-margin="512px"  src="https://jonathanvacher.github.io/assets/icons/pdf_icon.png" float="right" >
+    <noscript><img data-ignore  src="https://jonathanvacher.github.io/assets/icons/pdf_icon.png" float="right" /></noscript>
+    <span class="loading" slot="loading" hidden>
+      <span class="icon-cog"></span>
+    </span>
+  </hy-img></a>     		
+        </div>
+    </div>
+</div>
 
-&lt;div id=&quot;lecoent2020probabilistic-materials&quot; style=&quot;display:none&quot;&gt;
-	&lt;pre id=&quot;lecoent2020probabilistic-bibtex&quot; class=&quot;pre pre-scrollable collapse&quot;&gt;@article{lecoent2020probabilistic,
+<div id="lecoent2020probabilistic-materials" style="display:none">
+	<pre id="lecoent2020probabilistic-bibtex" class="pre pre-scrollable collapse">@article{lecoent2020probabilistic,
   title = {Probabilistic reachability and control synthesis for stochastic switched systems using the tamed Euler method},
-  author = {Le Co\&quot;ent, Adrien and Fribourg, Laurent and Vacher, Jonathan and Wisniewski, Rafael},
+  author = {Le Co\"ent, Adrien and Fribourg, Laurent and Vacher, Jonathan and Wisniewski, Rafael},
   journal = {Nonlinear Analysis: Hybrid Systems},
   volume = {36},
   pages = {100860},
@@ -543,24 +579,24 @@ function myFunctionvacher2020texture() {
   publisher = {Elsevier},
   doi = {10.1016/j.nahs.2020.100860}
 }
-&lt;/pre&gt;
-&lt;/div&gt;
-&lt;script&gt;
+</pre>
+</div>
+<script>
 function myFunctionlecoent2020probabilistic() {
-  var x = document.getElementById(&quot;lecoent2020probabilistic-materials&quot;);
-  if (x.style.display === &quot;none&quot;) {
-    x.style.display = &quot;block&quot;;
+  var x = document.getElementById("lecoent2020probabilistic-materials");
+  if (x.style.display === "none") {
+    x.style.display = "block";
   } 
   else {
-    x.style.display = &quot;none&quot;;
+    x.style.display = "none";
   }
 }
 /*
- &lt;div class=&quot;column0&quot;&gt;
-  	&lt;/div&gt; */
-&lt;/script&gt;
-&lt;/li&gt;&lt;/ol&gt;
+ <div class="column0">
+  	</div> */
+</script>
+</li></ol>
 
-&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;!--&lt;a class=&quot;citation&quot; href=&quot;#post2-lecoent2020probabilistic&quot;&gt;&lt;span style=&quot;vertical-align: super&quot;&gt;1&lt;/span&gt;&lt;/a&gt;--&gt;&lt;/h2&gt;
+<h2 id="abstract">Abstract<!--<a class="citation" href="#post2-lecoent2020probabilistic"><span style="vertical-align: super">1</span></a>--></h2>
 
-&lt;p&gt;In this paper, we explain how, under the one-sided Lipschitz (OSL) hypothesis, one can find a mean square error bound for a variant of the Euler–Maruyama approximation method for stochastic switched systems. Subsequently, we explain how this bound can be used to control a stochastic switched system in order to make it reach a target zone with guaranteed minimum probability. The method is illustrated on several examples from the literature.&lt;/p&gt;</content><author><name>Jonathan Vacher</name><email>jonathan.vacher@u-paris.fr</email></author><category term="publications" /><summary type="html">Le Coënt, A., Fribourg, L., Vacher, J. &amp;amp; Wisniewski, R. Probabilistic reachability and control synthesis for stochastic switched systems using the tamed Euler method. Nonlinear Analysis: Hybrid Systems 36, 100860 (2020). @article{lecoent2020probabilistic, title = {Probabilistic reachability and control synthesis for stochastic switched systems using the tamed Euler method}, author = {Le Co\&quot;ent, Adrien and Fribourg, Laurent and Vacher, Jonathan and Wisniewski, Rafael}, journal = {Nonlinear Analysis: Hybrid Systems}, volume = {36}, pages = {100860}, year = {2020}, publisher = {Elsevier}, doi = {10.1016/j.nahs.2020.100860} }</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/nahs-2020.png" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/nahs-2020.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>In this paper, we explain how, under the one-sided Lipschitz (OSL) hypothesis, one can find a mean square error bound for a variant of the Euler–Maruyama approximation method for stochastic switched systems. Subsequently, we explain how this bound can be used to control a stochastic switched system in order to make it reach a target zone with guaranteed minimum probability. The method is illustrated on several examples from the literature.</p>]]></content><author><name>Jonathan Vacher</name><email>jonathan.vacher@u-paris.fr</email></author><category term="publications" /><summary type="html"><![CDATA[with A. Le Coënt, L. Fribourg and R. Wisniewski.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/nahs-2020.png" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/nahs-2020.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

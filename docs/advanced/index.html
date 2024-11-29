@@ -36,9 +36,9 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 
 
   
-<!-- Begin Jekyll SEO tag v2.7.1 -->
+<!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Advanced | Jonathan Vacher</title>
-<meta name="generator" content="Jekyll v4.3.3" />
+<meta name="generator" content="Jekyll v4.3.2" />
 <meta property="og:title" content="Advanced" />
 <meta name="author" content="Jonathan Vacher" />
 <meta property="og:locale" content="en" />
@@ -47,10 +47,11 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 <link rel="canonical" href="https://jonathanvacher.github.io/docs/advanced/" />
 <meta property="og:url" content="https://jonathanvacher.github.io/docs/advanced/" />
 <meta property="og:site_name" content="Jonathan Vacher" />
+<meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Advanced" />
 <script type="application/ld+json">
-{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://jonathanvacher.github.io/assets/icons/myphoto.jpg"},"name":"Jonathan Vacher"},"author":{"@type":"Person","name":"Jonathan Vacher"},"@type":"WebPage","headline":"Advanced","url":"https://jonathanvacher.github.io/docs/advanced/","description":"This chapter covers advanced topics, such as offline support and custom JS builds. Codings skills are recommended.","@context":"https://schema.org"}</script>
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Jonathan Vacher"},"description":"This chapter covers advanced topics, such as offline support and custom JS builds. Codings skills are recommended.","headline":"Advanced","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://jonathanvacher.github.io/assets/icons/myphoto.jpg"},"name":"Jonathan Vacher"},"url":"https://jonathanvacher.github.io/docs/advanced/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -244,7 +245,7 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 
 <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">---</span>
 <span class="o">---</span>
-<span class="nf">importScripts</span><span class="p">(</span><span class="dl">"</span><span class="s2">{</span><span class="se">\</span><span class="s2">{ '/assets/js/sw.js' | relative_url }</span><span class="se">\</span><span class="s2">}?t={</span><span class="se">\</span><span class="s2">{ site.time | date_to_xmlschema }</span><span class="se">\</span><span class="s2">}</span><span class="dl">"</span><span class="p">);</span>
+<span class="nx">importScripts</span><span class="p">(</span><span class="dl">"</span><span class="s2">{</span><span class="se">\</span><span class="s2">{ '/assets/js/sw.js' | relative_url }</span><span class="se">\</span><span class="s2">}?t={</span><span class="se">\</span><span class="s2">{ site.time | date_to_xmlschema }</span><span class="se">\</span><span class="s2">}</span><span class="dl">"</span><span class="p">);</span>
 </code></pre></div></div>
 
 <p class="message"><strong>NOTE</strong>: You have to remove the <code class="language-plaintext highlighter-rouge">\</code> after each <code class="language-plaintext highlighter-rouge">{</code> and before each <code class="language-plaintext highlighter-rouge">}</code>! Alternatively, you can just copy the file from <a href="https://github.com/qwtel/hydejack/blob/v8/sw.js">here</a>.</p>
@@ -254,7 +255,7 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 <p>In your <code class="language-plaintext highlighter-rouge">config.yml</code> under the <code class="language-plaintext highlighter-rouge">hydejack</code> key, add the following:</p>
 
 <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">offline</span><span class="pi">:</span>
-  <span class="na">enabled</span><span class="pi">:</span> <span class="kc">true</span>
+  <span class="na">enabled</span><span class="pi">:</span> <span class="no">true</span>
   <span class="na">cache_version</span><span class="pi">:</span> <span class="m">1</span>
 </code></pre></div></div>
 
@@ -389,7 +390,7 @@ Also, since all files are valid SCSS, the splitting part is entirely optional.
 If you would like to build just one regular CSS file, add</p>
 
 <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hydejack</span><span class="pi">:</span>
-  <span class="na">no_inline_css</span><span class="pi">:</span> <span class="kc">true</span>
+  <span class="na">no_inline_css</span><span class="pi">:</span> <span class="no">true</span>
 </code></pre></div></div>
 
 <p>to your config file.</p>
