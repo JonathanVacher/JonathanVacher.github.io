@@ -153,7 +153,8 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 
   <style id="_pageStyle">
 
-.content a:not(.btn){color:#4fb1ba;border-color:rgba(79,177,186,.2)}.content a:not(.btn):hover{border-color:#4fb1ba}:focus{outline-color:#4fb1ba !important}.btn-primary{color:#fff;background-color:#4fb1ba;border-color:#4fb1ba}.btn-primary:focus,.btn-primary.focus,.form-control:focus,.form-control.focus{box-shadow:0 0 0 3px rgba(79,177,186,.5)}.btn-primary:hover,.btn-primary.hover{color:#fff;background-color:#409ba3;border-color:#409ba3}.btn-primary:disabled,.btn-primary.disabled{color:#fff;background-color:#4fb1ba;border-color:#4fb1ba}.btn-primary:active,.btn-primary.active{color:#fff;background-color:#409ba3;border-color:#409ba3}::selection{color:#fff;background:#4fb1ba}::-moz-selection{color:#fff;background:#4fb1ba}
+.content a:not(.btn){color:#4fb1ba;border-color:rgba(79,177,186,0.2)}.content a:not(.btn):hover{border-color:#4fb1ba}:focus{outline-color:#4fb1ba !important}.btn-primary{color:#fff;background-color:#4fb1ba;border-color:#4fb1ba}.btn-primary:focus,.btn-primary.focus,.form-control:focus,.form-control.focus{box-shadow:0 0 0 3px rgba(79,177,186,0.5)}.btn-primary:hover,.btn-primary.hover{color:#fff;background-color:#409ba3;border-color:#409ba3}.btn-primary:disabled,.btn-primary.disabled{color:#fff;background-color:#4fb1ba;border-color:#4fb1ba}.btn-primary:active,.btn-primary.active{color:#fff;background-color:#409ba3;border-color:#409ba3}::selection{color:#fff;background:#4fb1ba}::-moz-selection{color:#fff;background:#4fb1ba}
+
 </style>
 
 
@@ -245,7 +246,7 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 
 <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">---</span>
 <span class="o">---</span>
-<span class="nx">importScripts</span><span class="p">(</span><span class="dl">"</span><span class="s2">{</span><span class="se">\</span><span class="s2">{ '/assets/js/sw.js' | relative_url }</span><span class="se">\</span><span class="s2">}?t={</span><span class="se">\</span><span class="s2">{ site.time | date_to_xmlschema }</span><span class="se">\</span><span class="s2">}</span><span class="dl">"</span><span class="p">);</span>
+<span class="nf">importScripts</span><span class="p">(</span><span class="dl">"</span><span class="s2">{</span><span class="se">\</span><span class="s2">{ '/assets/js/sw.js' | relative_url }</span><span class="se">\</span><span class="s2">}?t={</span><span class="se">\</span><span class="s2">{ site.time | date_to_xmlschema }</span><span class="se">\</span><span class="s2">}</span><span class="dl">"</span><span class="p">);</span>
 </code></pre></div></div>
 
 <p class="message"><strong>NOTE</strong>: You have to remove the <code class="language-plaintext highlighter-rouge">\</code> after each <code class="language-plaintext highlighter-rouge">{</code> and before each <code class="language-plaintext highlighter-rouge">}</code>! Alternatively, you can just copy the file from <a href="https://github.com/qwtel/hydejack/blob/v8/sw.js">here</a>.</p>
@@ -255,7 +256,7 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 <p>In your <code class="language-plaintext highlighter-rouge">config.yml</code> under the <code class="language-plaintext highlighter-rouge">hydejack</code> key, add the following:</p>
 
 <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">offline</span><span class="pi">:</span>
-  <span class="na">enabled</span><span class="pi">:</span> <span class="no">true</span>
+  <span class="na">enabled</span><span class="pi">:</span> <span class="kc">true</span>
   <span class="na">cache_version</span><span class="pi">:</span> <span class="m">1</span>
 </code></pre></div></div>
 
@@ -390,7 +391,7 @@ Also, since all files are valid SCSS, the splitting part is entirely optional.
 If you would like to build just one regular CSS file, add</p>
 
 <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hydejack</span><span class="pi">:</span>
-  <span class="na">no_inline_css</span><span class="pi">:</span> <span class="no">true</span>
+  <span class="na">no_inline_css</span><span class="pi">:</span> <span class="kc">true</span>
 </code></pre></div></div>
 
 <p>to your config file.</p>
