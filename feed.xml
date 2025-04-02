@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://jonathanvacher.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jonathanvacher.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-02-18T15:24:15+01:00</updated><id>https://jonathanvacher.github.io/feed.xml</id><title type="html">Jonathan Vacher</title><subtitle>Associated Prof. @ MAP5, Université Paris Cité
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://jonathanvacher.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jonathanvacher.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-04-02T18:06:40+02:00</updated><id>https://jonathanvacher.github.io/feed.xml</id><title type="html">Jonathan Vacher</title><subtitle>Associated Prof. @ MAP5, Université Paris Cité
 </subtitle><author><name>Jonathan Vacher</name><email>jonathan.vacher@u-paris.fr</email></author><entry><title type="html">Perceptual Scales Predicted by Fisher Information Metrics</title><link href="https://jonathanvacher.github.io/publications/2024-01-20-New-paper/" rel="alternate" type="text/html" title="Perceptual Scales Predicted by Fisher Information Metrics" /><published>2024-01-20T00:00:00+01:00</published><updated>2024-01-20T00:00:00+01:00</updated><id>https://jonathanvacher.github.io/publications/New-paper</id><content type="html" xml:base="https://jonathanvacher.github.io/publications/2024-01-20-New-paper/"><![CDATA[<ol class="bibliography"></ol>
 
 <p>We tested predictions of perceptual scales from Fisher information in a series of experiments. This will allow us to go beyond perceptual distances and get closer to perceptual geometry. <!--<a class="citation" href="#post1-vacher2024perceptual"><span style="vertical-align: super">1</span></a>-->.</p>
@@ -154,7 +154,6 @@ function myFunctionvacher2024perceptual() {
 
 <div id="vacher2023measuring-materials" style="display:none">
 	<pre id="vacher2023measuring-bibtex" class="pre pre-scrollable collapse">@article{vacher2023measuring,
-  doi = {10.1371/journal.pcbi.1011483},
   author = {Vacher, Jonathan and Launay, Claire and Mamassian, Pascal and Coen-Cagli, Ruben},
   journal = {PLOS Computational Biology},
   publisher = {Public Library of Science},
@@ -370,8 +369,7 @@ function myFunctionlaunay2022unsupervised() {
   pages = {107-123},
   year = {2022},
   author = {Vacher, Jonathan and Launay, Claire and Coen-Cagli, Ruben},
-  issn = {0893-6080},
-  doi = {https://doi.org/10.1016/j.neunet.2022.02.010}
+  issn = {0893-6080}
 }
 </pre>
 </div>
@@ -576,8 +574,7 @@ function myFunctionvacher2020texture() {
   volume = {36},
   pages = {100860},
   year = {2020},
-  publisher = {Elsevier},
-  doi = {10.1016/j.nahs.2020.100860}
+  publisher = {Elsevier}
 }
 </pre>
 </div>
