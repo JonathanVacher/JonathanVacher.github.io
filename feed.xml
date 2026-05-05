@@ -1,5 +1,424 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://jonathanvacher.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jonathanvacher.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-04-30T17:06:36+02:00</updated><id>https://jonathanvacher.github.io/feed.xml</id><title type="html">Jonathan Vacher</title><subtitle>Associated Prof. @ MAP5, Université Paris Cité
-</subtitle><author><name>Jonathan Vacher</name><email>jonathan.vacher@u-paris.fr</email></author><entry><title type="html">Perceptual Scales Predicted by Fisher Information Metrics</title><link href="https://jonathanvacher.github.io/publications/2024-01-20-New-paper/" rel="alternate" type="text/html" title="Perceptual Scales Predicted by Fisher Information Metrics" /><published>2024-01-20T00:00:00+01:00</published><updated>2024-01-20T00:00:00+01:00</updated><id>https://jonathanvacher.github.io/publications/New-paper</id><content type="html" xml:base="https://jonathanvacher.github.io/publications/2024-01-20-New-paper/"><![CDATA[<ol class="bibliography"></ol>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://jonathanvacher.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jonathanvacher.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-05-05T15:06:18+02:00</updated><id>https://jonathanvacher.github.io/feed.xml</id><title type="html">Jonathan Vacher</title><subtitle>Associated Prof. @ MAP5, Université Paris Cité
+</subtitle><author><name>Jonathan Vacher</name><email>jonathan.vacher@u-paris.fr</email></author><entry><title type="html">Talk at Curves and Surfaces 2026</title><link href="https://jonathanvacher.github.io/conferences/2026-05-05-curves-and-surfaces-2026/" rel="alternate" type="text/html" title="Talk at Curves and Surfaces 2026" /><published>2026-05-05T00:00:00+02:00</published><updated>2026-05-05T00:00:00+02:00</updated><id>https://jonathanvacher.github.io/conferences/curves-and-surfaces-2026</id><content type="html" xml:base="https://jonathanvacher.github.io/conferences/2026-05-05-curves-and-surfaces-2026/"><![CDATA[<table>
+  <tbody>
+    <tr>
+      <td><a href="https://cs2026.sciencesconf.org/">Conference website</a></td>
+      <td><a href="https://cs2026.sciencesconf.org/program">Detailed program</a></td>
+      <td><a href="/pdf/vacher2026deep.pdf">Preprint</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>I will present <em>Deep Neural Networks as Iterated Function Systems and a Generalization Bound</em> at Curves and Surfaces 2026 in Saint-Malo. According to the conference program, the talk is scheduled for Friday, June 12, 2026, from 08:55 to 09:20 in the session <code class="language-plaintext highlighter-rouge">Machine learning theory, Neural networks</code>.</p>
+
+<p>The presentation focuses on a stochastic IFS viewpoint on deep architectures and on the corresponding generalization questions for generative modeling. It is based on the following preprint.</p>
+
+<ol class="bibliography"></ol>
+<!--<a class="citation" href="#post1-vacher2026deep"><span style="vertical-align: super">1</span></a>-->]]></content><author><name>Jonathan Vacher</name><email>jonathan.vacher@u-paris.fr</email></author><category term="conferences" /><summary type="html"><![CDATA[I will present my recent work on deep neural networks and iterated function systems in Saint-Malo on June 12, 2026.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/vacher2026deep.png" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/vacher2026deep.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Natural scene segmentation dynamics reveal iterative Bayesian inference</title><link href="https://jonathanvacher.github.io/publications/2026-02-02-iterative-bayesian-inference/" rel="alternate" type="text/html" title="Natural scene segmentation dynamics reveal iterative Bayesian inference" /><published>2026-02-02T00:00:00+01:00</published><updated>2026-02-02T00:00:00+01:00</updated><id>https://jonathanvacher.github.io/publications/iterative-bayesian-inference</id><content type="html" xml:base="https://jonathanvacher.github.io/publications/2026-02-02-iterative-bayesian-inference/"><![CDATA[<table>
+  <tbody>
+    <tr>
+      <td><a href="https://doi.org/10.64898/2026.01.30.702842">bioRxiv</a></td>
+      <td><a href="/pdf/biswas2026natural.pdf">PDF</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<ol class="bibliography"></ol>
+
+<p>This work extends our segmentation line to reaction times and natural images. We reconstruct subjective segmentation maps from human responses and use the temporal dynamics to test an iterative Bayesian inference account of visual segmentation.</p>
+
+<!--<a class="citation" href="#post1-biswas2026natural"><span style="vertical-align: super">1</span></a>-->
+
+<ol class="bibliography"><li><style>
+* {
+  box-sizing: border-box;
+}
+
+.column1 {
+  float: left;
+  width: 90px;
+  height: 25px;
+  padding: 0px;
+}
+
+.column2 {
+  float: left;
+  width: 90px;
+  height: 25px;
+  padding: 8px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn{
+  width: 90px;
+  height: 25px;
+  background: url('https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png') no-repeat center;
+  background-color: #e7e7e7;
+  border-radius: 8px;
+}
+
+.inline{
+  display: inline-block;
+}
+</style>
+
+<span id="post2-biswas2026natural">Biswas, T. K., Vacher, J., Molholm, S., Mamassian, P. &amp; Coen-Cagli, R. Natural scene segmentation dynamics reveal iterative Bayesian inference. <i>bioRxiv</i> 2026–01 (2026).</span>
+<div class="inline">
+    <div class="row">
+        <div class="column1">
+        <button class="btn" onclick="myFunctionbiswas2026natural()"></button> 
+        </div>
+        <div class="column2">
+        <a href="/pdf/biswas2026natural.pdf">
+  <hy-img root-margin="512px"  src="https://jonathanvacher.github.io/assets/icons/pdf_icon.png" float="right" >
+    <noscript><img data-ignore  src="https://jonathanvacher.github.io/assets/icons/pdf_icon.png" float="right" /></noscript>
+    <span class="loading" slot="loading" hidden>
+      <span class="icon-cog"></span>
+    </span>
+  </hy-img></a>     		
+        </div>
+    </div>
+</div>
+
+<div id="biswas2026natural-materials" style="display:none">
+	<pre id="biswas2026natural-bibtex" class="pre pre-scrollable collapse">@article{biswas2026natural,
+  title = {Natural scene segmentation dynamics reveal iterative Bayesian inference},
+  author = {Biswas, Tridib K and Vacher, Jonathan and Molholm, Sophie and Mamassian, Pascal and Coen-Cagli, Ruben},
+  journal = {bioRxiv},
+  pages = {2026--01},
+  year = {2026},
+  publisher = {Cold Spring Harbor Laboratory}
+}
+</pre>
+</div>
+<script>
+function myFunctionbiswas2026natural() {
+  var x = document.getElementById("biswas2026natural-materials");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } 
+  else {
+    x.style.display = "none";
+  }
+}
+/*
+ <div class="column0">
+  	</div> */
+</script>
+</li></ol>
+
+<h2 id="overview">Overview<!--<a class="citation" href="#post2-biswas2026natural"><span style="vertical-align: super">1</span></a>--></h2>
+
+<p>When image evidence agrees with spatial priors, inference should settle faster. This prediction explains why reaction times can increase with distance for same-segment judgments yet decrease with distance for different-segment judgments, and it also captures individual differences in spatial biases. More broadly, the paper argues that the tempo of segmentation in natural scenes is shaped by recurrent probabilistic inference rather than by a purely feedforward grouping rule.</p>]]></content><author><name>Jonathan Vacher</name><email>jonathan.vacher@u-paris.fr</email></author><category term="publications" /><summary type="html"><![CDATA[with T. K. Biswas, S. Molholm, P. Mamassian and R. Coen-Cagli.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/biswas2026natural.png" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/biswas2026natural.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Deep Neural Networks as Iterated Function Systems and a Generalization Bound</title><link href="https://jonathanvacher.github.io/publications/2026-01-29-deep-neural-networks-ifs/" rel="alternate" type="text/html" title="Deep Neural Networks as Iterated Function Systems and a Generalization Bound" /><published>2026-01-29T00:00:00+01:00</published><updated>2026-01-29T00:00:00+01:00</updated><id>https://jonathanvacher.github.io/publications/deep-neural-networks-ifs</id><content type="html" xml:base="https://jonathanvacher.github.io/publications/2026-01-29-deep-neural-networks-ifs/"><![CDATA[<table>
+  <tbody>
+    <tr>
+      <td><a href="https://arxiv.org/abs/2601.19958">arXiv</a></td>
+      <td><a href="/pdf/vacher2026deep.pdf">PDF</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<ol class="bibliography"></ol>
+
+<p>This preprint connects modern deep architectures to stochastic iterated function systems. The idea is to treat depth as a random dynamical system: once this is made explicit for architectures such as ResNets, Transformers, or mixture-of-experts layers, questions of stability become questions of contractivity, and generative generalization can be controlled in Wasserstein distance.</p>
+
+<!--<a class="citation" href="#post1-vacher2026deep"><span style="vertical-align: super">1</span></a>-->
+
+<ol class="bibliography"><li><style>
+* {
+  box-sizing: border-box;
+}
+
+.column1 {
+  float: left;
+  width: 90px;
+  height: 25px;
+  padding: 0px;
+}
+
+.column2 {
+  float: left;
+  width: 90px;
+  height: 25px;
+  padding: 8px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn{
+  width: 90px;
+  height: 25px;
+  background: url('https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png') no-repeat center;
+  background-color: #e7e7e7;
+  border-radius: 8px;
+}
+
+.inline{
+  display: inline-block;
+}
+</style>
+
+<span id="post2-vacher2026deep">Vacher, J. Deep Neural Networks as Iterated Function Systems and a Generalization Bound. <i>arXiv preprint arXiv:2601.19958</i> (2026).</span>
+<div class="inline">
+    <div class="row">
+        <div class="column1">
+        <button class="btn" onclick="myFunctionvacher2026deep()"></button> 
+        </div>
+        <div class="column2">
+        <a href="/pdf/vacher2026deep.pdf">
+  <hy-img root-margin="512px"  src="https://jonathanvacher.github.io/assets/icons/pdf_icon.png" float="right" >
+    <noscript><img data-ignore  src="https://jonathanvacher.github.io/assets/icons/pdf_icon.png" float="right" /></noscript>
+    <span class="loading" slot="loading" hidden>
+      <span class="icon-cog"></span>
+    </span>
+  </hy-img></a>     		
+        </div>
+    </div>
+</div>
+
+<div id="vacher2026deep-materials" style="display:none">
+	<pre id="vacher2026deep-bibtex" class="pre pre-scrollable collapse">@article{vacher2026deep,
+  title = {Deep Neural Networks as Iterated Function Systems and a Generalization Bound},
+  author = {Vacher, Jonathan},
+  journal = {arXiv preprint arXiv:2601.19958},
+  year = {2026}
+}
+</pre>
+</div>
+<script>
+function myFunctionvacher2026deep() {
+  var x = document.getElementById("vacher2026deep-materials");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } 
+  else {
+    x.style.display = "none";
+  }
+}
+/*
+ <div class="column0">
+  	</div> */
+</script>
+</li></ol>
+
+<h2 id="overview">Overview<!--<a class="citation" href="#post2-vacher2026deep"><span style="vertical-align: super">1</span></a>--></h2>
+
+<p>The paper has three main pieces. First, it identifies conditions under which depth dynamics admit invariant measures and attractors. Second, it derives a generalization bound for generative modeling based on the gap between the data distribution and its image under the learned transfer operator. Third, it turns this bound into a collage-style training objective and tests it on a controlled 2D example together with latent-image experiments on MNIST, CelebA, and CIFAR-10.</p>]]></content><author><name>Jonathan Vacher</name><email>jonathan.vacher@u-paris.fr</email></author><category term="publications" /><summary type="html"><![CDATA[a stochastic IFS viewpoint on deep architectures and generative modeling.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/vacher2026deep.png" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/vacher2026deep.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">DynTex: A real-time generative model of dynamic naturalistic scenes from luminance textures</title><link href="https://jonathanvacher.github.io/publications/2025-09-03-dyntex/" rel="alternate" type="text/html" title="DynTex: A real-time generative model of dynamic naturalistic scenes from luminance textures" /><published>2025-09-03T00:00:00+02:00</published><updated>2025-09-03T00:00:00+02:00</updated><id>https://jonathanvacher.github.io/publications/dyntex</id><content type="html" xml:base="https://jonathanvacher.github.io/publications/2025-09-03-dyntex/"><![CDATA[<table>
+  <tbody>
+    <tr>
+      <td><a href="https://doi.org/10.1167/jov.25.11.2">Journal Version</a></td>
+      <td><a href="/pdf/meso2025dyntex.pdf">PDF</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<ol class="bibliography"></ol>
+
+<p>This paper presents DynTex, a real-time toolbox for generating controlled naturalistic dynamic textures. It grows out of the Motion Clouds framework and is meant for experiments that need richer motion stimuli than simple gratings while preserving precise parameter control.</p>
+
+<!--<a class="citation" href="#post1-meso2025dyntex"><span style="vertical-align: super">1</span></a>-->
+
+<ol class="bibliography"><li><style>
+* {
+  box-sizing: border-box;
+}
+
+.column1 {
+  float: left;
+  width: 90px;
+  height: 25px;
+  padding: 0px;
+}
+
+.column2 {
+  float: left;
+  width: 90px;
+  height: 25px;
+  padding: 8px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn{
+  width: 90px;
+  height: 25px;
+  background: url('https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png') no-repeat center;
+  background-color: #e7e7e7;
+  border-radius: 8px;
+}
+
+.inline{
+  display: inline-block;
+}
+</style>
+
+<span id="post2-meso2025dyntex">Meso, A. I. <i>et al.</i> DynTex: A real-time generative model of dynamic naturalistic scenes from luminance textures. <i>Journal of Vision</i> <b>25</b>, 2–2 (2025).</span>
+<div class="inline">
+    <div class="row">
+        <div class="column1">
+        <button class="btn" onclick="myFunctionmeso2025dyntex()"></button> 
+        </div>
+        <div class="column2">
+        <a href="/pdf/meso2025dyntex.pdf">
+  <hy-img root-margin="512px"  src="https://jonathanvacher.github.io/assets/icons/pdf_icon.png" float="right" >
+    <noscript><img data-ignore  src="https://jonathanvacher.github.io/assets/icons/pdf_icon.png" float="right" /></noscript>
+    <span class="loading" slot="loading" hidden>
+      <span class="icon-cog"></span>
+    </span>
+  </hy-img></a>     		
+        </div>
+    </div>
+</div>
+
+<div id="meso2025dyntex-materials" style="display:none">
+	<pre id="meso2025dyntex-bibtex" class="pre pre-scrollable collapse">@article{meso2025dyntex,
+  title = {DynTex: A real-time generative model of dynamic naturalistic scenes from luminance textures},
+  author = {Meso, Andrew I. and Vacher, Jonathan and Gekas, Nikos and Mamassian, Pascal and Perrinet, Laurent U. and Masson, Guillaume},
+  journal = {Journal of Vision},
+  volume = {25},
+  number = {11},
+  pages = {2--2},
+  year = {2025},
+  publisher = {The Association for Research in Vision and Ophthalmology}
+}
+</pre>
+</div>
+<script>
+function myFunctionmeso2025dyntex() {
+  var x = document.getElementById("meso2025dyntex-materials");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } 
+  else {
+    x.style.display = "none";
+  }
+}
+/*
+ <div class="column0">
+  	</div> */
+</script>
+</li></ol>
+
+<h2 id="overview">Overview<!--<a class="citation" href="#post2-meso2025dyntex"><span style="vertical-align: super">1</span></a>--></h2>
+
+<p>The toolbox exposes orientation, speed, and spatiotemporal frequency structure in a form that can be explored interactively, integrated with Psychtoolbox or PsychoPy, and rendered on the GPU in real time. The broader goal is to make naturalistic motion stimuli practical for psychophysics, neurophysiology, and computational modeling.</p>]]></content><author><name>Jonathan Vacher</name><email>jonathan.vacher@u-paris.fr</email></author><category term="publications" /><summary type="html"><![CDATA[with A. I. Meso, N. Gekas, P. Mamassian, L. U. Perrinet and G. S. Masson.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/meso2025dyntex.png" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/meso2025dyntex.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Formal stabilization of a coupled ODE-PDE switched system</title><link href="https://jonathanvacher.github.io/publications/2024-12-16-formal-stabilization/" rel="alternate" type="text/html" title="Formal stabilization of a coupled ODE-PDE switched system" /><published>2024-12-16T00:00:00+01:00</published><updated>2024-12-16T00:00:00+01:00</updated><id>https://jonathanvacher.github.io/publications/formal-stabilization</id><content type="html" xml:base="https://jonathanvacher.github.io/publications/2024-12-16-formal-stabilization/"><![CDATA[<table>
+  <tbody>
+    <tr>
+      <td><a href="https://doi.org/10.1109/CDC56724.2024.10886143">Proceedings Version</a></td>
+      <td><a href="/pdf/lecoent2024formalstab.pdf">PDF</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<ol class="bibliography"></ol>
+
+<p>This work studies formal control guarantees for a coupled ODE-PDE switched system. The main challenge is to certify stability for an infinite-dimensional system without relying on a direct discretization of the PDE state.</p>
+
+<!--<a class="citation" href="#post1-lecoent2024formalstab"><span style="vertical-align: super">1</span></a>-->
+
+<ol class="bibliography"><li><style>
+* {
+  box-sizing: border-box;
+}
+
+.column1 {
+  float: left;
+  width: 90px;
+  height: 25px;
+  padding: 0px;
+}
+
+.column2 {
+  float: left;
+  width: 90px;
+  height: 25px;
+  padding: 8px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn{
+  width: 90px;
+  height: 25px;
+  background: url('https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png') no-repeat center;
+  background-color: #e7e7e7;
+  border-radius: 8px;
+}
+
+.inline{
+  display: inline-block;
+}
+</style>
+
+<span id="post2-lecoent2024formalstab">Le Coënt, A., Vacher, J. &amp; Kergrene, K. Formal stabilization of a coupled ODE-PDE switched system. in <i>2024 IEEE 63rd Conference on Decision and Control (CDC)</i> 6341–6348 (IEEE, 2024).</span>
+<div class="inline">
+    <div class="row">
+        <div class="column1">
+        <button class="btn" onclick="myFunctionlecoent2024formalstab()"></button> 
+        </div>
+        <div class="column2">
+        <a href="/pdf/lecoent2024formalstab.pdf">
+  <hy-img root-margin="512px"  src="https://jonathanvacher.github.io/assets/icons/pdf_icon.png" float="right" >
+    <noscript><img data-ignore  src="https://jonathanvacher.github.io/assets/icons/pdf_icon.png" float="right" /></noscript>
+    <span class="loading" slot="loading" hidden>
+      <span class="icon-cog"></span>
+    </span>
+  </hy-img></a>     		
+        </div>
+    </div>
+</div>
+
+<div id="lecoent2024formalstab-materials" style="display:none">
+	<pre id="lecoent2024formalstab-bibtex" class="pre pre-scrollable collapse">@inproceedings{lecoent2024formalstab,
+  title = {Formal stabilization of a coupled ODE-PDE switched system},
+  author = {Le Co{\"e}nt, Adrien and Vacher, Jonathan and Kergrene, Kenan},
+  booktitle = {2024 IEEE 63rd Conference on Decision and Control (CDC)},
+  pages = {6341-6348},
+  year = {2024},
+  organization = {IEEE}
+}
+</pre>
+</div>
+<script>
+function myFunctionlecoent2024formalstab() {
+  var x = document.getElementById("lecoent2024formalstab-materials");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } 
+  else {
+    x.style.display = "none";
+  }
+}
+/*
+ <div class="column0">
+  	</div> */
+</script>
+</li></ol>
+
+<h2 id="overview">Overview<!--<a class="citation" href="#post2-lecoent2024formalstab"><span style="vertical-align: super">1</span></a>--></h2>
+
+<p>The approach combines model reduction, superposition arguments, and tiling-based control synthesis to turn the problem into a finite-dimensional one that is numerically tractable while keeping the guarantee attached to the original infinite-dimensional dynamics. The concrete example is a switched ODE coupled to a heat equation.</p>]]></content><author><name>Jonathan Vacher</name><email>jonathan.vacher@u-paris.fr</email></author><category term="publications" /><summary type="html"><![CDATA[with A. Le Coënt and K. Kergrene.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/lecoent2024formalstab.png" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/lecoent2024formalstab.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Perceptual Scales Predicted by Fisher Information Metrics</title><link href="https://jonathanvacher.github.io/publications/2024-01-20-New-paper/" rel="alternate" type="text/html" title="Perceptual Scales Predicted by Fisher Information Metrics" /><published>2024-01-20T00:00:00+01:00</published><updated>2024-01-20T00:00:00+01:00</updated><id>https://jonathanvacher.github.io/publications/New-paper</id><content type="html" xml:base="https://jonathanvacher.github.io/publications/2024-01-20-New-paper/"><![CDATA[<ol class="bibliography"></ol>
 
 <p>We tested predictions of perceptual scales from Fisher information in a series of experiments. This will allow us to go beyond perceptual distances and get closer to perceptual geometry. <!--<a class="citation" href="#post1-vacher2024perceptual"><span style="vertical-align: super">1</span></a>-->.</p>
 
@@ -391,209 +810,4 @@ function myFunctionvacher2022flexibly() {
 
 <h2 id="abstract">Abstract<!--<a class="citation" href="#post2-vacher2022flexibly"><span style="vertical-align: super">1</span></a>--></h2>
 
-<p>Probabilistic finite mixture models are widely used for unsupervised clustering. These models can often be improved by adapting them to the topology of the data. For instance, in order to classify spatially adjacent data points similarly, it is common to introduce a Laplacian constraint on the posterior probability that each data point belongs to a class. Alternatively, the mixing probabilities can be treated as free parameters, while assuming Gauss–Markov or more complex priors to regularize those mixing probabilities. However, these approaches are constrained by the shape of the prior and often lead to complicated or intractable inference. Here, we propose a new parametrization of the Dirichlet distribution to flexibly regularize the mixing probabilities of over-parametrized mixture distributions. Using the Expectation-Maximization algorithm, we show that our approach allows us to define any linear update rule for the mixing probabilities, including spatial smoothing regularization as a special case. We then show that this flexible design can be extended to share class information between multiple mixture models. We apply our algorithm to artificial and natural image segmentation tasks, and we provide quantitative and qualitative comparison of the performance of Gaussian and Student-t mixtures on the Berkeley Segmentation Dataset. We also demonstrate how to propagate class information across the layers of deep convolutional neural networks in a probabilistically optimal way, suggesting a new interpretation for feedback signals in biological visual systems. Our flexible approach can be easily generalized to adapt probabilistic mixture models to arbitrary data topologies.</p>]]></content><author><name>Jonathan Vacher</name><email>jonathan.vacher@u-paris.fr</email></author><category term="publications" /><summary type="html"><![CDATA[with C. Launay and R. Coen-Cagli.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/neuralnetworks.png" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/neuralnetworks.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Texture Interpolation for Probing Visual Perception</title><link href="https://jonathanvacher.github.io/publications/2020-12-09-Neurips-paper/" rel="alternate" type="text/html" title="Texture Interpolation for Probing Visual Perception" /><published>2020-12-09T00:00:00+01:00</published><updated>2020-12-09T00:00:00+01:00</updated><id>https://jonathanvacher.github.io/publications/Neurips-paper</id><content type="html" xml:base="https://jonathanvacher.github.io/publications/2020-12-09-Neurips-paper/"><![CDATA[<table>
-  <tbody>
-    <tr>
-      <td><a href="https://neurips.cc/virtual/2020/protected/session_oral_21095.html">Live stream</a> 12/9/20 at 7:10 PM PST</td>
-      <td>Q&amp;A session 7:40 PM PST</td>
-      <td><a href="https://nips.cc/virtual/2020/protected/poster_fba9d88164f3e2d9109ee770223212a0.html">Poster</a></td>
-      <td><a href="https://neurips2020.rocket.chat/channel/texture-interpolation-for-probing-visual-perception-99">Rocket Chat</a></td>
-      <td><a href="https://neurips.gather.town/app/qJ1RizBHxNrKQl6d/posterRoomD1?spawnx=33&amp;spawny=48&amp;map=neuripscustom-entrance">GatherTown</a></td>
-    </tr>
-  </tbody>
-</table>
-
-<ol class="bibliography"></ol>
-
-<p>We use the Optimal Transport framework to interpolate between textures and use these textures in a perceptual task. We also recorded the macaque primary and mid-level visual cortex.</p>
-
-<!--<a class="citation" href="#post1-vacher2020texture"><span style="vertical-align: super">1</span></a>-->
-
-<ol class="bibliography"><li><style>
-* {
-  box-sizing: border-box;
-}
-
-.column1 {
-  float: left;
-  width: 90px;
-  height: 25px;
-  padding: 0px;
-}
-
-.column2 {
-  float: left;
-  width: 90px;
-  height: 25px;
-  padding: 8px;
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.btn{
-  width: 90px;
-  height: 25px;
-  background: url('https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png') no-repeat center;
-  background-color: #e7e7e7;
-  border-radius: 8px;
-}
-
-.inline{
-  display: inline-block;
-}
-</style>
-
-<span id="post2-vacher2020texture">Vacher, J., Davila, A., Kohn, A. &amp; Coen-Cagli, R. Texture Interpolation for Probing Visual Perception. in <i>Advances in Neural Information Processing Systems</i> (2020).</span>
-<div class="inline">
-    <div class="row">
-        <div class="column1">
-        <button class="btn" onclick="myFunctionvacher2020texture()"></button> 
-        </div>
-        <div class="column2">
-        <a href="/pdf/vacher2020texture.pdf">
-  <hy-img root-margin="512px"  src="https://jonathanvacher.github.io/assets/icons/pdf_icon.png" float="right" >
-    <noscript><img data-ignore  src="https://jonathanvacher.github.io/assets/icons/pdf_icon.png" float="right" /></noscript>
-    <span class="loading" slot="loading" hidden>
-      <span class="icon-cog"></span>
-    </span>
-  </hy-img></a>     		
-        </div>
-    </div>
-</div>
-
-<div id="vacher2020texture-materials" style="display:none">
-	<pre id="vacher2020texture-bibtex" class="pre pre-scrollable collapse">@inproceedings{vacher2020texture,
-  title = {Texture Interpolation for Probing Visual Perception},
-  author = {Vacher, Jonathan and Davila, Aida and Kohn, Adam and Coen-Cagli, Ruben},
-  journal = {Advances in Neural Information Processing Systems},
-  year = {2020}
-}
-</pre>
-</div>
-<script>
-function myFunctionvacher2020texture() {
-  var x = document.getElementById("vacher2020texture-materials");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } 
-  else {
-    x.style.display = "none";
-  }
-}
-/*
- <div class="column0">
-  	</div> */
-</script>
-</li></ol>
-
-<h2 id="abstract">Abstract<!--<a class="citation" href="#post2-vacher2020texture"><span style="vertical-align: super">1</span></a>--></h2>
-
-<p>Texture synthesis models are important to understand visual processing. In particu-lar, statistical approaches based on neurally relevant features have been instrumentalto understanding aspects of visual perception and of neural coding.  New deeplearning-based approaches further improve the quality of synthetic textures. Yet, itis still unclear why deep texture synthesis performs so well, and applications ofthis new framework to probe visual perception are scarce. Here, we show that dis-tributions of deep convolutional neural network (CNN) activations of a texture arewell described by elliptical distributions and therefore, following optimal transporttheory, constraining their mean and covariance is sufficient to generate new texturesamples. Then, we propose the natural geodesics (i.e.the shortest path between twopoints) arising with the optimal transport metric to interpolate between arbitrarytextures. The comparison to alternative interpolation methods suggests that oursmatches more closely the geometry of texture perception, and is better suited tostudy its statistical nature. We demonstrate our method by measuring the perceptualscale associated to the interpolation parameter in human observers, and the neuralsensitivity of different areas of visual cortex in macaque monkeys.</p>]]></content><author><name>Jonathan Vacher</name><email>jonathan.vacher@u-paris.fr</email></author><category term="publications" /><summary type="html"><![CDATA[with A. Davila, A. Kohn and R. Coen-Cagli.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/neurips-2020.png" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/neurips-2020.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">New postdoc position</title><link href="https://jonathanvacher.github.io/milestones/2020-09-01-new-postdoc-position/" rel="alternate" type="text/html" title="New postdoc position" /><published>2020-09-01T00:00:00+02:00</published><updated>2020-09-01T00:00:00+02:00</updated><id>https://jonathanvacher.github.io/milestones/new-postdoc-position</id><content type="html" xml:base="https://jonathanvacher.github.io/milestones/2020-09-01-new-postdoc-position/"><![CDATA[<p>The work is in the continuation of my previous Postdoc. And I will be surpervised by Pascal Mamassian and Ruben Coen-Cagli (AECOM, NYC).</p>
-
-<p>We work on natural image segmentation. Our goal is to develop a neurally plausible model of image segmentation and to use it to conduct well control psychometric experiments with artificial and natural images.</p>]]></content><author><name>Jonathan Vacher</name><email>jonathan.vacher@u-paris.fr</email></author><category term="milestones" /><summary type="html"><![CDATA[I joined the [Laboratoire des Systèmes Perceptifs (LSP)](https://lsp.dec.ens.fr/en) at École Normale Supérieure in Paris on September the 1st !]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/ens.jpg" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/ens.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">VSS Poster</title><link href="https://jonathanvacher.github.io/conferences/2020-06-21-poster-vss/" rel="alternate" type="text/html" title="VSS Poster" /><published>2020-06-21T00:00:00+02:00</published><updated>2020-06-21T00:00:00+02:00</updated><id>https://jonathanvacher.github.io/conferences/poster-vss</id><content type="html" xml:base="https://jonathanvacher.github.io/conferences/2020-06-21-poster-vss/"><![CDATA[<p>Visual segmentation is a core function of biological vision, key to adaptive behavior in complex environments. Early models inspired by the feedforward processing in the visual system described texture-based human segmentation as a comparison of the summary statistics of low-level image features across space. Here we consider the alternative view that, due to image ambiguity and sensory noise, perceptual segmentation requires probabilistic inference.</p>
-
-<p>To test this hypothesis, we develop a novel paradigm to measure perceptual segmentation maps and their variability. We use composite textures: each segment is characterized by a different distribution of oriented features. Participants briefly view an image followed by two spatial cues and report whether the cued locations belong to the same segment. We repeat the sequence with different locations and reconstruct the full segmentation map from the binary choices, solving a system of equations. In a second set of experiments, we manipulate uncertainty by controlling the overlap between feature distributions and smoothing the texture boundary and measure texture discrimination performance.</p>
-
-<p>We find that segmentation maps are similar across observers but variable: perceptual variability correlates with intrinsic image uncertainty, and both are higher near segment boundaries. We then test the inference model that consists in assigning pixels to segments by evaluating which distribution explains best the observed features. Quantitative model comparison shows that perceptual variability reflects image uncertainty beyond sensory noise and that human segmentation is better explained by optimal probabilistic inference than by comparing summary statistics. Lastly, we find an interaction between the effects of contour uncertainty and feature distribution overlap.</p>
-
-<p>These results support the probabilistic inference hypothesis and suggest extending the model with contour specific components. Our work provides a normative explanation of human perceptual segmentation as probabilistic inference and demonstrates a novel framework to study perceptual segmentation, which could be extended to natural images.</p>]]></content><author><name>Jonathan Vacher</name><email>jonathan.vacher@u-paris.fr</email></author><category term="conferences" /><summary type="html"><![CDATA[Measuring and Modeling Human Probabilistic Segmentation Maps. Check the poster [here](../../pdf/vacher-VSS-2020-poster.pdf) and the short video presentation [here](../../assets/video/vss_poster_short_pres.mp4). Joint work with Pascal Mamassian and Ruben Coen-Cagli]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/poster-vss-2020.png" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/poster-vss-2020.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Cosyne Poster</title><link href="https://jonathanvacher.github.io/conferences/2020-02-29-poster-cosyne/" rel="alternate" type="text/html" title="Cosyne Poster" /><published>2020-02-29T00:00:00+01:00</published><updated>2020-02-29T00:00:00+01:00</updated><id>https://jonathanvacher.github.io/conferences/poster-cosyne</id><content type="html" xml:base="https://jonathanvacher.github.io/conferences/2020-02-29-poster-cosyne/"><![CDATA[<p>Visual segmentation is a core function of biological vision, key to adaptive behavior in complex environments. Foundational work identified Gestalt principles of segmentation, e.g. grouping by similarity, proximity and good continuation, and revealed that visual cortical neurons are sensitive to those cues. Early models inspired by the feedforward cortical architecture described texture-based human segmentation as the process of comparing the summary statistics of low-level visual features across space. Indeed the summary statistics representation is the most prominent model of naturalistic texture perception, yet it has been challenged precisely because it does not fully capture the influence of segmentation.</p>
-
-<p>Here we consider the alternative view that, due to image ambiguity and sensory noise, perceptual segmentation requires probabilistic inference. This view is consistent with reports that humans combine multiple segmentation cues near-optimally in artificial displays, and that Gestalt laws reflect optimization to natural image statistics. The probabilistic approach is also widespread in computer vision algorithms for unsupervised segmentation, but has not been used to model perceptual segmentation. We present new experiments that for the first time measure perceptual segmentation maps and their variability, allowing us to test the probabilistic inference hypothesis, and compare it quantitatively to summary statistics models.</p>
-
-<p>We use composite textures, with segments characterized by different statistical relations between features. Optimal probabilistic inference assigns pixels to segments by evaluating which of those relations better explains the observed features (generative model), as opposed to comparing summary statistics at different locations (feature discrimination). We find the generative model best captures our data, and perceptual variability reflects image uncertainty beyond sensory noise. We also demonstrate the approach on natural images, which will allow testing more sophisticated segmentation algorithms. Our results provide a normative explanation of human perceptual segmentation as probabilistic inference, and demonstrate a novel framework to study perceptual segmentation of natural images.</p>]]></content><author><name>Jonathan Vacher</name><email>jonathan.vacher@u-paris.fr</email></author><category term="conferences" /><summary type="html"><![CDATA[Measuring Human Probabilistic Segmentation Maps. Check the poster [here](../../pdf/vacher-cosyne-2020-poster.pdf) and the 2-pages abstract [here](../../pdf/vacher-cosyne-2020-abstract.pdf). Joint work with Pascal Mamassian and Ruben Coen-Cagli]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/poster-cosyne-2020.png" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/poster-cosyne-2020.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Probabilistic reachability and control synthesis for stochastic switched systems using the tamed Euler method.</title><link href="https://jonathanvacher.github.io/publications/2020-01-14-New-paper-in-NAHS/" rel="alternate" type="text/html" title="Probabilistic reachability and control synthesis for stochastic switched systems using the tamed Euler method." /><published>2020-01-14T00:00:00+01:00</published><updated>2020-01-14T00:00:00+01:00</updated><id>https://jonathanvacher.github.io/publications/New-paper-in-NAHS</id><content type="html" xml:base="https://jonathanvacher.github.io/publications/2020-01-14-New-paper-in-NAHS/"><![CDATA[<ol class="bibliography"></ol>
-
-<p>We combined our knowledge to apply a direct symbolic control method to SDEs. We guarantee that solutions remain in a tube with high-proba!<!--<a class="citation" href="#post1-lecoent2020probabilistic"><span style="vertical-align: super">1</span></a>-->.</p>
-
-<ol class="bibliography"><li><style>
-* {
-  box-sizing: border-box;
-}
-
-.column1 {
-  float: left;
-  width: 90px;
-  height: 25px;
-  padding: 0px;
-}
-
-.column2 {
-  float: left;
-  width: 90px;
-  height: 25px;
-  padding: 8px;
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.btn{
-  width: 90px;
-  height: 25px;
-  background: url('https://jonathanvacher.github.io/assets/icons/BibTeX_logo.png') no-repeat center;
-  background-color: #e7e7e7;
-  border-radius: 8px;
-}
-
-.inline{
-  display: inline-block;
-}
-</style>
-
-<span id="post2-lecoent2020probabilistic">Le Coënt, A., Fribourg, L., Vacher, J. &amp; Wisniewski, R. Probabilistic reachability and control synthesis for stochastic switched systems using the tamed Euler method. <i>Nonlinear Analysis: Hybrid Systems</i> <b>36</b>, 100860 (2020).</span>
-<div class="inline">
-    <div class="row">
-        <div class="column1">
-        <button class="btn" onclick="myFunctionlecoent2020probabilistic()"></button> 
-        </div>
-        <div class="column2">
-        <a href="/pdf/lecoent2020probabilistic.pdf">
-  <hy-img root-margin="512px"  src="https://jonathanvacher.github.io/assets/icons/pdf_icon.png" float="right" >
-    <noscript><img data-ignore  src="https://jonathanvacher.github.io/assets/icons/pdf_icon.png" float="right" /></noscript>
-    <span class="loading" slot="loading" hidden>
-      <span class="icon-cog"></span>
-    </span>
-  </hy-img></a>     		
-        </div>
-    </div>
-</div>
-
-<div id="lecoent2020probabilistic-materials" style="display:none">
-	<pre id="lecoent2020probabilistic-bibtex" class="pre pre-scrollable collapse">@article{lecoent2020probabilistic,
-  title = {Probabilistic reachability and control synthesis for stochastic switched systems using the tamed Euler method},
-  author = {Le Co\"ent, Adrien and Fribourg, Laurent and Vacher, Jonathan and Wisniewski, Rafael},
-  journal = {Nonlinear Analysis: Hybrid Systems},
-  volume = {36},
-  pages = {100860},
-  year = {2020},
-  publisher = {Elsevier}
-}
-</pre>
-</div>
-<script>
-function myFunctionlecoent2020probabilistic() {
-  var x = document.getElementById("lecoent2020probabilistic-materials");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } 
-  else {
-    x.style.display = "none";
-  }
-}
-/*
- <div class="column0">
-  	</div> */
-</script>
-</li></ol>
-
-<h2 id="abstract">Abstract<!--<a class="citation" href="#post2-lecoent2020probabilistic"><span style="vertical-align: super">1</span></a>--></h2>
-
-<p>In this paper, we explain how, under the one-sided Lipschitz (OSL) hypothesis, one can find a mean square error bound for a variant of the Euler–Maruyama approximation method for stochastic switched systems. Subsequently, we explain how this bound can be used to control a stochastic switched system in order to make it reach a target zone with guaranteed minimum probability. The method is illustrated on several examples from the literature.</p>]]></content><author><name>Jonathan Vacher</name><email>jonathan.vacher@u-paris.fr</email></author><category term="publications" /><summary type="html"><![CDATA[with A. Le Coënt, L. Fribourg and R. Wisniewski.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/nahs-2020.png" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/nahs-2020.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>Probabilistic finite mixture models are widely used for unsupervised clustering. These models can often be improved by adapting them to the topology of the data. For instance, in order to classify spatially adjacent data points similarly, it is common to introduce a Laplacian constraint on the posterior probability that each data point belongs to a class. Alternatively, the mixing probabilities can be treated as free parameters, while assuming Gauss–Markov or more complex priors to regularize those mixing probabilities. However, these approaches are constrained by the shape of the prior and often lead to complicated or intractable inference. Here, we propose a new parametrization of the Dirichlet distribution to flexibly regularize the mixing probabilities of over-parametrized mixture distributions. Using the Expectation-Maximization algorithm, we show that our approach allows us to define any linear update rule for the mixing probabilities, including spatial smoothing regularization as a special case. We then show that this flexible design can be extended to share class information between multiple mixture models. We apply our algorithm to artificial and natural image segmentation tasks, and we provide quantitative and qualitative comparison of the performance of Gaussian and Student-t mixtures on the Berkeley Segmentation Dataset. We also demonstrate how to propagate class information across the layers of deep convolutional neural networks in a probabilistically optimal way, suggesting a new interpretation for feedback signals in biological visual systems. Our flexible approach can be easily generalized to adapt probabilistic mixture models to arbitrary data topologies.</p>]]></content><author><name>Jonathan Vacher</name><email>jonathan.vacher@u-paris.fr</email></author><category term="publications" /><summary type="html"><![CDATA[with C. Launay and R. Coen-Cagli.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonathanvacher.github.io/assets/img/blog/neuralnetworks.png" /><media:content medium="image" url="https://jonathanvacher.github.io/assets/img/blog/neuralnetworks.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
